@@ -16,6 +16,6 @@ public class ReadingListApplicationTest {
 
     @Test
     public void contxtLoads(){
-
+        System.out.println("haha");
     }
 }
