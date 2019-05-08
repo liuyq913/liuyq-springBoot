@@ -19,7 +19,7 @@ import java.io.IOException;
  * @create    2016年1月6日
  */
 @WebFilter(filterName="myFilter",urlPatterns="/*")
-public class MyFilter implements Filter {
+public class MyFilter implements Filter  {
 
     @Override
     public void destroy() {
