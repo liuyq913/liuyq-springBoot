@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="liuyq-springBoot" />
+        <module name="liuyq-springBoot-eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="liuyq-springBoot" target="1.8" />
+      <module name="liuyq-springBoot-eureka" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
