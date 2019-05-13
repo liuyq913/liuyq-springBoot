@@ -3,7 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot.iml" filepath="$PROJECT_DIR$/liuyq-springBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/liuyq-springBoot-autoCofig.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/liuyq-springBoot-autoCofig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-base.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-consumer/liuyq-springBoot-consumer.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-consumer/liuyq-springBoot-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-eureka/liuyq-springBoot-eureka.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-eureka/liuyq-springBoot-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-service/liuyq-springBoot-service.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-service/liuyq-springBoot-service.iml" />
     </modules>
   </component>
 </project>

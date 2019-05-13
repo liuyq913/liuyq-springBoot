@@ -4,12 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>liuyq-springBoot</groupId>
+    <groupId>com.liuyq</groupId>
     <artifactId>liuyq-springBoot</artifactId>  <!--表示项目名称-->
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>liuyq-springBoot-base</module>
         <module>liuyq-springBoot-eureka</module>
         <module>liuyq-springBoot-autoCofigDemo</module>
+        <module>liuyq-springBoot-service</module>
+        <module>liuyq-springBoot-consumer</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -20,6 +23,8 @@
         <java.version>1.8</java.version>
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
         <guava.version>18.0</guava.version>
+        <fastjson.version>1.2.12</fastjson.version>
+        <databind.version>2.9.8</databind.version>
     </properties>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -42,11 +47,6 @@
             <scope>test</scope>
         </dependency>
 
-       <!-- <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>-->
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -61,20 +61,6 @@
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
-       <!-- <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-jdbc</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.microsoft.sqlserver</groupId>
-            <artifactId>sqljdbc4</artifactId>
-            <version>${mssqlserver.version}</version>
-        </dependency>-->
     </dependencies>
 
     <dependencyManagement>
@@ -97,14 +83,26 @@
                 <version>1.3.1</version>
             </dependency>
 
-            <!--FastJson
+
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
             </dependency>
 
-            <dependency>
+           <!-- <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${databind.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.fasterxml.jackson.core</groupId>
+                        <artifactId>jackson-annotations</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>-->
+
+            <!--<dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-annotations</artifactId>
                 <version>2.8.6</version>
@@ -114,10 +112,6 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
 
             <!--保证java的jdk环境为1.8-->
             <plugin>

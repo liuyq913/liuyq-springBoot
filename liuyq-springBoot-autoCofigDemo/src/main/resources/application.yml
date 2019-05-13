@@ -1,9 +1,9 @@
-security:
-  basic:
-    enabled: true
-  user:
-    name: admin
-    password: admin
+#security:
+#  basic:
+#    enabled: true
+#  user:
+#    name: admin
+#    password: admin
 server:
   port: 8082
 
