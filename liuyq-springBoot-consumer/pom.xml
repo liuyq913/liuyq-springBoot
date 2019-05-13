@@ -10,21 +10,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.liuyq</groupId>
-    <artifactId>liuyq-springBoot-eureka</artifactId>
-    <packaging>jar</packaging>
+    <artifactId>liuyq-springBoot-consumer</artifactId>
 
     <properties>
-        <eureka-server.version>1.4.6.RELEASE</eureka-server.version>
+        <eureka.version>1.4.6.RELEASE</eureka.version>
         <cloud-dependencies.version>Finchley.RELEASE</cloud-dependencies.version>
         <com.springBoot.base.verison>1.0-SNAPSHOT</com.springBoot.base.verison>
+        <ribbon.version>1.4.6.RELEASE</ribbon.version>
     </properties>
-
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka-server</artifactId>
-            <version>${eureka-server.version}</version>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+            <version>${eureka.version}</version>
         </dependency>
 
         <dependency>
@@ -38,7 +37,15 @@
             <artifactId>liuyq-springBoot-base</artifactId>
             <version>${com.springBoot.base.verison}</version>
         </dependency>
+
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-ribbon</artifactId>
+            <version>${ribbon.version}</version>
+        </dependency>
     </dependencies>
+
 
     <dependencyManagement>
         <dependencies>
@@ -52,12 +59,4 @@
         </dependencies>
     </dependencyManagement>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 </project>

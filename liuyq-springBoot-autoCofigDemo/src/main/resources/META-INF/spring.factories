@@ -1,0 +1,10 @@
+# Application Context Initializers
+org.springframework.context.ApplicationContextInitializer=\
+com.liuyq.springboot.autoconfig.initializer.MyApplicationContextInitializer
+
+
+
+
+#自动配置类
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.liuyq.springboot.autoconfig.HelloAutoConfiguration
