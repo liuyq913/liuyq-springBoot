@@ -17,11 +17,11 @@ public class ControllerDemo {
     private final Logger logger = LoggerFactory.getLogger(getClass());
 
     @Autowired
-    private DiscoveryClient discoveryClient;
+    private DiscoveryClient client;
 
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     public String index(){
-        String s = discoveryClient.description();
+        String s = client.description();
 
         logger.info("/hello  description:"+s);
         return "providerDemo";

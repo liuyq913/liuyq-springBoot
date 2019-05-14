@@ -13,6 +13,7 @@
         <module>liuyq-springBoot-autoCofigDemo</module>
         <module>liuyq-springBoot-service</module>
         <module>liuyq-springBoot-consumer</module>
+        <module>liuyq-springBoot-feign</module>
     </modules>
     <packaging>pom</packaging>
 
