@@ -1,13 +1,11 @@
-package com.liuyq.boot.feign;
+package com.liuyq.springBoot.feign.two;
 
-import com.liuyq.boot.feign.configuration.SpringBeanUtils;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
-import org.springframework.context.annotation.Import;
 
 /**
  * Created by liuyq on 2019/5/14.
@@ -16,9 +14,8 @@ import org.springframework.context.annotation.Import;
 @EnableDiscoveryClient
 @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
 @EnableFeignClients
-@Import(SpringBeanUtils.class)
-public class FeignServiceApplication {
+public class FeignServiceTwoApplication {
     public static void main(String[] agrs) {
-        SpringApplication.run(FeignServiceApplication.class);
+        SpringApplication.run(FeignServiceTwoApplication.class);
     }
 }

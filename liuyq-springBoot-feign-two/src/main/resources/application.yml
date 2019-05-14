@@ -6,11 +6,11 @@
 #    password: admin
 
 server:
-  port: 8084
+  port: 8086
 
 spring:
    application:
-     name: cloud-feign-service
+     name: cloud-feign-service-two
 eureka:
   client:
     service-url:

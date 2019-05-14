@@ -10,9 +10,12 @@
         <module name="liuyq-springBoot-base" />
         <module name="liuyq-springBoot-consumer" />
         <module name="liuyq-springBoot-eureka" />
+        <module name="liuyq-springBoot-feign-consumer" />
         <module name="liuyq-springBoot-feign-controller" />
         <module name="liuyq-springBoot-feign-service" />
+        <module name="liuyq-springBoot-feign-two" />
         <module name="liuyq-springBoot-service" />
+        <module name="liuyq-springBoot-service-two" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,9 +25,12 @@
       <module name="liuyq-springBoot-consumer" target="1.8" />
       <module name="liuyq-springBoot-eureka" target="1.8" />
       <module name="liuyq-springBoot-feign" target="1.8" />
+      <module name="liuyq-springBoot-feign-consumer" target="1.8" />
       <module name="liuyq-springBoot-feign-controller" target="1.8" />
       <module name="liuyq-springBoot-feign-service" target="1.8" />
+      <module name="liuyq-springBoot-feign-two" target="1.8" />
       <module name="liuyq-springBoot-service" target="1.8" />
+      <module name="liuyq-springBoot-service-two" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
