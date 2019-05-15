@@ -15,5 +15,6 @@
     <file url="file://$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/liuyq-springBoot-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/liuyq-springBoot-service-two" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liuyq-springBoot-zuul-service" charset="UTF-8" />
   </component>
 </project>

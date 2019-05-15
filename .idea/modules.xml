@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-feign-two/liuyq-springBoot-feign-two.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-feign-two/liuyq-springBoot-feign-two.iml" />
       <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-service/liuyq-springBoot-service.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-service/liuyq-springBoot-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-service-two/liuyq-springBoot-service-two.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-service-two/liuyq-springBoot-service-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-zuul-service/liuyq-springBoot-zuul-service.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-zuul-service/liuyq-springBoot-zuul-service.iml" />
     </modules>
   </component>
 </project>

@@ -19,6 +19,7 @@
         <module>liuyq-springBoot-feign-two</module>
         <module>liuyq-springBoot-config-service</module>
         <module>liuyq-springBoot-config-consumer</module>
+        <module>liuyq-springBoot-zuul-service</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -31,6 +32,16 @@
         <guava.version>18.0</guava.version>
         <fastjson.version>1.2.12</fastjson.version>
         <databind.version>2.9.8</databind.version>
+        <eureka.version>1.4.6.RELEASE</eureka.version>
+        <cloud-dependencies.version>Greenwich.RC2</cloud-dependencies.version>
+        <com.springBoot.base.verison>1.0-SNAPSHOT</com.springBoot.base.verison>
+        <ribbon.version>1.4.6.RELEASE</ribbon.version>
+        <fegin.intefaces.version>1.0-SNAPSHOT</fegin.intefaces.version>
+        <hystrix.version>1.4.6.RELEASE</hystrix.version>
+        <config.version>2.1.2.RELEASE</config.version>
+        <config.service.version>2.1.2.RELEASE</config.service.version>
+        <zuul.version>1.4.6.RELEASE</zuul.version>
+        <feign.version>1.4.6.RELEASE</feign.version>
     </properties>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -43,7 +54,9 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId><!--spring boot的web Starter能够将spring mvc所需的所有内容添加到构建中-->
             <exclusions> <!--排除依赖-->
-                <exclusion><groupId>com.fasterxml.jackson.core</groupId></exclusion>
+                <exclusion>
+                    <groupId>com.fasterxml.jackson.core</groupId>
+                </exclusion>
             </exclusions>
         </dependency>
 
@@ -96,17 +109,17 @@
                 <version>${fastjson.version}</version>
             </dependency>
 
-           <!-- <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-databind</artifactId>
-                <version>${databind.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>com.fasterxml.jackson.core</groupId>
-                        <artifactId>jackson-annotations</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>-->
+            <!-- <dependency>
+                 <groupId>com.fasterxml.jackson.core</groupId>
+                 <artifactId>jackson-databind</artifactId>
+                 <version>${databind.version}</version>
+                 <exclusions>
+                     <exclusion>
+                         <groupId>com.fasterxml.jackson.core</groupId>
+                         <artifactId>jackson-annotations</artifactId>
+                     </exclusion>
+                 </exclusions>
+             </dependency>-->
 
             <!--<dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
@@ -131,20 +144,20 @@
             </plugin>
         </plugins>
 
-       <!-- <resources>
-            <resource>
-                <directory>src/main/java</directory>
-                <includes>
-                    <include>**/*Mapper.xml</include>
-                </includes>
-            </resource>
-            <resource>
-                <directory>src/main/resources</directory>
-                <includes>
-                    <include>**/*.xml</include>
-                    <include>**/*.properties</include>
-                </includes>
-            </resource>
-        </resources>-->
+        <!-- <resources>
+             <resource>
+                 <directory>src/main/java</directory>
+                 <includes>
+                     <include>**/*Mapper.xml</include>
+                 </includes>
+             </resource>
+             <resource>
+                 <directory>src/main/resources</directory>
+                 <includes>
+                     <include>**/*.xml</include>
+                     <include>**/*.properties</include>
+                 </includes>
+             </resource>
+         </resources>-->
     </build>
 </project>

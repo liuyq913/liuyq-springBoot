@@ -12,18 +12,6 @@
     <groupId>com.liuyq</groupId>
     <artifactId>liuyq-springBoot-config-consumer</artifactId>
 
-
-    <properties>
-        <eureka.version>1.4.6.RELEASE</eureka.version>
-        <cloud-dependencies.version>Finchley.RELEASE</cloud-dependencies.version>
-        <com.springBoot.base.verison>1.0-SNAPSHOT</com.springBoot.base.verison>
-        <ribbon.version>1.4.6.RELEASE</ribbon.version>
-        <fegin.intefaces.version>1.0-SNAPSHOT</fegin.intefaces.version>
-        <hystrix.version>1.4.6.RELEASE</hystrix.version>
-        <config.version>2.1.2.RELEASE</config.version>
-        <config.service.version>2.1.2.RELEASE</config.service.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>

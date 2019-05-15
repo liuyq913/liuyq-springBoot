@@ -12,15 +12,6 @@
     <groupId>com.liuyq</groupId>
     <artifactId>liuyq-springBoot-feign-consumer</artifactId>
 
-
-    <properties>
-        <eureka.version>1.4.6.RELEASE</eureka.version>
-        <cloud-dependencies.version>Finchley.RELEASE</cloud-dependencies.version>
-        <com.springBoot.base.verison>1.0-SNAPSHOT</com.springBoot.base.verison>
-        <ribbon.version>1.4.6.RELEASE</ribbon.version>
-        <fegin.intefaces.version>1.0-SNAPSHOT</fegin.intefaces.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
