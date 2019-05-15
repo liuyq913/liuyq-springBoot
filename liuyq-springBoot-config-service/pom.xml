@@ -21,7 +21,7 @@
         <ribbon.version>1.4.6.RELEASE</ribbon.version>
         <fegin.intefaces.version>1.0-SNAPSHOT</fegin.intefaces.version>
         <hystrix.version>1.4.6.RELEASE</hystrix.version>
-        <config.version>2.1.2.RELEASE</config.version>
+        <config.service.version>2.1.2.RELEASE</config.service.version>
     </properties>
 
     <dependencies>
@@ -47,7 +47,7 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-server</artifactId>
-            <version>${config.version}</version>
+            <version>${config.service.version}</version>
         </dependency>
     </dependencies>
 
