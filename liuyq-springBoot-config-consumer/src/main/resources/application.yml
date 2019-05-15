@@ -1,0 +1,13 @@
+# security:
+#  basic:
+#    enabled: true
+#  user:
+#    name: admin
+#    password: admin
+
+server:
+  port: 8088
+
+spring:
+   application:
+     name: boot-config-consumer

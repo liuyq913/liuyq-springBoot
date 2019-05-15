@@ -18,6 +18,7 @@
         <module>liuyq-springBoot-feign-consumer</module>
         <module>liuyq-springBoot-feign-two</module>
         <module>liuyq-springBoot-config-service</module>
+        <module>liuyq-springBoot-config-consumer</module>
     </modules>
     <packaging>pom</packaging>
 

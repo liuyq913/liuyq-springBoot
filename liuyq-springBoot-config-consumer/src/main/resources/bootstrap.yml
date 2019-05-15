@@ -1,0 +1,29 @@
+# security:
+#  basic:
+#    enabled: true
+#  user:
+#    name: admin
+#    password: admin
+ # bootstrap 会先与 application.yml 被加载   配置属性必须写在bootstrap里面 config 才能被正确加载
+spring:
+    cloud:
+       config:
+         profile: dev  #环境名
+         lable: master #分支名
+         uri: http://localhost:8087/
+         name: jdbc #应用名
+       discovery:
+          enabled: true
+          service-id: boot-config-service
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka/
+
+
+
+
+
+
