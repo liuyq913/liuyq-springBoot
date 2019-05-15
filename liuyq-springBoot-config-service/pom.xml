@@ -10,7 +10,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.liuyq</groupId>
-    <artifactId>liuyq-springBoot-consumer</artifactId>
+    <artifactId>liuyq-springBoot-config-service</artifactId>
+
+
 
     <properties>
         <eureka.version>1.4.6.RELEASE</eureka.version>
@@ -19,6 +21,7 @@
         <ribbon.version>1.4.6.RELEASE</ribbon.version>
         <fegin.intefaces.version>1.0-SNAPSHOT</fegin.intefaces.version>
         <hystrix.version>1.4.6.RELEASE</hystrix.version>
+        <config.version>2.1.2.RELEASE</config.version>
     </properties>
 
     <dependencies>
@@ -40,23 +43,11 @@
             <version>${com.springBoot.base.verison}</version>
         </dependency>
 
-
+        <!--引入配置依赖-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-ribbon</artifactId>
-            <version>${ribbon.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.liuyq</groupId>
-            <artifactId>liuyq-springBoot-feign-interface</artifactId>
-            <version>${fegin.intefaces.version}</version>
-        </dependency>
-
-        <!--引入断路器-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-hystrix</artifactId>
-            <version>${hystrix.version}</version>
+            <artifactId>spring-cloud-config-server</artifactId>
+            <version>${config.version}</version>
         </dependency>
     </dependencies>
 
@@ -72,5 +63,4 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
 </project>

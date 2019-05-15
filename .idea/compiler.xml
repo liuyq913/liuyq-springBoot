@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="liuyq-springBoot-autoCofig" />
         <module name="liuyq-springBoot-base" />
+        <module name="liuyq-springBoot-config-service" />
         <module name="liuyq-springBoot-consumer" />
         <module name="liuyq-springBoot-eureka" />
         <module name="liuyq-springBoot-feign-consumer" />
@@ -22,6 +23,7 @@
       <module name="liuyq-springBoot" target="1.8" />
       <module name="liuyq-springBoot-autoCofig" target="1.8" />
       <module name="liuyq-springBoot-base" target="1.8" />
+      <module name="liuyq-springBoot-config-service" target="1.8" />
       <module name="liuyq-springBoot-consumer" target="1.8" />
       <module name="liuyq-springBoot-eureka" target="1.8" />
       <module name="liuyq-springBoot-feign" target="1.8" />
