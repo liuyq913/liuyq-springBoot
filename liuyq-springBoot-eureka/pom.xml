@@ -13,18 +13,13 @@
     <artifactId>liuyq-springBoot-eureka</artifactId>
     <packaging>jar</packaging>
 
-    <properties>
-        <eureka-server.version>1.4.6.RELEASE</eureka-server.version>
-        <cloud-dependencies.version>Finchley.RELEASE</cloud-dependencies.version>
-        <com.springBoot.base.verison>1.0-SNAPSHOT</com.springBoot.base.verison>
-    </properties>
 
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka-server</artifactId>
-            <version>${eureka-server.version}</version>
+            <version>${eureka.version}</version>
         </dependency>
 
         <dependency>

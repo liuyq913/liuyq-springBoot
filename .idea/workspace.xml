@@ -2,221 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a4a1376-84d6-4e31-8852-333c5de6dfff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_34_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_34_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_34_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_34_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_34_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_34_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_34_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_34_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_34_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__liuyq_springBoot_liuyq_springBoot_base_1_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_15_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_1_4_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_server_1_4_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_ribbon_1_4_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-base.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/enums/ContentEnums.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/exception/HyalineException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/exception/HyalineRuntimeException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/http/HttpConst.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/http/HttpHandle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/http/HttpHandleFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/http/HttpResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/http/ParameterConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/http/client/HttpClientHandle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/http/erp/ERPResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/page/Page.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/result/ErroResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/result/HyalineResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/BeanUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/DateUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/MD5Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/ValidateUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-consumer/liuyq-springBoot-consumer.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-consumer/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-consumer/src/main/java/com/liuyq/boot/consumer/ConsumerApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-consumer/src/main/java/com/liuyq/boot/consumer/controller/ConsumerController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-consumer/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-service/liuyq-springBoot-service.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-service/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/ProviderApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/controller/ControllerDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/application.yml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/liuyq-springBoot-autoCofig.iml" afterPath="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/liuyq-springBoot-autoCofig.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/pom.xml" afterPath="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-eureka/liuyq-springBoot-eureka.iml" afterPath="$PROJECT_DIR$/liuyq-springBoot-eureka/liuyq-springBoot-eureka.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-eureka/pom.xml" afterPath="$PROJECT_DIR$/liuyq-springBoot-eureka/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-eureka/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/liuyq-springBoot-eureka/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot.iml" afterPath="$PROJECT_DIR$/liuyq-springBoot.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/liuyq-springBoot-eureka/target/" />
@@ -224,6 +10,17 @@
     <ignored path="$PROJECT_DIR$/liuyq-springBoot-service/target/" />
     <ignored path="$PROJECT_DIR$/liuyq-springBoot-base/target/" />
     <ignored path="$PROJECT_DIR$/liuyq-springBoot-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/liuyq-springBoot-feign/target/" />
+    <ignored path="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-controller/target/" />
+    <ignored path="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/target/" />
+    <ignored path="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-interface/target/" />
+    <ignored path="$PROJECT_DIR$/liuyq-springBoot-service-two/target/" />
+    <ignored path="$PROJECT_DIR$/liuyq-springBoot-feign-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/liuyq-springBoot-feign-two/target/" />
+    <ignored path="$PROJECT_DIR$/liuyq-springBoot-config-service/target/" />
+    <ignored path="$PROJECT_DIR$/liuyq-springBoot-config-cusumer/target/" />
+    <ignored path="$PROJECT_DIR$/liuyq-springBoot-config-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/liuyq-springBoot-zuul-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -243,47 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConsumerApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-consumer/src/main/java/com/liuyq/boot/consumer/ConsumerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#984#985#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TomcatWebServer.class" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/web/embedded/tomcat/TomcatWebServer.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EurekaServiceApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-eureka/src/main/java/com/liuyq/boot/eureka/EurekaServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ProviderApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/ProviderApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="198">
+              <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
               <folding>
                 <marker date="1557718163052" expanded="true" signature="83:266" ph="..." />
               </folding>
@@ -291,78 +52,93 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-eureka/src/main/resources/application.yml">
+      <file leaf-file-name="EnableDiscoveryClient.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-eureka/pom.xml">
+      <file leaf-file-name="DiscoveryClient.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.8/eureka-client-1.9.8.jar!/com/netflix/discovery/DiscoveryClient.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-611">
-              <caret line="18" column="79" lean-forward="false" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
+            <state relative-caret-position="294">
+              <caret line="465" column="36" lean-forward="true" selection-start-line="465" selection-start-column="36" selection-end-line="465" selection-end-column="36" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="EurekaClient.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.8/eureka-client-1.9.8.jar!/com/netflix/discovery/EurekaClient.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="104" column="28" lean-forward="false" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
+            <state relative-caret-position="264">
+              <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-consumer/pom.xml">
+      <file leaf-file-name="EurekaDiscoveryClient.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/tool/libs/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.0.RC3/spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/org/springframework/cloud/netflix/eureka/EurekaDiscoveryClient.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="17" column="79" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="79" />
+              <caret line="37" column="94" lean-forward="true" selection-start-line="37" selection-start-column="94" selection-end-line="37" selection-end-column="94" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/pom.xml">
+      <file leaf-file-name="EndpointUtils.class" pinned="false" current-in-tab="true">
+        <entry file="jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.8/eureka-client-1.9.8.jar!/com/netflix/discovery/endpoint/EndpointUtils.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="2772">
+              <caret line="141" column="46" lean-forward="true" selection-start-line="141" selection-start-column="46" selection-end-line="141" selection-end-column="46" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="EurekaClientConfig.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.8/eureka-client-1.9.8.jar!/com/netflix/discovery/EurekaClientConfig.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="71" column="44" lean-forward="false" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultEurekaClientConfig.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.8/eureka-client-1.9.8.jar!/com/netflix/discovery/DefaultEurekaClientConfig.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="150" column="57" lean-forward="true" selection-start-line="150" selection-start-column="57" selection-end-line="150" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiscoveryClient.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ordered.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/tool/libs/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/core/Ordered.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="17" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -371,6 +147,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -380,7 +158,6 @@
       <find>org.springframework.context.ApplicationContextInitializer</find>
       <find>SpringApplicationRunListener</find>
       <find>init</find>
-      <find>run</find>
       <find>getAutoConfigurationEntry</find>
       <find>ApplicationListener</find>
       <find>newIn</find>
@@ -398,7 +175,19 @@
       <find>com.springBoot.base.verison</find>
       <find>jackson-databind</find>
       <find>com.fasterxml.jackson.core</find>
+      <find>run</find>
+      <find>ribbon</find>
+      <find>spring-cloud-config-client</find>
+      <find>scopedTarget</find>
+      <find>@EnableCircuitBreaker</find>
+      <find>spring-cloud-starter-config</find>
+      <find>eureka.version</find>
+      <find>feign.version</find>
+      <find>getServiceUrlsMapFromConfig</find>
     </findStrings>
+    <dirStrings>
+      <dir>D:\myworkspace\liuyq-springBoot</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -411,44 +200,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyq/listener/MyHttpSessionListener.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/liuyq/ReadingListApplicationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyq/filter/MyFilter.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-eureka/src/main/java/com/liuyq/boot/eureka/demoClass.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-eureka/src/main/java/com/liuyq/boot/eureka/test.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-eureka/src/main/java/com/liuyq/boot/automaticonfig/HelloProperties.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-eureka/src/main/java/com/liuyq/boot/eureka/EurekaServiceApplication.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/JDBCProperties.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/JavaConfigApplication.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/HelloProperties.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/HelloService.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/HelloAutoConfiguration.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/initializer/MyApplicationContextInitializer.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/META-INF/spring.factories" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/resources/META-INF/spring.factories" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/HelloAutoConfiguration.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/MyRun.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/pom.xml" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/MD5Utils.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/http/ParameterConverter.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/enums/ContentEnums.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/BeanUtil.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/http/HttpHandleFactory.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/DateUtil.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/http/client/HttpClientHandle.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-service/pom.xml" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/ProviderApplication.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/controller/ControllerDemo.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-consumer/src/main/java/com/liuyq/boot/consumer/controller/ConsumerController.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-base/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/src/main/java/com/liuyq/boot/feign/service/HelloFeginService.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-interface/src/main/java/com/liuyq/boot/feign/interfaces/HelloFeginService.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-interface/src/main/java/com/liuyq/boot/feign/interfaces/HelloFeginClient.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/src/main/java/com/liuyq/boot/feign/component/SpringBeanUtil.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/SpringBeanUtil.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/src/main/java/com/liuyq/boot/feign/configuration/SpringBeanUtils.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-consumer/src/main/java/com/liuyq/boot/consumer/SpringBeanUtils.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-consumer/src/main/java/com/liuyq/boot/consumer/component/SpringBeanUtils.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-service-two/src/main/java/service/ProviderApplication.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-service-two/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-service-two/src/main/java/service/controller/ControllerDemo.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign-consumer/src/main/java/com/liuyq/boot/feign/consumer/controller/FeignConsumerController.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign-consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign-consumer/src/main/java/com/liuyq/boot/feign/consumer/ConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/src/main/java/com/liuyq/boot/feign/controller/HelloFeginController.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign-two/src/main/java/com/liuyq/springBoot/feign/two/web/FeignTwoController.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign-two/src/main/java/com/liuyq/springBoot/feign/two/FeignServiceTwoApplication.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/src/main/java/com/liuyq/boot/feign/FeignServiceApplication.java" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-consumer/src/main/java/com/liuyq/boot/consumer/ConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/controller/ControllerDemo.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-consumer/src/main/java/com/liuyq/boot/consumer/controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-consumer/src/main/java/com/liuyq/boot/consumer/service/ConsumerService.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign-two/src/main/java/com/liuyq/springBoot/feign/two/hystrix/BootServiceClientHystrix.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign-two/src/main/java/com/liuyq/springBoot/feign/two/service/BootServiceClient.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign-two/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/java/com/liuyq/boot/config/ConfigApplication.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-config-cusumer/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/java/com/liuyq/boot/config/consumer/config/ConusmerConfig.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-config-service/config-repo/didispace-test.properties" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/java/com/liuyq/boot/config/consumer/controller/ConfigConsumerController.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/java/com/liuyq/boot/config/consumer/ConfigConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-zuul-service/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-config-service/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign-two/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-service-two/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-config-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-service/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-zuul-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-zuul-service/src/main/java/com/boot/zuul/service/ZuulApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-zuul-service/src/main/java/com/boot/zuul/service/filter/AccessFilter.java" />
       </list>
     </option>
   </component>
@@ -503,10 +305,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-182" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -526,6 +328,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -538,95 +341,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springBoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springBoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springBoot-consumer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springBoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springBoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springBoot-consumer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springBoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springBoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springBoot-consumer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springBoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springBoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springBoot-consumer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="consumer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -634,30 +352,37 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="D:/workspace/bt-hyaline" />
+    <property name="last_opened_file_path" value="D:/workspace/p2p" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.303125" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/myworkspace/liuyq-springBoot/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/MyRun.java&#10;my&#9;FILE&#9;file://D:/myworkspace/liuyq-springBoot/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/MyRun.java&#10;Ann&#9;FILE&#9;jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/web/servlet/context/AnnotationConfigServletWebServerApplicationContext.class&#10;AnnotationConfigServletWebServerApplicationContext&#9;FILE&#9;jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/web/servlet/context/AnnotationConfigServletWebServerApplicationContext.class&#10;ObjectMapper&#9;PSI&#9;JAVA://com.fasterxml.jackson.databind.ObjectMapper&#10;AnnotationConfigApplicationContext&#9;PSI&#9;JAVA://org.springframework.context.annotation.AnnotationConfigApplicationContext&#10;RedisAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration&#10;AutoConfigurationPackage&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.AutoConfigurationPackages&#10;SpringFactoriesLoader&#9;FILE&#9;jar://C:/tool/libs/org/springframework/spring-core/4.3.12.RELEASE/spring-core-4.3.12.RELEASE.jar!/org/springframework/core/io/support/SpringFactoriesLoader.class&#10;CommandLineRunner&#9;PSI&#9;JAVA://org.springframework.boot.CommandLineRunner&#10;ApplicationRunner&#9;PSI&#9;JAVA://org.springframework.boot.ApplicationRunner&#10;SPringboot&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.security.AuthenticationManagerConfiguration.SpringBootAuthenticationConfigurerAdapter&#10;Xml&#9;FILE&#9;jar://C:/tool/libs/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/xml/XmlBeanFactory.class&#10;FileSystemXm&#9;PSI&#9;JAVA://org.springframework.context.support.FileSystemXmlApplicationContext&#10;An&#9;FILE&#9;jar://C:/tool/libs/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class&#10;EventPublishingRunListener&#9;FILE&#9;jar://C:/tool/libs/org/springframework/boot/spring-boot/1.5.8.RELEASE/spring-boot-1.5.8.RELEASE.jar!/org/springframework/boot/context/event/EventPublishingRunListener.class&#10;ApplicationContextInitializer&#9;FILE&#9;jar://C:/tool/libs/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/ApplicationContextInitializer.class" />
+    <property name="SearchEverywhereHistoryKey" value="EndpointUtils&#9;PSI&#9;JAVA://com.netflix.discovery.endpoint.EndpointUtils&#10;DiscoveryClient&#9;FILE&#9;jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.8/eureka-client-1.9.8.jar!/com/netflix/discovery/DiscoveryClient.class&#10;EurekaDiscoveryClient&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.eureka.EurekaDiscoveryClient&#10;NativeEnvironmentRepository&#9;PSI&#9;JAVA://org.springframework.cloud.config.server.environment.NativeEnvironmentRepository&#10;helloFeginClient&#9;FILE&#9;file://D:/myworkspace/liuyq-springBoot/liuyq-springBoot-feign/liuyq-springBoot-feign-interface/src/main/java/com/liuyq/boot/feign/HelloFeginClient.java&#10;my&#9;FILE&#9;file://D:/myworkspace/liuyq-springBoot/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/MyRun.java&#10;Ann&#9;FILE&#9;jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/web/servlet/context/AnnotationConfigServletWebServerApplicationContext.class&#10;AnnotationConfigServletWebServerApplicationContext&#9;FILE&#9;jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/web/servlet/context/AnnotationConfigServletWebServerApplicationContext.class&#10;ObjectMapper&#9;PSI&#9;JAVA://com.fasterxml.jackson.databind.ObjectMapper&#10;AnnotationConfigApplicationContext&#9;PSI&#9;JAVA://org.springframework.context.annotation.AnnotationConfigApplicationContext&#10;RedisAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration&#10;AutoConfigurationPackage&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.AutoConfigurationPackages&#10;SpringFactoriesLoader&#9;FILE&#9;jar://C:/tool/libs/org/springframework/spring-core/4.3.12.RELEASE/spring-core-4.3.12.RELEASE.jar!/org/springframework/core/io/support/SpringFactoriesLoader.class&#10;CommandLineRunner&#9;PSI&#9;JAVA://org.springframework.boot.CommandLineRunner&#10;ApplicationRunner&#9;PSI&#9;JAVA://org.springframework.boot.ApplicationRunner&#10;SPringboot&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.security.AuthenticationManagerConfiguration.SpringBootAuthenticationConfigurerAdapter&#10;Xml&#9;FILE&#9;jar://C:/tool/libs/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/xml/XmlBeanFactory.class&#10;FileSystemXm&#9;PSI&#9;JAVA://org.springframework.context.support.FileSystemXmlApplicationContext&#10;An&#9;FILE&#9;jar://C:/tool/libs/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class&#10;EventPublishingRunListener&#9;FILE&#9;jar://C:/tool/libs/org/springframework/boot/spring-boot/1.5.8.RELEASE/spring-boot-1.5.8.RELEASE.jar!/org/springframework/boot/context/event/EventPublishingRunListener.class&#10;ApplicationContextInitializer&#9;FILE&#9;jar://C:/tool/libs/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/ApplicationContextInitializer.class" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.liuyq.springBoot.feign.two" />
+      <recent name="com.liuyq.boot.feign.consumer.controller" />
+      <recent name="com.liuyq.boot.feign.consumer" />
+      <recent name="com.liuyq.boot.consumer.component" />
+      <recent name="com.liuyq.base.utils" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\myworkspace\liuyq-springBoot\liuyq-springBoot-consumer\src\main\resources" />
-      <recent name="D:\myworkspace\liuyq-springBoot\liuyq-springBoot-base\src\main\java\com\liuyq\base" />
-      <recent name="D:\myworkspace\liuyq-springBoot\liuyq-springBoot-base\src\main\java\com\liuyq\base\utils" />
-      <recent name="D:\myworkspace\liuyq-springBoot\liuyq-springBoot-service\src\main\resources" />
-      <recent name="D:\myworkspace\liuyq-springBoot\liuyq-springBoot-autoCofigDemo\src\main\resources" />
+      <recent name="D:\myworkspace\liuyq-springBoot\liuyq-springBoot-zuul-service\src\main\resources" />
+      <recent name="D:\myworkspace\liuyq-springBoot\liuyq-springBoot-config-consumer\src\main\resources" />
+      <recent name="D:\myworkspace\liuyq-springBoot\liuyq-springBoot-config-service\config-repo" />
+      <recent name="D:\myworkspace\liuyq-springBoot\liuyq-springBoot-config-service\src\main\resources" />
+      <recent name="D:\myworkspace\liuyq-springBoot\liuyq-springBoot-feign-two\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
-    <configuration default="false" name="ReadingListApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.ZuulApplication">
+    <configuration default="false" name="ConfigConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.liuyq.*" />
+          <option name="PATTERN" value="com.liuyq.boot.config.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.liuyq.ReadingListApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.liuyq.boot.config.consumer.ConfigConsumerApplication" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -666,75 +391,55 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="liuyq-springBoot" />
+      <module name="liuyq-springBoot-config-cusumer" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="demoClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FeignServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.liuyq.boot.eureka.*" />
+          <option name="PATTERN" value="com.liuyq.boot.feign.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.liuyq.boot.eureka.demoClass" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="liuyq-springBoot-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.liuyq.boot.feign.FeignServiceApplication" />
+      <module name="liuyq-springBoot-feign-service" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="MyRun" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ProviderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.liuyq.springboot.autoconfig.*" />
+          <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.liuyq.springboot.autoconfig.MyRun" />
-      <module name="liuyq-springBoot-autoCofig" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="service.ProviderApplication" />
+      <module name="liuyq-springBoot-service-two" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="liuyq-springBoot [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="install" />
-              </list>
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method />
-    </configuration>
-    <configuration default="false" name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FeignServiceTwoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.liuyq.boot.consumer.*" />
+          <option name="PATTERN" value="com.liuyq.springBoot.feign.two.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.liuyq.boot.consumer.ConsumerApplication" />
-      <module name="liuyq-springBoot-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.liuyq.springBoot.feign.two.FeignServiceTwoApplication" />
+      <module name="liuyq-springBoot-feign-two" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.boot.zuul.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.boot.zuul.service.ZuulApplication" />
+      <module name="liuyq-springBoot-zuul-service" />
       <envs />
       <method />
     </configuration>
@@ -1156,20 +861,20 @@
     </configuration>
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.EurekaServiceApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ReadingListApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Application.demoClass" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.MyRun" />
-      <item index="4" class="java.lang.String" itemvalue="Maven.liuyq-springBoot [install]" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.ProviderApplication" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.ConsumerApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.ProviderApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ConfigConsumerApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.FeignServiceApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.ProviderApplication (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.FeignServiceTwoApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.ZuulApplication" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.ConsumerApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.MyRun" />
-        <item index="2" class="java.lang.String" itemvalue="Maven.liuyq-springBoot [install]" />
-        <item index="3" class="java.lang.String" itemvalue="Application.demoClass" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ReadingListApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.ZuulApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.FeignServiceTwoApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.ProviderApplication (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.FeignServiceApplication" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ConfigConsumerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -1192,6 +897,8 @@
       <workItem from="1557667023009" duration="110000" />
       <workItem from="1557667205392" duration="1455000" />
       <workItem from="1557709478338" duration="15277000" />
+      <workItem from="1557796074544" duration="21226000" />
+      <workItem from="1557882988530" duration="24112000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1519787679687</created>
@@ -1228,11 +935,81 @@
       <option name="project" value="LOCAL" />
       <updated>1557667365494</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="测试">
+      <created>1557736824678</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557736824678</updated>
+    </task>
+    <task id="LOCAL-00007" summary="测试">
+      <created>1557739360973</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557739360973</updated>
+    </task>
+    <task id="LOCAL-00008" summary="服务间调用">
+      <created>1557814959323</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557814959323</updated>
+    </task>
+    <task id="LOCAL-00009" summary="服务间调用">
+      <created>1557823287732</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557823287732</updated>
+    </task>
+    <task id="LOCAL-00010" summary="服务间调用">
+      <created>1557826256254</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557826256254</updated>
+    </task>
+    <task id="LOCAL-00011" summary="springcloud 基于git 的配置文件服务">
+      <created>1557887630532</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1557887630532</updated>
+    </task>
+    <task id="LOCAL-00012" summary="springcloud 基于git 的配置文件服务">
+      <created>1557887944888</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1557887944888</updated>
+    </task>
+    <task id="LOCAL-00013" summary="springcloud 基于git 的配置文件服务">
+      <created>1557898443748</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1557898443748</updated>
+    </task>
+    <task id="LOCAL-00014" summary="springcloud 基于git 的配置文件服务">
+      <created>1557903309018</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1557903309019</updated>
+    </task>
+    <task id="LOCAL-00015" summary="springcloud zuul权限校验">
+      <created>1557908782217</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1557908782217</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66463000" />
+    <option name="totallyTimeSpent" value="114026000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1244,13 +1021,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-1928" y="-182" width="1936" height="1066" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3322091" sideWeight="0.5060514" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1259,7 +1036,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6694772" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47292817" sideWeight="0.49394855" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1267,14 +1044,14 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6694772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44751382" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2730711" sideWeight="0.49449036" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16364606" sideWeight="0.49449036" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24093817" sideWeight="0.5055096" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1293,7 +1070,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+    <MESSAGE value="服务间调用" />
+    <MESSAGE value="springcloud 基于git 的配置文件服务" />
+    <MESSAGE value="springcloud zuul权限校验" />
+    <option name="LAST_COMMIT_MESSAGE" value="springcloud zuul权限校验" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1329,7 +1109,7 @@
           <option name="timeStamp" value="81" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="84" />
+      <option name="time" value="93" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1338,10 +1118,97 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/config-repo/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/tool/libs/org/apache/tomcat/embed/tomcat-embed-core/9.0.17/tomcat-embed-core-9.0.17.jar!/org/apache/coyote/AbstractProcessorLight.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/java/com/liuyq/boot/config/service/ConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="71" lean-forward="false" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/java/com/liuyq/boot/config/consumer/controller/ConfigConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-consumer/liuyq-springBoot-config-cusumer.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/java/com/liuyq/boot/config/consumer/ConfigConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#700#701#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-consumer/src/main/java/com/liuyq/boot/consumer/ConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -1349,341 +1216,132 @@
         <state />
       </provider>
     </entry>
-    <entry file="jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.2/eureka-client-1.9.2.jar!/com/netflix/discovery/EurekaClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.2/eureka-client-1.9.2.jar!/com/netflix/discovery/shared/Applications.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="122" column="37" lean-forward="false" selection-start-line="122" selection-start-column="37" selection-end-line="122" selection-end-column="37" />
-          <folding>
-            <element signature="e#4814#4815#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/MD5Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/http/HttpHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/http/erp/ERPResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/result/ErroResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/http/HttpConst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/page/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/http/HttpHandleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/result/HyalineResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/enums/ContentEnums.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/exception/HyalineException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/http/ParameterConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/http/HttpHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/http/erp/ERPResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/result/ErroResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/result/HyalineResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/ValidateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/enums/ContentEnums.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/http/HttpConst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/http/HttpHandleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/http/client/HttpClientHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1301">
-          <caret line="326" column="36" lean-forward="false" selection-start-line="326" selection-start-column="36" selection-end-line="326" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/BeanUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/page/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/tool/libs/org/springframework/boot/spring-boot-starter-parent/2.1.4.RELEASE/spring-boot-starter-parent-2.1.4.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.2/eureka-client-1.9.2.jar!/com/netflix/discovery/DiscoveryClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="93" column="13" lean-forward="false" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.netflix.discovery.DiscoveryClient">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.netflix.discovery.DiscoveryClient</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">com.netflix.discovery.shared.LookupService</node>
-            <node x="137.0" y="0.0">com.google.inject.ImplementedBy</node>
-            <node x="76.5" y="80.0">com.netflix.discovery.EurekaClient</node>
-            <node x="126.0" y="160.0">com.netflix.discovery.DiscoveryClient</node>
-            <node x="200.5" y="80.0">javax.inject.Singleton</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.netflix.discovery.EurekaClient" target="com.netflix.discovery.shared.LookupService">
-              <point x="-26.0" y="-15.0" />
-              <point x="102.5" y="55.0" />
-              <point x="58.5" y="55.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.netflix.discovery.EurekaClient" target="com.google.inject.ImplementedBy">
-              <point x="26.0" y="-15.0" />
-              <point x="154.5" y="55.0" />
-              <point x="198.5" y="55.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.netflix.discovery.DiscoveryClient" target="com.netflix.discovery.EurekaClient">
-              <point x="-30.0" y="-15.0" />
-              <point x="156.0" y="135.0" />
-              <point x="128.5" y="135.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.netflix.discovery.DiscoveryClient" target="javax.inject.Singleton">
-              <point x="30.0" y="-15.0" />
-              <point x="216.0" y="135.0" />
-              <point x="243.5" y="135.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-118.5" y="66.5" />
-          <SelectedNodes>
-            <node>com.netflix.discovery.DiscoveryClient</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.0.RELEASE/spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaDiscoveryClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-          <folding>
-            <element signature="e#1263#1264#0" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.0.0.RELEASE/spring-cloud-commons-2.0.0.RELEASE.jar!/org/springframework/cloud/client/discovery/composite/CompositeDiscoveryClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.0.0.RELEASE/spring-cloud-commons-2.0.0.RELEASE.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.0.RELEASE/spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar!/org/springframework/cloud/netflix/eureka/CloudEurekaClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/controller/ControllerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-consumer/src/main/java/com/liuyq/boot/consumer/controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-consumer/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-feign-consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://C:/tool/libs/liuyq-springBoot/liuyq-springBoot/1.0-SNAPSHOT/liuyq-springBoot-1.0-SNAPSHOT.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-feign-two/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/src/main/java/com/liuyq/boot/feign/FeignServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/src/main/java/com/liuyq/boot/feign/service/HelloFeginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-interface/src/main/java/com/liuyq/boot/feign/HelloFeginClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-feign-two/src/main/java/com/liuyq/springBoot/feign/two/hystrix/BootServiceClientHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-feign-two/src/main/java/com/liuyq/springBoot/feign/two/FeignServiceTwoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service-two/src/main/java/service/controller/ControllerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1691,41 +1349,12 @@
     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="23" />
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="67" column="13" lean-forward="false" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-consumer/src/main/java/com/liuyq/boot/consumer/controller/ConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://C:/tool/libs/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.pom">
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-zuul-service/liuyq-springBoot-zuul-service.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1733,56 +1362,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/ConstructorResolver.class">
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-zuul-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="498" column="0" lean-forward="false" selection-start-line="498" selection-start-column="0" selection-end-line="498" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/web/embedded/tomcat/TomcatWebServer.class">
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service-two/src/main/java/service/ProviderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        <state relative-caret-position="184">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-consumer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service-two/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="79" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="79" />
+        <state relative-caret-position="242">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-zuul-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-eureka/liuyq-springBoot-eureka.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-eureka/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-611">
-          <caret line="18" column="79" lean-forward="false" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="455">
+          <caret line="42" column="40" lean-forward="false" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1792,8 +1432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="104" column="28" lean-forward="false" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
+        <state relative-caret-position="249">
+          <caret line="37" column="53" lean-forward="false" selection-start-line="37" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -1801,35 +1441,145 @@
         <state />
       </provider>
     </entry>
+    <entry file="jar://C:/tool/libs/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/context/RequestContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="55" column="33" lean-forward="false" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-zuul-service/src/main/java/com/boot/zuul/service/ZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#674#675#0" expanded="false" />
+            <element signature="e#734#735#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-zuul-service/src/main/java/com/boot/zuul/service/filter/AccessFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="48" column="46" lean-forward="true" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#759#760#0" expanded="false" />
+            <element signature="e#787#788#0" expanded="false" />
+            <element signature="e#879#880#0" expanded="false" />
+            <element signature="e#903#904#0" expanded="false" />
+            <element signature="e#967#968#0" expanded="false" />
+            <element signature="e#995#996#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-eureka/src/main/java/com/liuyq/boot/eureka/demoClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-eureka/src/main/java/com/liuyq/boot/eureka/EurekaServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        <state relative-caret-position="308">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/controller/ControllerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/ProviderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="198">
+          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding>
             <marker date="1557718163052" expanded="true" signature="83:266" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-consumer/src/main/java/com/liuyq/boot/consumer/ConsumerApplication.java">
+    <entry file="jar://C:/tool/libs/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/core/Ordered.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="88">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.8/eureka-client-1.9.8.jar!/com/netflix/discovery/DiscoveryClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="465" column="36" lean-forward="true" selection-start-line="465" selection-start-column="36" selection-end-line="465" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.8/eureka-client-1.9.8.jar!/com/netflix/discovery/EurekaClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/tool/libs/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.0.RC3/spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/org/springframework/cloud/netflix/eureka/EurekaDiscoveryClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="37" column="94" lean-forward="true" selection-start-line="37" selection-start-column="94" selection-end-line="37" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.8/eureka-client-1.9.8.jar!/com/netflix/discovery/DefaultEurekaClientConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="150" column="57" lean-forward="true" selection-start-line="150" selection-start-column="57" selection-end-line="150" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.8/eureka-client-1.9.8.jar!/com/netflix/discovery/EurekaClientConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="71" column="44" lean-forward="false" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.8/eureka-client-1.9.8.jar!/com/netflix/discovery/endpoint/EndpointUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2772">
+          <caret line="141" column="46" lean-forward="true" selection-start-line="141" selection-start-column="46" selection-end-line="141" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1898,7 +1648,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>liuyq-springBoot-consumer</last-edited>
+          <last-edited>liuyq-springBoot-config-cusumer</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

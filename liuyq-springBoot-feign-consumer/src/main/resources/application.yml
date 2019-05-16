@@ -1,0 +1,17 @@
+# security:
+#  basic:
+#    enabled: true
+#  user:
+#    name: admin
+#    password: admin
+
+server:
+  port: 8085
+
+spring:
+   application:
+     name: boot-feignConsumer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka/

@@ -1,0 +1,29 @@
+# security:
+#  basic:
+#    enabled: true
+#  user:
+#    name: admin
+#    password: admin
+
+server:
+  port: 8089
+
+spring:
+   application:
+     name: boot-zuul-service
+
+# /api-a/** 路由映射到 boot-service 服务上   /api-b/**的路由映射到cloud-feign-service 服务上
+zuul:
+  routes:
+    api-a:
+        path: /api-a/**
+        serviceId: boot-service
+    api-b:
+        path: /api-b/**
+        serviceId: cloud-feign-service
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka/

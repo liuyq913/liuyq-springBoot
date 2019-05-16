@@ -1,10 +1,10 @@
 package com.liuyq.boot.consumer.controller;
 
+import com.liuyq.boot.consumer.service.ConsumerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
 
 /**
  * Created by liuyq on 2019/5/13.
@@ -12,11 +12,26 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class ConsumerController {
 
-    @Autowired
+    /*@Autowired
     RestTemplate restTemplate;
 
-    @RequestMapping(value ="/ribbon-consumer",method = RequestMethod.GET)
-    public String helloConsumer(){
-        return  restTemplate.getForEntity("http://BOOT-SERVICE/hello", String.class).getBody();
+    @Resource
+    HelloFeginClient helloFeginClient;*/
+
+    @Autowired
+    ConsumerService consumerService;
+
+
+
+    @RequestMapping(value = "/ribbon-consumer", method = RequestMethod.GET)
+    public String helloConsumer() {
+        return consumerService.addService();
     }
+
+  /*  @RequestMapping(value = "/add", method = RequestMethod.GET)
+    public Integer add(@RequestParam("a") Integer a, @RequestParam("b") Integer b) {
+        return helloFeginClient.add(a, b);
+    }*/
+
+
 }
