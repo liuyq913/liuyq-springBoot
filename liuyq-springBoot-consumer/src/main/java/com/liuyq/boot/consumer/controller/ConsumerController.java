@@ -38,5 +38,4 @@ public class ConsumerController {
         return helloFeginClient.add(a, b);
     }*/
 
-
 }
