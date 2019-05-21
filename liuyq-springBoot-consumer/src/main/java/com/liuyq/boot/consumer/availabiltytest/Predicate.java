@@ -1,6 +1,4 @@
 package com.liuyq.boot.consumer.availabiltytest;
 
-public interface Predicate {
-
-    public boolean apply(String key);
+public interface Predicate extends com.google.common.base.Predicate<Object>{
 }

@@ -1,16 +1,22 @@
 package com.liuyq.boot.consumer.availabiltytest;
 
-import com.netflix.loadbalancer.AbstractServerPredicate;
-import com.netflix.loadbalancer.CompositePredicate;
+
+import com.google.common.base.Predicate;
+import com.google.common.base.Predicates;
+import com.netflix.loadbalancer.Server;
+import org.omg.PortableInterceptor.INACTIVE;
+
+import java.util.List;
 
 public class APredicate extends AbstractPredicate{
 
     private AbstractPredicate abstractPredicate;
     private Integer num;
+    private List<AbstractPredicate> litte;
 
     public APredicate(){}
 
-    @Override
+
     public boolean apply(String key) {
         return abstractPredicate.apply(key);
     }
@@ -28,6 +34,12 @@ public class APredicate extends AbstractPredicate{
             return new APredicate.Builder(primaryPredicate);
         }
 
+        public APredicate.Builder add(AbstractPredicate... primaryPredicate) {
+            aPredicate.litte  = (List)Predicates.and(primaryPredicate);
+            return this;
+        }
+
+
 
         public APredicate.Builder setNum(int num){
             aPredicate.num = num;
@@ -38,5 +50,10 @@ public class APredicate extends AbstractPredicate{
             return aPredicate;
         }
 
+    }
+    public List<Server> getEligibleServers(List<Server> servers , Object loadBalancerKey){
+        for(AbstractPredicate o :  litte){
+            o.getEligibleServers(servers, loadBalancerKey);
+        }
     }
 }
