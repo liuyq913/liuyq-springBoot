@@ -15,9 +15,6 @@ public class HelloFeginController {
     @Resource
     HelloFeginService helloFeginService;
 
-    @Resource
-
-
     @RequestMapping(value = "/add", method = RequestMethod.GET)
     public Integer add(Integer a, Integer n) {
         return helloFeginService.add(a, n);

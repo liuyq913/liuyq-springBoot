@@ -25,6 +25,11 @@ public class ConsumerController {
 
     @RequestMapping(value = "/ribbon-consumer", method = RequestMethod.GET)
     public String helloConsumer() {
+        return consumerService.helloService();
+    }
+
+    @RequestMapping(value = "/ribbon-consumer2", method = RequestMethod.GET)
+    public Integer addService(){
         return consumerService.addService();
     }
 
@@ -32,6 +37,5 @@ public class ConsumerController {
     public Integer add(@RequestParam("a") Integer a, @RequestParam("b") Integer b) {
         return helloFeginClient.add(a, b);
     }*/
-
 
 }
