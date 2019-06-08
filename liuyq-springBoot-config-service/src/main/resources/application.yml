@@ -18,7 +18,7 @@ spring:
        server:
         git:
           uri: https://github.com/liuyq913/liuyq-springBoot
-          search-paths: liuyq-springBoot-config-service/config-repo
+          search-paths: liuyq-springBoot-config-service/config-repo/local
           username: liuyq913
           password: 5078227ce
 eureka:
