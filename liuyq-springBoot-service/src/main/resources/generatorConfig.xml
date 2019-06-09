@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+	<classPathEntry
+			location="D:/tool/libs/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13.jar"/>
+
+	<context id="beitaikeji" targetRuntime="MyBatis3" defaultModelType="flat">
+		<property name="javaFileEncoding" value="UTF-8"/>
+		<property name="javaFormatter" value="org.mybatis.generator.api.dom.DefaultJavaFormatter"/>
+		<property name="xmlFormatter" value="org.mybatis.generator.api.dom.DefaultXmlFormatter"/>
+		<property name="mergeable" value="true" />
+		<property name="beginningDelimiter" value="`"/>
+		<property name="endingDelimiter" value="`"/>
+
+		<plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin" />
+		<plugin type="org.mybatis.generator.plugins.CaseInsensitiveLikePlugin"/>
+		<plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>
+		<plugin type="org.mybatis.generator.plugins.ToStringPlugin"/>
+
+		<commentGenerator>
+			<property name="suppressDate" value="true" />
+		</commentGenerator>
+
+		<jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+						connectionURL="jdbc:mysql://localhost:3306/liuyqdata?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true&amp;serverTimezone=UTC"
+						userId="root"
+						password="root" />
+
+		<javaTypeResolver>
+			<property name="forceBigDecimals" value="false"/>
+			<property name="suppressAllComments" value="true" />
+		</javaTypeResolver>
+
+		<javaModelGenerator targetPackage="com.liuyq.boot.service.model" targetProject="src/main/java">
+			<property name="enableSubPackages" value="true"/>
+			<property name="trimStrings" value="true" />
+		</javaModelGenerator>
+
+		<sqlMapGenerator targetPackage="com.liuyq.boot.service.mapper" targetProject="src/main/java">
+			<property name="enableSubPackages" value="true" />
+		</sqlMapGenerator>
+
+		<javaClientGenerator targetPackage="com.liuyq.boot.service.mapper" targetProject="src/main/java" type="XMLMAPPER">
+			<property name="enableSubPackages" value="true" />
+		</javaClientGenerator>
+
+		<table tableName="t_demo" domainObjectName="Demo" delimitIdentifiers="true">
+			<property name="useActualColumnNames" value="true"/>
+			<property name="selectAllOrderByClause" value="id desc"/>
+			<generatedKey column="FID" sqlStatement="SELECT LAST_INSERT_ID()" identity="true" />
+		</table>
+	</context>
+</generatorConfiguration>

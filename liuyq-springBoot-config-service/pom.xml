@@ -14,22 +14,16 @@
 
 
     <dependencies>
-        <dependency>
+        <!--<dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
             <version>${eureka.version}</version>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.liuyq</groupId>
-            <artifactId>liuyq-springBoot-base</artifactId>
-            <version>${com.springBoot.base.verison}</version>
         </dependency>
 
         <!--引入配置依赖-->

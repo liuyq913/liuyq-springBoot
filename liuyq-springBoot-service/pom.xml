@@ -27,9 +27,19 @@
         </dependency>
 
         <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+        </dependency>
+
+        <!--<dependency>
             <groupId>com.liuyq</groupId>
             <artifactId>liuyq-springBoot-base</artifactId>
             <version>${com.springBoot.base.verison}</version>
+        </dependency>-->
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
 
     </dependencies>

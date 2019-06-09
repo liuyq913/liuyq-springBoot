@@ -14,7 +14,6 @@
     <packaging>jar</packaging>
 
 
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -33,6 +32,8 @@
             <artifactId>liuyq-springBoot-base</artifactId>
             <version>${com.springBoot.base.verison}</version>
         </dependency>
+
+
     </dependencies>
 
     <dependencyManagement>
