@@ -65,8 +65,8 @@
 			<!--<pattern>${CONSOLE_LOG_PATTERN}</pattern>-->
 			<charset>utf8</charset>
 		</encoder>
-		<!-- 日志级别过滤器 -->
-		<filter class="com.lccx.core.log3.LogbackSleuthFilter"></filter>	<!--其它过滤器上面，只要一个-->
+		<!-- 日志级别过滤器
+		<filter class="com.lccx.core.log3.LogbackSleuthFilter"></filter>-->	<!--其它过滤器上面，只要一个-->
 		<filter class="ch.qos.logback.classic.filter.LevelFilter">
 		<!-- 过滤的级别 -->
 			<level>ERROR</level>

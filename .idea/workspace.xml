@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9a4a1376-84d6-4e31-8852-333c5de6dfff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-repo/jdbc-dev.properties" afterPath="$PROJECT_DIR$/config-repo/jdbc-dev.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-repo/jdbc.properties" afterPath="$PROJECT_DIR$/config-repo/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-repo/serviceA-dev.properties" afterPath="$PROJECT_DIR$/config-repo/serviceA-dev.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/resources/logback-spring.xml" afterPath="$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/resources/logback-spring.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/logback-spring.xml" afterPath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/logback-spring.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/mybatis-config.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/liuyq-springBoot-eureka/target/" />
@@ -53,93 +54,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ControllerDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/controller/ControllerDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logback-spring.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/logback-spring.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProviderApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/ProviderApplication.java">
+      <file leaf-file-name="ConfigApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/java/com/liuyq/boot/config/service/ConfigApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
-                <element signature="e#685#686#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <marker date="1560049548318" expanded="true" signature="420:553" ph="@{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serviceA-dev.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-repo/serviceA-dev.properties">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jdbc-dev.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-repo/jdbc-dev.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jdbc-prod.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-repo/jdbc-prod.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jdbc-test.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-repo/jdbc-test.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mybatis.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-repo/mybatis.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="redis.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config-repo/redis.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="228">
+              <caret line="12" column="90" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -150,6 +82,79 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" column="65" lean-forward="false" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logback-spring.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/logback-spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="89" column="30" lean-forward="false" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logback-spring.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/resources/logback-spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="68" column="61" lean-forward="false" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProviderApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/ProviderApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="serviceA-dev.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-repo/serviceA-dev.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EurekaServiceApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-eureka/src/main/java/com/liuyq/boot/eureka/EurekaServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -215,10 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/java/com/liuyq/boot/config/consumer/config/ConusmerConfig.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-config-service/config-repo/didispace-test.properties" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/java/com/liuyq/boot/config/consumer/controller/ConfigConsumerController.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/java/com/liuyq/boot/config/consumer/ConfigConsumerApplication.java" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-zuul-service/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-consumer/pom.xml" />
@@ -261,11 +262,15 @@
         <option value="D:/tool/libs/org/eclipse/jgit/org.eclipse.jgit/5.1.3.201810200350-r/org.eclipse.jgit-5.1.3.201810200350-r.jar!/org/eclipse/jgit/transport/BasePackFetchConnection.class" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/java/com/liuyq/boot/config/service/ConfigApplication.java" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-config-service/pom.xml" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/config-repo/serviceA-dev.properties" />
         <option value="$PROJECT_DIR$/config-repo/jdbc-dev.properties" />
         <option value="$PROJECT_DIR$/config-repo/jdbc.properties" />
+        <option value="D:/tool/libs/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/filter/LevelFilter.class" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -353,62 +358,42 @@
             <path>
               <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="liuyq-springBoot-service" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-config-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="liuyq-springBoot-service" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-config-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="liuyq-springBoot-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="liuyq-springBoot-service" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-config-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="liuyq-springBoot-service" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-config-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="liuyq-springBoot-service" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-config-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="liuyq-springBoot-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="liuyq-springBoot-service" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-config-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -469,7 +454,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProviderApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigApplication">
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1174,11 +1159,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560072959871</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="配置文件">
+      <created>1560073200619</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1560073200619</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213443000" />
+    <option name="totallyTimeSpent" value="217532000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1194,14 +1186,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41350907" sideWeight="0.5121396" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24054463" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24054463" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.48786038" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.66886324" sideWeight="0.48786038" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784185" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261944" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1268,43 +1260,46 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://C:/tool/libs/org/springframework/boot/spring-boot-autoconfigure/1.5.8.RELEASE/spring-boot-autoconfigure-1.5.8.RELEASE.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.class</url>
           <line>78</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://C:/tool/libs/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/context/support/GenericWebApplicationContext.class</url>
           <line>81</line>
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://C:/tool/libs/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/context/support/AbstractRefreshableWebApplicationContext.class</url>
           <line>98</line>
           <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://C:/tool/libs/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/context/support/StaticWebApplicationContext.class</url>
           <line>105</line>
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://C:/tool/libs/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.class</url>
           <line>74</line>
           <properties />
           <option name="timeStamp" value="81" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.class</url>
           <line>31</line>
           <properties />
           <option name="timeStamp" value="138" />
         </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <option name="time" value="162" />
     </breakpoint-manager>
     <watches-manager />
@@ -1314,22 +1309,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/model/Amodel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/tool/libs/org/springframework/boot/spring-boot-starter-parent/2.1.4.RELEASE/spring-boot-starter-parent-2.1.4.RELEASE.pom" />
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/liuyq-springBoot-service.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1465,29 +1444,10 @@
       </provider>
     </entry>
     <entry file="file://C:/tool/libs/org/springframework/spring-tx/5.1.6.RELEASE/spring-tx-5.1.6.RELEASE.pom" />
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/java/com/liuyq/boot/config/service/ConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1560049548318" expanded="true" signature="420:553" ph="@{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-32">
           <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-eureka/src/main/java/com/liuyq/boot/eureka/EurekaServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1532,34 +1492,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/Task/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1572,36 +1508,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/ProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#685#686#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-repo/serviceA-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-repo/jdbc-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-repo/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="65" lean-forward="false" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+          <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -1635,6 +1545,100 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tool/libs/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/filter/LevelFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="89" column="30" lean-forward="false" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="68" column="61" lean-forward="false" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-eureka/src/main/java/com/liuyq/boot/eureka/EurekaServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/ProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="90" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-repo/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="65" lean-forward="false" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-repo/serviceA-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/java/com/liuyq/boot/config/service/ConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1560049548318" expanded="true" signature="420:553" ph="@{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
