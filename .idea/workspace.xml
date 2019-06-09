@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9a4a1376-84d6-4e31-8852-333c5de6dfff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/resources/logback-spring.xml" afterPath="$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/resources/logback-spring.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/logback-spring.xml" afterPath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/logback-spring.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/resources/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/liuyq-springBoot-eureka/target/" />
@@ -54,11 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConfigApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConfigApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/java/com/liuyq/boot/config/service/ConfigApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="247">
+              <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1560049548318" expanded="true" signature="420:553" ph="@{...}" />
@@ -70,8 +67,48 @@
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/target/classes/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" column="90" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="90" />
+              <caret line="12" column="69" lean-forward="true" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpClientConfigurableHttpConnectionFactory.class" pinned="false" current-in-tab="true">
+        <entry file="jar://D:/tool/libs/org/springframework/cloud/spring-cloud-config-server/2.1.2.RELEASE/spring-cloud-config-server-2.1.2.RELEASE.jar!/org/springframework/cloud/config/server/environment/HttpClientConfigurableHttpConnectionFactory.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransportHttp.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/tool/libs/org/eclipse/jgit/org.eclipse.jgit/5.1.3.201810200350-r/org.eclipse.jgit-5.1.3.201810200350-r.jar!/org/eclipse/jgit/transport/TransportHttp.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="208" column="89" lean-forward="false" selection-start-line="208" selection-start-column="89" selection-end-line="208" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FetchProcess.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/tool/libs/org/eclipse/jgit/org.eclipse.jgit/5.1.3.201810200350-r/org.eclipse.jgit-5.1.3.201810200350-r.jar!/org/eclipse/jgit/transport/FetchProcess.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -82,26 +119,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" column="65" lean-forward="false" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logback-spring.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/logback-spring.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="89" column="30" lean-forward="false" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logback-spring.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/resources/logback-spring.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="68" column="61" lean-forward="false" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -140,26 +157,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EurekaServiceApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-eureka/src/main/java/com/liuyq/boot/eureka/EurekaServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/mybatis-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -173,8 +170,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getServiceUrlsMapFromConfig</find>
-      <find>DiscoveryClient_{}</find>
       <find>DiscoveryClient</find>
       <find>initScheduledTasks</find>
       <find>ex</find>
@@ -203,6 +198,8 @@
       <find>searchPaths</find>
       <find>eureka.node.three.host</find>
       <find>lccx</find>
+      <find>spring.cloud.config.server.git.searchPaths</find>
+      <find>No custom http config found for</find>
     </findStrings>
     <dirStrings>
       <dir>D:\myworkspace\liuyq-springBoot</dir>
@@ -220,10 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/liuyq-springBoot-config-consumer/src/main/java/com/liuyq/boot/config/consumer/ConfigConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-zuul-service/pom.xml" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-feign-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-feign-two/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-service-two/pom.xml" />
@@ -271,6 +264,10 @@
         <option value="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-config-service/target/classes/application.properties" />
+        <option value="D:/tool/libs/org/springframework/cloud/spring-cloud-config-server/2.1.2.RELEASE/spring-cloud-config-server-2.1.2.RELEASE.jar!/org/springframework/cloud/config/server/environment/HttpClientConfigurableHttpConnectionFactory.class" />
+        <option value="D:/tool/libs/org/eclipse/jgit/org.eclipse.jgit/5.1.3.201810200350-r/org.eclipse.jgit-5.1.3.201810200350-r.jar!/org/eclipse/jgit/transport/TransportHttp.class" />
+        <option value="D:/tool/libs/org/eclipse/jgit/org.eclipse.jgit/5.1.3.201810200350-r/org.eclipse.jgit-5.1.3.201810200350-r.jar!/org/eclipse/jgit/transport/FetchProcess.class" />
       </list>
     </option>
   </component>
@@ -299,11 +296,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="liuyq-springBoot-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="liuyq-springBoot-config-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="liuyq-springBoot-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="liuyq-springBoot-config-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -398,6 +395,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-config-service" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-config-service" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-config-service" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -414,7 +431,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.303125" />
-    <property name="SearchEverywhereHistoryKey" value="dis&#9;FILE&#9;jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.8/eureka-client-1.9.8.jar!/com/netflix/discovery/DiscoveryClient.class&#10;FutureT&#9;PSI&#9;JAVA://java.util.concurrent.FutureTask&#10;DiscoveryClient&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.class&#10;EndpointUt&#9;PSI&#9;JAVA://com.netflix.discovery.endpoint.EndpointUtils&#10;diScoveryC&#9;PSI&#9;JAVA://org.springframework.cloud.client.discovery.DiscoveryClient&#10;RetryableEurekaHttpClient&#9;PSI&#9;JAVA://com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient&#10;rul&#9;FILE&#9;jar://C:/tool/libs/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/ZoneAvoidanceRule.class&#10;Se&#9;PSI&#9;JAVA://com.liuyq.springBoot.feign.two.service.BootServiceClient&#10;ribbon&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-netflix-ribbon/2.1.0.RC3/spring-cloud-netflix-ribbon-2.1.0.RC3.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.class&#10;zoneAw&#9;FILE&#9;jar://C:/tool/libs/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/ZoneAwareLoadBalancer.class&#10;Dyna&#9;FILE&#9;jar://C:/tool/libs/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/DynamicServerListLoadBalancer.class&#10;EurekaRi&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.ribbon.eureka.EurekaRibbonClientConfiguration&#10;LoadBal&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.class&#10;ri\&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.class&#10;LOadB&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.class&#10;ServiceReq&#9;PSI&#9;JAVA://org.springframework.cloud.client.loadbalancer.ServiceRequestWrapper&#10;Lo&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.class&#10;LoadBalancerAuto&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerAutoConfiguration.class&#10;LoadBalancerCli&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.class&#10;Ribbo&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-netflix-ribbon/2.1.0.RC3/spring-cloud-netflix-ribbon-2.1.0.RC3.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.class&#10;LoadBalancerClient&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.class&#10;RibbonClientConfiguration&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.ribbon.RibbonClientConfiguration&#10;LoadBalancer&#9;PSI&#9;JAVA://org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration&#10;EndpointUtils&#9;FILE&#9;jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.8/eureka-client-1.9.8.jar!/com/netflix/discovery/endpoint/EndpointUtils.class&#10;EurekaDiscoveryClient&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.eureka.EurekaDiscoveryClient&#10;NativeEnvironmentRepository&#9;PSI&#9;JAVA://org.springframework.cloud.config.server.environment.NativeEnvironmentRepository&#10;helloFeginClient&#9;FILE&#9;file://D:/myworkspace/liuyq-springBoot/liuyq-springBoot-feign/liuyq-springBoot-feign-interface/src/main/java/com/liuyq/boot/feign/HelloFeginClient.java&#10;my&#9;FILE&#9;file://D:/myworkspace/liuyq-springBoot/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/MyRun.java&#10;Ann&#9;FILE&#9;jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/web/servlet/context/AnnotationConfigServletWebServerApplicationContext.class&#10;AnnotationConfigServletWebServerApplicationContext&#9;FILE&#9;jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/web/servlet/context/AnnotationConfigServletWebServerApplicationContext.class&#10;ObjectMapper&#9;PSI&#9;JAVA://com.fasterxml.jackson.databind.ObjectMapper&#10;AnnotationConfigApplicationContext&#9;PSI&#9;JAVA://org.springframework.context.annotation.AnnotationConfigApplicationContext&#10;RedisAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration&#10;AutoConfigurationPackage&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.AutoConfigurationPackages&#10;SpringFactoriesLoader&#9;FILE&#9;jar://C:/tool/libs/org/springframework/spring-core/4.3.12.RELEASE/spring-core-4.3.12.RELEASE.jar!/org/springframework/core/io/support/SpringFactoriesLoader.class&#10;CommandLineRunner&#9;PSI&#9;JAVA://org.springframework.boot.CommandLineRunner&#10;ApplicationRunner&#9;PSI&#9;JAVA://org.springframework.boot.ApplicationRunner&#10;SPringboot&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.security.AuthenticationManagerConfiguration.SpringBootAuthenticationConfigurerAdapter&#10;Xml&#9;FILE&#9;jar://C:/tool/libs/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/xml/XmlBeanFactory.class&#10;FileSystemXm&#9;PSI&#9;JAVA://org.springframework.context.support.FileSystemXmlApplicationContext&#10;An&#9;FILE&#9;jar://C:/tool/libs/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class&#10;EventPublishingRunListener&#9;FILE&#9;jar://C:/tool/libs/org/springframework/boot/spring-boot/1.5.8.RELEASE/spring-boot-1.5.8.RELEASE.jar!/org/springframework/boot/context/event/EventPublishingRunListener.class&#10;ApplicationContextInitializer&#9;FILE&#9;jar://C:/tool/libs/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/ApplicationContextInitializer.class" />
+    <property name="SearchEverywhereHistoryKey" value="pClientConfigurableHttpConnectionFactory&#9;PSI&#9;JAVA://org.springframework.cloud.config.server.environment.HttpClientConfigurableHttpConnectionFactory&#10;dis&#9;FILE&#9;jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.8/eureka-client-1.9.8.jar!/com/netflix/discovery/DiscoveryClient.class&#10;FutureT&#9;PSI&#9;JAVA://java.util.concurrent.FutureTask&#10;DiscoveryClient&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.class&#10;EndpointUt&#9;PSI&#9;JAVA://com.netflix.discovery.endpoint.EndpointUtils&#10;diScoveryC&#9;PSI&#9;JAVA://org.springframework.cloud.client.discovery.DiscoveryClient&#10;RetryableEurekaHttpClient&#9;PSI&#9;JAVA://com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient&#10;rul&#9;FILE&#9;jar://C:/tool/libs/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/ZoneAvoidanceRule.class&#10;Se&#9;PSI&#9;JAVA://com.liuyq.springBoot.feign.two.service.BootServiceClient&#10;ribbon&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-netflix-ribbon/2.1.0.RC3/spring-cloud-netflix-ribbon-2.1.0.RC3.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.class&#10;zoneAw&#9;FILE&#9;jar://C:/tool/libs/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/ZoneAwareLoadBalancer.class&#10;Dyna&#9;FILE&#9;jar://C:/tool/libs/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/DynamicServerListLoadBalancer.class&#10;EurekaRi&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.ribbon.eureka.EurekaRibbonClientConfiguration&#10;LoadBal&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.class&#10;ri\&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.class&#10;LOadB&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.class&#10;ServiceReq&#9;PSI&#9;JAVA://org.springframework.cloud.client.loadbalancer.ServiceRequestWrapper&#10;Lo&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.class&#10;LoadBalancerAuto&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerAutoConfiguration.class&#10;LoadBalancerCli&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.class&#10;Ribbo&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-netflix-ribbon/2.1.0.RC3/spring-cloud-netflix-ribbon-2.1.0.RC3.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.class&#10;LoadBalancerClient&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.class&#10;RibbonClientConfiguration&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.ribbon.RibbonClientConfiguration&#10;LoadBalancer&#9;PSI&#9;JAVA://org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration&#10;EndpointUtils&#9;FILE&#9;jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.8/eureka-client-1.9.8.jar!/com/netflix/discovery/endpoint/EndpointUtils.class&#10;EurekaDiscoveryClient&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.eureka.EurekaDiscoveryClient&#10;NativeEnvironmentRepository&#9;PSI&#9;JAVA://org.springframework.cloud.config.server.environment.NativeEnvironmentRepository&#10;helloFeginClient&#9;FILE&#9;file://D:/myworkspace/liuyq-springBoot/liuyq-springBoot-feign/liuyq-springBoot-feign-interface/src/main/java/com/liuyq/boot/feign/HelloFeginClient.java&#10;my&#9;FILE&#9;file://D:/myworkspace/liuyq-springBoot/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/MyRun.java&#10;Ann&#9;FILE&#9;jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/web/servlet/context/AnnotationConfigServletWebServerApplicationContext.class&#10;AnnotationConfigServletWebServerApplicationContext&#9;FILE&#9;jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/web/servlet/context/AnnotationConfigServletWebServerApplicationContext.class&#10;ObjectMapper&#9;PSI&#9;JAVA://com.fasterxml.jackson.databind.ObjectMapper&#10;AnnotationConfigApplicationContext&#9;PSI&#9;JAVA://org.springframework.context.annotation.AnnotationConfigApplicationContext&#10;RedisAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration&#10;AutoConfigurationPackage&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.AutoConfigurationPackages&#10;SpringFactoriesLoader&#9;FILE&#9;jar://C:/tool/libs/org/springframework/spring-core/4.3.12.RELEASE/spring-core-4.3.12.RELEASE.jar!/org/springframework/core/io/support/SpringFactoriesLoader.class&#10;CommandLineRunner&#9;PSI&#9;JAVA://org.springframework.boot.CommandLineRunner&#10;ApplicationRunner&#9;PSI&#9;JAVA://org.springframework.boot.ApplicationRunner&#10;SPringboot&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.security.AuthenticationManagerConfiguration.SpringBootAuthenticationConfigurerAdapter&#10;Xml&#9;FILE&#9;jar://C:/tool/libs/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/xml/XmlBeanFactory.class&#10;FileSystemXm&#9;PSI&#9;JAVA://org.springframework.context.support.FileSystemXmlApplicationContext&#10;An&#9;FILE&#9;jar://C:/tool/libs/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class&#10;EventPublishingRunListener&#9;FILE&#9;jar://C:/tool/libs/org/springframework/boot/spring-boot/1.5.8.RELEASE/spring-boot-1.5.8.RELEASE.jar!/org/springframework/boot/context/event/EventPublishingRunListener.class&#10;ApplicationContextInitializer&#9;FILE&#9;jar://C:/tool/libs/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/ApplicationContextInitializer.class" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
@@ -1166,11 +1183,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560073200619</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="配置文件">
+      <created>1560077297015</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1560077297015</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217532000" />
+    <option name="totallyTimeSpent" value="218889000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1186,14 +1210,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41350907" sideWeight="0.5121396" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24054463" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24054463" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.66886324" sideWeight="0.48786038" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47116968" sideWeight="0.48786038" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784185" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261944" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1204,7 +1228,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66886324" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25037822" sideWeight="0.49449036" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18381241" sideWeight="0.49449036" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24093817" sideWeight="0.5055096" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1300,7 +1324,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="162" />
+      <option name="time" value="163" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1309,30 +1333,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/liuyq-springBoot-service.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/Task/MyTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/config-repo/jdbc-test.properties" />
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/model/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1607,14 +1607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="90" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-repo/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1633,12 +1625,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/java/com/liuyq/boot/config/service/ConfigApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="247">
+          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1560049548318" expanded="true" signature="420:553" ph="@{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/target/classes/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="69" lean-forward="true" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tool/libs/org/eclipse/jgit/org.eclipse.jgit/5.1.3.201810200350-r/org.eclipse.jgit-5.1.3.201810200350-r.jar!/org/eclipse/jgit/transport/TransportHttp.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="208" column="89" lean-forward="false" selection-start-line="208" selection-start-column="89" selection-end-line="208" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tool/libs/org/eclipse/jgit/org.eclipse.jgit/5.1.3.201810200350-r/org.eclipse.jgit-5.1.3.201810200350-r.jar!/org/eclipse/jgit/transport/FetchProcess.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tool/libs/org/springframework/cloud/spring-cloud-config-server/2.1.2.RELEASE/spring-cloud-config-server-2.1.2.RELEASE.jar!/org/springframework/cloud/config/server/environment/HttpClientConfigurableHttpConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
