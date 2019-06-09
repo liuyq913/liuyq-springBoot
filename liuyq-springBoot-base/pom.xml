@@ -13,6 +13,9 @@
     <artifactId>liuyq-springBoot-base</artifactId>
     <packaging>jar</packaging>
 
+    <properties>
+        <tx-lcn-tc.version>5.0.2.RELEASE</tx-lcn-tc.version>
+    </properties>
 
     <dependencies>
         <!-- springboot分页插件 -->
@@ -46,4 +49,9 @@
             <artifactId>fastjson</artifactId>
         </dependency>
     </dependencies>
+
+
+
+
+
 </project>
