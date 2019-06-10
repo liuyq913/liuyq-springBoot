@@ -31,6 +31,19 @@
             <artifactId>liuyq-springBoot-base</artifactId>
             <version>${com.springBoot.base.verison}</version>
         </dependency>
+
+        <!--Spring Boot Actuator，感应服务端变化-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <!--Spring Cloud Config 客户端依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+            <version>${config.version}</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
