@@ -2,46 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a4a1376-84d6-4e31-8852-333c5de6dfff" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/liuyq-springBoot-service.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/ProviderApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/Task/Demo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/Task/MyTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/Task/MyTask2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/controller/ControllerDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/mapper/DemoMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/mapper/DemoMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/model/Amodel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/model/Demo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/model/DemoExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/java/com/liuyq/boot/service/service/DemoService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/generatorConfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/logback-spring.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-springBoot-service/src/main/resources/mybatis-config.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_0_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_janino_3_0_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalina.home_IS_UNDEFINED/logs/2019-06-10/error-log.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalina.home_IS_UNDEFINED/logs/2019-06-10/info-log.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-service-two/src/main/resources/bootstrap.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-service-two/src/main/resources/logback-spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-service-two/src/main/resources/mybatis-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-base.iml" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-base.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-config-consumer/liuyq-springBoot-config-cusumer.iml" afterPath="$PROJECT_DIR$/liuyq-springBoot-config-consumer/liuyq-springBoot-config-cusumer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-consumer/liuyq-springBoot-consumer.iml" afterPath="$PROJECT_DIR$/liuyq-springBoot-consumer/liuyq-springBoot-consumer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-eureka/liuyq-springBoot-eureka.iml" afterPath="$PROJECT_DIR$/liuyq-springBoot-eureka/liuyq-springBoot-eureka.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-feign-consumer/liuyq-springBoot-feign-consumer.iml" afterPath="$PROJECT_DIR$/liuyq-springBoot-feign-consumer/liuyq-springBoot-feign-consumer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-feign-two/liuyq-springBoot-feign-two.iml" afterPath="$PROJECT_DIR$/liuyq-springBoot-feign-two/liuyq-springBoot-feign-two.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-interface/liuyq-springBoot-feign-controller.iml" afterPath="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-interface/liuyq-springBoot-feign-controller.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/liuyq-springBoot-feign-service.iml" afterPath="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/liuyq-springBoot-feign-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-service-two/liuyq-springBoot-service-two.iml" afterPath="$PROJECT_DIR$/liuyq-springBoot-service-two/liuyq-springBoot-service-two.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-service-two/pom.xml" afterPath="$PROJECT_DIR$/liuyq-springBoot-service-two/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-zuul-service/liuyq-springBoot-zuul-service.iml" afterPath="$PROJECT_DIR$/liuyq-springBoot-zuul-service/liuyq-springBoot-zuul-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/liuyq-springBoot-service-two/src/main/java/service/ProviderApplication.java" afterPath="$PROJECT_DIR$/liuyq-springBoot-service-two/src/main/java/com/liuyq/boot/service/ProviderApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/liuyq-springBoot-service-two/src/main/java/service/controller/ControllerDemo.java" afterPath="$PROJECT_DIR$/liuyq-springBoot-service-two/src/main/java/com/liuyq/boot/service/controller/ControllerDemo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/liuyq-springBoot-eureka/target/" />
@@ -166,8 +138,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="60" column="40" lean-forward="false" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="40" />
+            <state relative-caret-position="277">
+              <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -1037,7 +1009,7 @@
       <workItem from="1558853166651" duration="10040000" />
       <workItem from="1559988975038" duration="5209000" />
       <workItem from="1560043931420" duration="7765000" />
-      <workItem from="1560128295291" duration="11483000" />
+      <workItem from="1560128295291" duration="11546000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1519787679687</created>
@@ -1242,11 +1214,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560131043655</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="config 集成erueka">
+      <created>1560165462060</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1560165462060</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236274000" />
+    <option name="totallyTimeSpent" value="236337000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1285,7 +1264,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27987897" sideWeight="0.49449036" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27987897" sideWeight="0.49449036" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24093817" sideWeight="0.5055096" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1687,8 +1666,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="60" column="40" lean-forward="false" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="40" />
+        <state relative-caret-position="277">
+          <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
           <folding />
         </state>
       </provider>
