@@ -16,7 +16,6 @@
         <module name="liuyq-springBoot-feign-controller" />
         <module name="liuyq-springBoot-feign-service" />
         <module name="liuyq-springBoot-feign-two" />
-        <module name="liuyq-springBoot-service" />
         <module name="liuyq-springBoot-service-two" />
         <module name="liuyq-springBoot-zuul-service" />
       </profile>
