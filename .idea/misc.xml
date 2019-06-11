@@ -4,6 +4,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -16,7 +16,8 @@
         <module name="liuyq-springBoot-feign-controller" />
         <module name="liuyq-springBoot-feign-service" />
         <module name="liuyq-springBoot-feign-two" />
-        <module name="liuyq-springBoot-service-two" />
+        <module name="liuyq-springBoot-service-interface" />
+        <module name="liuyq-springBoot-serviceA" />
         <module name="liuyq-springBoot-zuul-service" />
       </profile>
     </annotationProcessing>
@@ -34,7 +35,9 @@
       <module name="liuyq-springBoot-feign-service" target="1.8" />
       <module name="liuyq-springBoot-feign-two" target="1.8" />
       <module name="liuyq-springBoot-service" target="1.8" />
+      <module name="liuyq-springBoot-service-interface" target="1.8" />
       <module name="liuyq-springBoot-service-two" target="1.8" />
+      <module name="liuyq-springBoot-serviceA" target="1.8" />
       <module name="liuyq-springBoot-zuul-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>

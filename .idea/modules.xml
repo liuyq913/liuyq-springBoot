@@ -14,7 +14,9 @@
       <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-interface/liuyq-springBoot-feign-controller.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-interface/liuyq-springBoot-feign-controller.iml" />
       <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/liuyq-springBoot-feign-service.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/liuyq-springBoot-feign-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-feign-two/liuyq-springBoot-feign-two.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-feign-two/liuyq-springBoot-feign-two.iml" />
-      <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-service-two/liuyq-springBoot-service-two.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-service-two/liuyq-springBoot-service-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/liuyq-springBoot-service-interface.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/liuyq-springBoot-service-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-service-two.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-service-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/liuyq-springBoot-serviceA.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/liuyq-springBoot-serviceA.iml" />
       <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-zuul-service/liuyq-springBoot-zuul-service.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-zuul-service/liuyq-springBoot-zuul-service.iml" />
     </modules>
   </component>

@@ -51,6 +51,11 @@
         <mail_version>1.4.7</mail_version>
         <mybatis.spring.boot.version>1.3.1</mybatis.spring.boot.version>
         <druid-spring-boot.version>1.1.13</druid-spring-boot.version>
+        <eureka.version>1.4.6.RELEASE</eureka.version>
+        <cloud-dependencies.version>Finchley.RELEASE</cloud-dependencies.version>
+        <com.springBoot.base.verison>1.0-SNAPSHOT</com.springBoot.base.verison>
+        <ribbon.version>1.4.6.RELEASE</ribbon.version>
+        <feign.version>1.4.6.RELEASE</feign.version>
     </properties>
 
     <parent>
@@ -223,20 +228,23 @@
                 <!--</plugin>-->
             </plugins>
         </pluginManagement>
-        <!-- <resources>
-             <resource>
-                 <directory>src/main/java</directory>
-                 <includes>
-                     <include>**/*Mapper.xml</include>
-                 </includes>
-             </resource>
-             <resource>
-                 <directory>src/main/resources</directory>
-                 <includes>
-                     <include>**/*.xml</include>
-                     <include>**/*.properties</include>
-                 </includes>
-             </resource>
-         </resources>-->
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                    <include>**/*.properties</include>
+                    <include>**/*.yml</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                    <include>**/*.properties</include>
+                    <include>**/*.yml</include>
+                </includes>
+            </resource>
+        </resources>
     </build>
 </project>
