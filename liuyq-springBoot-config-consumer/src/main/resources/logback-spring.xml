@@ -1,111 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 
-	<contextName>logback</contextName>
+	<property name="server_name" value="operation" />
+	<property name="log_dir" value="/data/logs/operation-service" />
+	<property name="maxFileSize" value="50MB" />
+	<property name="maxHistory" value="180" />
 
-	<!-- 彩色日志 -->
-	<!-- 彩色日志依赖的渲染类 -->
-	<conversionRule conversionWord="clr" converterClass="org.springframework.boot.logging.logback.ColorConverter" />
-	<conversionRule conversionWord="wex" converterClass="org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter" />
-	<conversionRule conversionWord="wEx" converterClass="org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter" />
-	<!-- 彩色日志格式 -->
-	<property name="CONSOLE_LOG_PATTERN" value="${CONSOLE_LOG_PATTERN:-%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr(${PID:- }){magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}}" />
-	<!-- Console 输出设置 -->
+	<!-- 控制台输出 -->
 	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
-		<encoder>
-			<pattern>${CONSOLE_LOG_PATTERN}</pattern>
-			<charset>utf8</charset>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符-->
+			<pattern>%date{yyyy-MM-dd HH:mm:ss} | %highlight(%-5level) | %boldYellow(%thread) | %boldGreen(%logger) | %msg%n</pattern>
 		</encoder>
 	</appender>
 
-	<!-- 文件保存日志的相关配置 ERROR -->
-	<appender name="ERROR-OUT" class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<!-- 保存日志文件的路径 -->
-		<file>./logs/error.log</file>
-		<!-- 日志格式 -->
-		<encoder>
-			<!--<pattern>%d{yyyy-MM-dd HH:mm:ss} [%class:%line] - %m%n</pattern>-->
-			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} ${LOG_LEVEL_PATTERN:-%5p} ${PID:- } --- [%15.15t] %-40.40logger{39} : %m%n</pattern>
-			<!--<pattern>${CONSOLE_LOG_PATTERN}</pattern>-->
-			<charset>utf8</charset>
+	<!-- info日志 appender  -->
+	<appender name="INFO" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- 按天回滚 daily -->
+			<fileNamePattern>${log_dir}/${server_name}-info-%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+			<!-- 日志最大的历史 180天 -->
+			<maxHistory>${maxHistory}</maxHistory>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<!-- maxFileSize:这是活动文件的大小，默认值是10MB，这里设置为50MB -->
+				<maxFileSize>${maxFileSize}</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符-->
+			<pattern>%date{yyyy-MM-dd HH:mm:ss} | %highlight(%-5level) | %boldYellow(%thread) | %boldGreen(%logger) | %msg%n</pattern>
 		</encoder>
-		<!-- 日志级别过滤器 -->
 		<filter class="ch.qos.logback.classic.filter.LevelFilter">
-			<!-- 过滤的级别 -->
-			<level>ERROR</level>
-			<!-- 匹配时的操作：接收（记录） -->
+			<!-- 只打印info日志 -->
+			<level>INFO</level>
 			<onMatch>ACCEPT</onMatch>
-			<!-- 不匹配时的操作：拒绝（不记录） -->
 			<onMismatch>DENY</onMismatch>
 		</filter>
-		<!-- 循环政策：基于时间和Size创建日志文件 -->
-		<rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
-			<!-- 日志文件名格式 -->
-			<fileNamePattern>./logs/error/%d{yyyyMMdd}.%i-error.log</fileNamePattern>
-			<!-- 最大保存时间：30天-->
-			<maxHistory>30</maxHistory>
-			<maxFileSize>100MB</maxFileSize>
-		</rollingPolicy>
-
-		<!--两个策略不能同时使用-->
-		<!--<triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
-			&lt;!&ndash; 日志文件最大大小 &ndash;&gt;
-			<MaxFileSize>100MB</MaxFileSize>
-		</triggeringPolicy>-->
 	</appender>
 
-	<!-- 文件保存日志的相关配置 INFO -->
-	<appender name="INFO-OUT" class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<!-- 保存日志文件的路径 -->
-		<file>./logs/info.log</file>
-		<!-- 日志格式 -->
-		<encoder>
-			<!--<pattern>%d{yyyy-MM-dd HH:mm:ss} [%class:%line] - %m%n</pattern>-->
-			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} ${LOG_LEVEL_PATTERN:-%5p} ${PID:- } --- [%15.15t] %-40.40logger{39} : %m%n</pattern>
-			<!--<pattern>${CONSOLE_LOG_PATTERN}</pattern>-->
-			<charset>utf8</charset>
+	<!-- 出错日志 appender  -->
+	<appender name="ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- 按天回滚 daily -->
+			<fileNamePattern>${log_dir}/${server_name}-error-%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+			<!-- 日志最大的历史 180天 -->
+			<maxHistory>${maxHistory}</maxHistory>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<!-- maxFileSize:这是活动文件的大小，默认值是10MB，这里设置为50MB -->
+				<maxFileSize>${maxFileSize}</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符-->
+			<pattern>%date{yyyy-MM-dd HH:mm:ss} | %highlight(%-5level) | %boldYellow(%thread) | %boldGreen(%logger) | %msg%n</pattern>
 		</encoder>
-		<!-- 日志级别过滤器
-		<filter class="com.lccx.core.log3.LogbackSleuthFilter"></filter>-->	<!--其它过滤器上面，只要一个-->
 		<filter class="ch.qos.logback.classic.filter.LevelFilter">
-		<!-- 过滤的级别 -->
+			<!-- 只打印错误日志 -->
 			<level>ERROR</level>
-		<!-- 匹配时的操作：接收（记录） -->
-			<onMatch>DENY</onMatch>
-		<!-- 不匹配时的操作：拒绝（不记录） -->
-			<onMismatch>ACCEPT</onMismatch>
+			<onMatch>ACCEPT</onMatch>
+			<onMismatch>DENY</onMismatch>
 		</filter>
-		<!-- 循环政策：基于时间和size创建日志文件 -->
-		<rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
-			<!-- 日志文件名格式 -->
-			<fileNamePattern>./logs/info/%d{yyyyMMdd}.%i-info.log</fileNamePattern>
-			<!-- 最大保存时间：30天-->
-			<maxHistory>30</maxHistory>
-			<maxFileSize>100MB</maxFileSize>
-		</rollingPolicy>
 	</appender>
 
-	<!-- 输出mybatis的sql语句,没有这句就无法输出mybatis的sql语句，name属性指定到要输出日志的dao，即mybatis要代理的dao -->
-	<logger name="mapper" level="DEBUG"/>	<!--这种方式需要和mybatis-config配合-->
-	<!--<logger name="com.lccx.**.mapper" level="DEBUG"/>-->	<!--通配符无效，不知道怎么搞-->
+	<!--mybatis sql日志 日志的级别需要是DEBUG-->
+	<!--日志打印的包的范围，及分类日志文件存储 -->
+	<logger name="com.liuyq.boot.*.mapper" level="DEBUG" additivity="false"></logger>
 
-	<springProfile name="alpha,prev,prod">
-		<logger name="root" level="INFO" additivity="false">
-			<appender-ref ref="INFO-OUT"/>
-			<appender-ref ref="ERROR-OUT"/>
-		</logger>
-	</springProfile>
-	<springProfile name="local,dev">
-		<logger name="root" level="INFO" additivity="false">
-			<appender-ref ref="STDOUT"/>	<!--有标准输出-->
-			<appender-ref ref="INFO-OUT"/>
-			<appender-ref ref="ERROR-OUT"/>
-		</logger>
-	</springProfile>
-
-	<!-- 用来指定最基础的日志输出级别，以及appender信息 -->
-	<!--<root level="debug">
+	<!--控制台和日志文件输出级别-->
+	<root level="INFO" additivity = "false">
 		<appender-ref ref="STDOUT" />
-		<appender-ref ref="INFO-OUT" />
-	</root>-->
+		<appender-ref ref="INFO" />
+		<appender-ref ref="ERROR" />
+	</root>
+
 </configuration>
