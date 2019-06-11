@@ -1,4 +1,4 @@
-package com.liuyq.boot.service;
+package com.liuyq.boot.serviceA;
 
 /**
  * Created by liuyq on 2019/5/13.

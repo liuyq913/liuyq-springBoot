@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class HelloService {
-    private String msg = "service";//如果自动配置没有读入成功，那么为默认值
+    private String msg = "serviceA";//如果自动配置没有读入成功，那么为默认值
 
     public String say() {
         return "hello " + msg;

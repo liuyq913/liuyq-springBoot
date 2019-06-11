@@ -14,7 +14,7 @@ spring:
          name: jdbc #应用名
        discovery:
           enabled: true
-          service-id: boot-config-service
+          service-id: boot-config-serviceA
 
 
 eureka:

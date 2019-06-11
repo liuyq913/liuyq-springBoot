@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * Created by liuyq on 2019/5/14.
  */
-@FeignClient(value = "boot-service", fallback = BootServiceClientHystrix.class)
+@FeignClient(value = "boot-serviceA", fallback = BootServiceClientHystrix.class)
 public interface BootServiceClient {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)

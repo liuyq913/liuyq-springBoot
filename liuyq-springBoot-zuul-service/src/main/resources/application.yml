@@ -12,7 +12,7 @@ spring:
    application:
      name: boot-zuul-service
 
-# /api-a/** 路由映射到 boot-service 服务上   /api-b/**的路由映射到cloud-feign-service 服务上
+# /api-a/** 路由映射到 boot-serviceA 服务上   /api-b/**的路由映射到cloud-feign-serviceA 服务上
 zuul:
   routes:
     api-a:
