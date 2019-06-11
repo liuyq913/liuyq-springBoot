@@ -1,44 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a4a1376-84d6-4e31-8852-333c5de6dfff" name="Default" comment="config 集成erueka">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/src/main/java/com/liuyq/boot/serviceA/bo/TxExceptionBo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-api/liuyq-springBoot-serviceB-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-api/src/main/java/com/liuyq/boot/serviceB/Domain/ServiceBDomain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-api/src/main/java/com/liuyq/boot/serviceB/bo/DemoBo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/liuyq-springBoot-serviceB-facade.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/ServiceBApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/controller/ControllerBDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/domain/ServiceBNativeDomain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/mapper/DemoMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/mapper/DemoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/model/Demo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/model/DemoExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/resources/bootstrap.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/resources/generatorConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/resources/logback-spring.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/resources/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/pom.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/src/main/java/com/liuyq/boot/serviceA/bo/DemoBo.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="9a4a1376-84d6-4e31-8852-333c5de6dfff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalina.home_IS_UNDEFINED/logs/2019-06-10/error-log.log" afterPath="$PROJECT_DIR$/catalina.home_IS_UNDEFINED/logs/2019-06-10/error-log.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/DateUtil.java" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/DateUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/src/main/java/com/liuyq/boot/serviceA/domain/ServiceADomain.java" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/src/main/java/com/liuyq/boot/serviceA/domain/ServiceADomain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/liuyq-springBoot-serviceA.iml" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/liuyq-springBoot-serviceA.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/pom.xml" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/controller/ControllerADemo.java" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/controller/ControllerADemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/domain/ServiceANativeDomain.java" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/domain/ServiceANativeDomain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/ProviderApplication.java" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/ProviderApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/resources/logback-spring.xml" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/resources/logback-spring.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/exception/HyalineException.java" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/exception/BussinessException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/exception/HyalineRuntimeException.java" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/exception/BussinessRuntimeException.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/liuyq-springBoot-eureka/target/" />
@@ -94,11 +60,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProviderApplication.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProviderApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/ProviderApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="266">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebMvcAutoConfiguration.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/tool/libs/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="254" column="44" lean-forward="false" selection-start-line="254" selection-start-column="44" selection-end-line="254" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -123,35 +99,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/mapper/DemoMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/mapper/DemoMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="12" column="57" lean-forward="false" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-              <folding>
-                <marker date="1560260955945" expanded="true" signature="4409:4510" ph="select from t_demo" />
-                <marker date="1560260955945" expanded="true" signature="4724:4779" ph="delete from " />
-                <marker date="1560260955945" expanded="true" signature="5017:5035" ph="delete from " />
-                <marker date="1560260955945" expanded="true" signature="5349:5637" ph="insert into t_demo... " />
-                <marker date="1560260955945" expanded="true" signature="7165:7192" ph="select count... t_demo" />
-                <marker date="1560260955945" expanded="true" signature="8472:8799" ph="update t_dem... " />
-                <marker date="1560260955945" expanded="true" signature="9144:9697" ph="update t_dem... " />
-                <marker date="1560260955945" expanded="true" signature="9931:10219" ph="update t_dem... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ControllerADemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/controller/ControllerADemo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -162,11 +109,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServiceANativeDomain.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ServiceANativeDomain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/domain/ServiceANativeDomain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
               <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logback-spring.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/resources/logback-spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="68" column="23" lean-forward="true" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -280,7 +237,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/liuyq-springBoot-service-two/src/main/resources/bortstrap.properties" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-service-two/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-service-two/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-service-two/src/main/java/service/ProviderApplication.java" />
@@ -302,7 +258,6 @@
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/controller/ControllerDemo.java" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/src/main/java/com/liuyq/boot/serviceA/bo/DemoBo.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/ProviderApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/resources/generatorConfig.xml" />
@@ -326,11 +281,13 @@
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/domain/ServiceANativeDomain.java" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/controller/ControllerADemo.java" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/resources/logback-spring.xml" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/src/main/java/com/liuyq/boot/serviceA/domain/ServiceADomain.java" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-api/src/main/java/com/liuyq/boot/serviceB/Domain/ServiceBDomain.java" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/mapper/TxExceptionMapper.xml" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/domain/ServiceBNativeDomain.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/resources/logback-spring.xml" />
+        <option value="D:/tool/libs/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/ProviderApplication.java" />
       </list>
     </option>
   </component>
@@ -427,7 +384,67 @@
             <path>
               <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="liuyq-springBoot-serviceB" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-serviceA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-serviceA" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-serviceA-facade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-serviceA" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-serviceA-facade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-serviceA" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-serviceA-facade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-serviceA" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-serviceA-facade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-serviceA" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-serviceA-facade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-serviceA" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-serviceA-facade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceA" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-serviceA" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyq-springBoot-serviceA-facade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1236,11 +1253,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560258751359</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="分布式事务实验">
+      <created>1560264465649</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1560264465649</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252737000" />
+    <option name="totallyTimeSpent" value="253317000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1325,7 +1349,8 @@
     <MESSAGE value="逆向生成" />
     <MESSAGE value="配置文件" />
     <MESSAGE value="config 集成erueka" />
-    <option name="LAST_COMMIT_MESSAGE" value="config 集成erueka" />
+    <MESSAGE value="分布式事务实验" />
+    <option name="LAST_COMMIT_MESSAGE" value="分布式事务实验" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1379,14 +1404,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="243" column="25" lean-forward="false" selection-start-line="243" selection-start-column="25" selection-end-line="243" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/mapper/DemoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1665,14 +1682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1771,14 +1780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/ProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/domain/ServiceBNativeDomain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1811,6 +1812,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="68" column="23" lean-forward="true" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tool/libs/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="254" column="44" lean-forward="false" selection-start-line="254" selection-start-column="44" selection-end-line="254" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/ProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
