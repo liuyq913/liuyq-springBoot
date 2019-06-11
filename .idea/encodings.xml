@@ -17,6 +17,9 @@
     <file url="file://$PROJECT_DIR$/liuyq-springBoot-serviceA" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liuyq-springBoot-serviceB" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/liuyq-springBoot-zuul-service" charset="UTF-8" />
   </component>
 </project>

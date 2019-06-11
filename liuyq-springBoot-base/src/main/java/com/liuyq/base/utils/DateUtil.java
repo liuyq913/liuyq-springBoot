@@ -1,7 +1,7 @@
 package com.liuyq.base.utils;
 
 
-import com.liuyq.base.exception.HyalineRuntimeException;
+import com.liuyq.base.exception.BussinessRuntimeException;
 
 import java.security.InvalidParameterException;
 import java.text.DateFormat;
@@ -134,12 +134,12 @@ public class DateUtil {
      */
     public static Date string2Date(String stringDate, DateFormat format) {
         if (stringDate == null || format == null) {
-            throw new HyalineRuntimeException("日期或格式不能为空！");
+            throw new BussinessRuntimeException("日期或格式不能为空！");
         }
         try {
             return format.parse(stringDate);
         } catch (ParseException e) {
-            throw new HyalineRuntimeException(e);
+            throw new BussinessRuntimeException(e);
         }
     }
 
@@ -152,7 +152,7 @@ public class DateUtil {
      */
     public static String dateToString(Date date, DateFormat format) {
         if (date == null || format == null) {
-            throw new HyalineRuntimeException("日期或格式不能为空！");
+            throw new BussinessRuntimeException("日期或格式不能为空！");
         }
         return format.format(date);
     }
@@ -258,7 +258,7 @@ public class DateUtil {
      */
     public static Date getCycleData(Date date, int cycleType, int days) {
         if (days <= 0) {
-            throw new HyalineRuntimeException("天数必须大于0");
+            throw new BussinessRuntimeException("天数必须大于0");
         }
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(date);
@@ -277,7 +277,7 @@ public class DateUtil {
 
     public static Date dateAfter(Date date, int cycleType, int amount) {
         if (amount < 0) {
-            throw new HyalineRuntimeException("时间周期数量必须大于0");
+            throw new BussinessRuntimeException("时间周期数量必须大于0");
         }
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(date);
@@ -296,7 +296,7 @@ public class DateUtil {
 
     public static Date dateBefore(Date date, int cycleType, int amount) {
         if (amount <= 0) {
-            throw new HyalineRuntimeException("时间周期数量必须大于0");
+            throw new BussinessRuntimeException("时间周期数量必须大于0");
         }
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(date);
@@ -317,7 +317,7 @@ public class DateUtil {
         m.put(DateUtil.cycle_m, Calendar.DAY_OF_MONTH);
         m.put(DateUtil.cycle_w, Calendar.DAY_OF_WEEK);
         if (m.get(cycleType) == null) {
-            throw new HyalineRuntimeException("周期设置错误！");
+            throw new BussinessRuntimeException("周期设置错误！");
         }
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(date);

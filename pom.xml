@@ -19,6 +19,7 @@
         <module>liuyq-springBoot-config-service</module>
         <module>liuyq-springBoot-config-consumer</module>
         <module>liuyq-springBoot-zuul-service</module>
+        <module>liuyq-springBoot-serviceB</module>
     </modules>
     <packaging>pom</packaging>
 

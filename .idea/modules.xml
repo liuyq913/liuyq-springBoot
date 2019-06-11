@@ -17,6 +17,9 @@
       <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/liuyq-springBoot-service-interface.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/liuyq-springBoot-service-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-service-two.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-service-two.iml" />
       <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/liuyq-springBoot-serviceA.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/liuyq-springBoot-serviceA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-api/liuyq-springBoot-serviceB-api.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-api/liuyq-springBoot-serviceB-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/liuyq-springBoot-serviceB-facade.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/liuyq-springBoot-serviceB-facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/liuyq-springBoot-zuul-service/liuyq-springBoot-zuul-service.iml" filepath="$PROJECT_DIR$/liuyq-springBoot-zuul-service/liuyq-springBoot-zuul-service.iml" />
     </modules>
   </component>

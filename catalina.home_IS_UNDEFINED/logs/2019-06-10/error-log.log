@@ -34,7 +34,7 @@ ERROR in ch.qos.logback.core.joran.spi.Interpreter@70:98 - ActionException in Ac
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
-	at com.liuyq.boot.serviceA.ProviderApplication.main(ProviderApplication.java:20)
+	at com.liuyq.boot.ProviderApplication.main(ProviderApplication.java:20)
 2019-06-10 18:29:15.646 [main] ERROR [org.springframework.boot.SpringApplication:858] - Application run failed
 java.lang.IllegalStateException: Logback configuration error detected: 
 ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not find an appropriate class for property [layout]
@@ -71,4 +71,4 @@ ERROR in ch.qos.logback.core.joran.spi.Interpreter@70:98 - ActionException in Ac
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
-	at com.liuyq.boot.serviceA.ProviderApplication.main(ProviderApplication.java:20)
+	at com.liuyq.boot.ProviderApplication.main(ProviderApplication.java:20)

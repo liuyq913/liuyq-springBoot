@@ -1,5 +1,5 @@
 /**
- * HyalineException.java
+ * BussinessException.java
  * Created at 2016-03-01
  * Created by wangkang
  * Copyright (C) 2016 itkk.org, All rights reserved.
@@ -8,7 +8,7 @@ package com.liuyq.base.exception;
 
 /**
  * <p>
- * ClassName: HyalineException
+ * ClassName: BussinessException
  * </p>
  * <p>
  * Description: 系统异常
@@ -20,7 +20,7 @@ package com.liuyq.base.exception;
  * Date: 2016年3月23日
  * </p>
  */
-public class HyalineException extends Exception {
+public class BussinessException extends Exception {
 
     /**
      * 描述 : id
@@ -34,7 +34,7 @@ public class HyalineException extends Exception {
      *
      * @param message 异常信息
      */
-    public HyalineException(String message) {
+    public BussinessException(String message) {
         super(message);
     }
 
@@ -45,7 +45,7 @@ public class HyalineException extends Exception {
      *
      * @param cause 堆栈
      */
-    public HyalineException(Throwable cause) {
+    public BussinessException(Throwable cause) {
         super(cause);
     }
 
@@ -57,7 +57,7 @@ public class HyalineException extends Exception {
      * @param message 异常信息
      * @param cause   堆栈
      */
-    public HyalineException(String message, Throwable cause) {
+    public BussinessException(String message, Throwable cause) {
         super(message, cause);
     }
 
