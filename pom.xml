@@ -13,7 +13,6 @@
         <module>liuyq-springBoot-autoCofigDemo</module>
         <module>liuyq-springBoot-consumer</module>
         <module>liuyq-springBoot-feign</module>
-        <module>liuyq-springBoot-service-two</module>
         <module>liuyq-springBoot-feign-consumer</module>
         <module>liuyq-springBoot-feign-two</module>
         <module>liuyq-springBoot-config-service</module>

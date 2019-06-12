@@ -13,7 +13,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableDiscoveryClient //让该应用成为Eureka的客户端，让他具备发现服务的能力
 @EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
-@EnableFeignClients
+@EnableFeignClients(basePackages = "com.liuyq")
 public class ConsumerApplication {
     public static void main(String[] agrs){
         SpringApplication.run(ConsumerApplication.class);
