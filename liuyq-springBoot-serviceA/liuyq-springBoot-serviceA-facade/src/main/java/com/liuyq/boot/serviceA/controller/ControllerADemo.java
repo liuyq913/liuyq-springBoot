@@ -1,5 +1,6 @@
 package com.liuyq.boot.serviceA.controller;
 
+import com.liuyq.base.exception.BussinessException;
 import com.liuyq.boot.serviceA.bo.TxExceptionBo;
 import com.liuyq.boot.serviceA.domain.ServiceANativeDomain;
 import com.liuyq.boot.serviceB.Domain.ServiceBDomain;
@@ -35,7 +36,9 @@ public class ControllerADemo {
         txExceptionBo.setCreate_time(new Date());
         txExceptionBo.setEx_state(Byte.valueOf("1"));
         txExceptionBo.setMod_id("123");
-        serviceADomain.save(txExceptionBo);
+        try {
+            serviceADomain.save(txExceptionBo);
+        }catch (Exception e){}
     }
 
     @RequestMapping(value = "/testServiceB", method = RequestMethod.GET)
@@ -50,7 +53,7 @@ public class ControllerADemo {
     }
 
     @RequestMapping(value = "/testServiceBAdd", method = RequestMethod.GET)
-    public Integer testServiceAdd(@RequestParam("a")Integer a, @RequestParam("b")Integer b){
+    public Integer testServiceAdd(@RequestParam("a")Integer a, @RequestParam("b")Integer b) throws BussinessException {
         return serviceBDomain.add(a,b);
     }
 }

@@ -20,9 +20,9 @@ public class HelloAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean(HelloService.class)//这个配置就是SpringBoot可以优先使用自定义Bean的核心所在，如果没有我们的自定义Bean那么才会自动配置一个新的Bean
-    public HelloService auto(){
+    public HelloService auto() {
         System.out.println("自动配置了HelloService-------");
-        HelloService helloService =new HelloService();
+        HelloService helloService = new HelloService();
         helloService.setMsg(helloProperties.getMsg());
         return helloService;
     }

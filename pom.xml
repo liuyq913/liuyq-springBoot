@@ -56,6 +56,7 @@
         <com.springBoot.base.verison>1.0-SNAPSHOT</com.springBoot.base.verison>
         <ribbon.version>1.4.6.RELEASE</ribbon.version>
         <feign.version>1.4.6.RELEASE</feign.version>
+        <lcn.version>5.0.2.RELEASE</lcn.version>
     </properties>
 
     <parent>
@@ -155,6 +156,24 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-config</artifactId>
                 <version>${config.version}</version>
+            </dependency>
+            <!--分布式事务支持-->
+            <dependency>
+                <groupId>com.codingapi.txlcn</groupId>
+                <artifactId>txlcn-tm</artifactId>
+                <version>${lcn.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.codingapi.txlcn</groupId>
+                <artifactId>txlcn-tc</artifactId>
+                <version>${lcn.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.codingapi.txlcn</groupId>
+                <artifactId>txlcn-txmsg-netty</artifactId>
+                <version>${lcn.version}</version>
             </dependency>
 
             <!--<dependency>   

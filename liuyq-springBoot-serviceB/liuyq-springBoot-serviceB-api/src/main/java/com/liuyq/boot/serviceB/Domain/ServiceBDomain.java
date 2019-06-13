@@ -19,6 +19,6 @@ public interface ServiceBDomain {
     Integer save(@RequestBody DemoBo demoBo) throws BussinessException;
 
 
-    @RequestMapping(value="/add", method = RequestMethod.GET)
-    Integer add(@RequestParam("a") Integer a , @RequestParam("b") Integer b);
+    @RequestMapping(value = "/add", method = RequestMethod.GET)
+    Integer add(@RequestParam("a") Integer a, @RequestParam("b") Integer b) throws BussinessException;
 }

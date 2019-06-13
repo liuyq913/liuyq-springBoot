@@ -26,6 +26,7 @@ public class ServiceBNativeDomain{
 
         demoMapper.insertSelective(BeanUtil.convert(demoBo, Demo.class));
         throw new BussinessException("给你一个异常");
+        //return 1;
     }
 
     @RequestMapping(value="/add", method = RequestMethod.GET)
