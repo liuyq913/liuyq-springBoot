@@ -2,7 +2,6 @@ package com.liuyq.base.cache;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Created by liuyq on 2019/6/13.
@@ -11,11 +10,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class LoaclCashe extends Cashe {
 
     private static final Map<Object, ExpireCache> localCashe = new ConcurrentHashMap<>();
-
-    /**
-     * 该存储器存储的值大小
-     */
-    private static final AtomicInteger size = new AtomicInteger(0);
 
     @Override
     public <K, V> V push(K key, V value) {
