@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 /**
  * Created by liuyq on 2019/5/10.
  */
-
+//读配置文件里面的值
 @ConfigurationProperties(prefix = "hello")
 public class HelloProperties {
     private String msg = "default";

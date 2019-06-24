@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a4a1376-84d6-4e31-8852-333c5de6dfff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/cache/Cashe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/cache/CasheUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/cache/LoaclCashe.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/HelloAutoConfiguration.java" afterPath="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/HelloAutoConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/HelloProperties.java" afterPath="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/HelloProperties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/HelloService.java" afterPath="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/HelloService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/liuyq-springBoot-eureka/target/" />
@@ -62,125 +62,109 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BeanNameAutoProxyCreator.class" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/tool/libs/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar!/org/springframework/aop/framework/autoproxy/BeanNameAutoProxyCreator.class">
+      <file leaf-file-name="MyApplicationContextInitializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/initializer/MyApplicationContextInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+            <state relative-caret-position="0">
+              <caret line="0" column="50" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AopTypeDTXConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/AopTypeDTXConfiguration.java">
+      <file leaf-file-name="HelloAutoConfiguration.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/HelloAutoConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="205">
+              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyRun.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/MyRun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringApplication.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="313" column="0" lean-forward="true" selection-start-line="313" selection-start-column="0" selection-end-line="313" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#5894#5895#0" expanded="true" />
+                <element signature="e#5952#5953#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cashe.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/cache/Cashe.java">
+      <file leaf-file-name="DefaultApplicationArguments.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/DefaultApplicationArguments.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoaclCashe.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/cache/LoaclCashe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="113">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#687#688#0" expanded="true" />
-                <element signature="class#ExpireCache#0;class#LoaclCashe#0" expanded="false" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1082#1083#0" expanded="true" />
-                <element signature="e#1128#1129#0" expanded="true" />
-                <element signature="e#1170#1171#0" expanded="true" />
-                <element signature="e#1210#1211#0" expanded="true" />
-                <element signature="e#1281#1282#0" expanded="true" />
-                <element signature="e#1337#1338#0" expanded="true" />
-                <element signature="e#1391#1392#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CasheUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/cache/CasheUtils.java">
+      <file leaf-file-name="HelloProperties.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/HelloProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="34" column="10" lean-forward="false" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+            <state relative-caret-position="198">
+              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigurationProperties.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/context/properties/ConfigurationProperties.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/HelloService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Properties.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Properties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="164" column="31" lean-forward="false" selection-start-line="164" selection-start-column="31" selection-end-line="164" selection-end-column="31" />
-              <folding>
-                <element signature="e#5711#5712#0" expanded="true" />
-                <element signature="e#5749#5750#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TransactionInterceptor.class" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/tool/libs/org/springframework/spring-tx/5.1.6.RELEASE/spring-tx-5.1.6.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TransactionAspectSupport.class" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/tool/libs/org/springframework/spring-tx/5.1.6.RELEASE/spring-tx-5.1.6.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="38" column="69" lean-forward="true" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TxLcnInterceptor.class" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/tool/libs/com/codingapi/txlcn/txlcn-tc/5.0.2.RELEASE/txlcn-tc-5.0.2.RELEASE.jar!/com/codingapi/txlcn/tc/aspect/interceptor/TxLcnInterceptor.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MethodInterceptor.class" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/tool/libs/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar!/org/aopalliance/intercept/MethodInterceptor.class">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring.factories" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/resources/META-INF/spring.factories">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -199,11 +183,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>base</find>
-      <find>mysql</find>
-      <find>mybatis-spring-boot-starte</find>
-      <find>searchPaths</find>
-      <find>eureka.node.three.host</find>
       <find>lccx</find>
       <find>spring.cloud.config.server.git.searchPaths</find>
       <find>No custom http config found for</find>
@@ -229,14 +208,19 @@
       <find>log</find>
       <find>jdbc</find>
       <find>getAdvicesAndAdvisorsForBean</find>
+      <find>cloud-fe</find>
+      <find>springBoot</find>
+      <find>springBoot-</find>
+      <find>spring</find>
+      <find>initialize</find>
     </findStrings>
     <replaceStrings>
       <replace>com.liuyq.boot.serviceA.model.TxException</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>D:\myworkspace\liuyq-springBoot</dir>
       <dir>E:\workspace\liuyq-springBoot</dir>
       <dir>E:\workspace\liuyq-springBoot\liuyq-springBoot-serviceA</dir>
+      <dir>D:\myworkspace\liuyq-springBoot</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -250,9 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/src/main/java/com/liuyq/boot/serviceA/bo/DemoBo.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/mapper/TxExceptionMapper.java" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/serviceA/model/TxException.java" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/springBoot/serviceB/model/TxException.java" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/model/TxException.java" />
@@ -285,22 +266,25 @@
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-base/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/domain/ServiceBNativeDomain.java" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/HelloAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/resources/META-INF/spring.factories" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-api/src/main/java/com/liuyq/boot/serviceB/Domain/ServiceBDomain.java" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/src/main/java/com/liuyq/boot/serviceA/domain/ServiceADomain.java" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/controller/ControllerADemo.java" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/domain/ServiceANativeDomain.java" />
-        <option value="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/AopTypeDTXConfiguration.java" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/http/HttpConst.java" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/cache/CasheUtils.java" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/cache/Cashe.java" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/cache/LoaclCashe.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/AopTypeDTXConfiguration.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/src/main/java/com/liuyq/boot/feign/configuration/SpringBeanUtils.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/HelloService.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/HelloAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/HelloProperties.java" />
       </list>
     </option>
   </component>
@@ -331,10 +315,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1928" />
-    <option name="y" value="-182" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -358,7 +342,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -381,7 +365,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springBoot-base" />
+              <option name="myItemId" value="liuyq-springBoot-autoCofigDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -395,7 +379,63 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springBoot-base" />
+              <option name="myItemId" value="liuyq-springBoot-autoCofigDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liuyq-springBoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liuyq-springBoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liuyq-springBoot-autoCofigDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liuyq-springBoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liuyq-springBoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liuyq-springBoot-autoCofigDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -411,7 +451,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
+              <option name="myItemId" value="autoconfig" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -425,7 +465,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springBoot-base" />
+              <option name="myItemId" value="liuyq-springBoot-autoCofigDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -441,17 +481,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
+              <option name="myItemId" value="autoconfig" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
+              <option name="myItemId" value="initializer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -460,11 +500,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../txlcn-demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../liuyq-java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.303125" />
-    <property name="SearchEverywhereHistoryKey" value="proxFactoryB&#9;PSI&#9;JAVA://org.springframework.aop.framework.ProxyFactoryBean&#10;MyApplicationContextInitializer&#9;PSI&#9;JAVA://com.liuyq.springboot.autoconfig.initializer.MyApplicationContextInitializer&#10;ServiceA&#9;FILE&#9;file://D:/myworkspace/liuyq-springBoot/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/src/main/java/com/liuyq/boot/serviceA/domain/ServiceADomain.java&#10;ServiceBDomain&#9;FILE&#9;file://D:/myworkspace/liuyq-springBoot/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/domain/ServiceBNativeDomain.java&#10;serviceBDomain&#9;FILE&#9;file://D:/myworkspace/liuyq-springBoot/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/domain/ServiceBNativeDomain.java&#10;FeignClientsConfiguration&#9;PSI&#9;JAVA://org.springframework.cloud.openfeign.FeignClientsConfiguration&#10;TxException&#9;FILE&#9;file://E:/workspace/liuyq-springBoot/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/model/TxException.java&#10;ConfigServicePropertySourceLocator&#9;PSI&#9;JAVA://org.springframework.cloud.config.client.ConfigServicePropertySourceLocator&#10;pClientConfigurableHttpConnectionFactory&#9;PSI&#9;JAVA://org.springframework.cloud.config.server.environment.HttpClientConfigurableHttpConnectionFactory&#10;dis&#9;FILE&#9;jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.8/eureka-client-1.9.8.jar!/com/netflix/discovery/DiscoveryClient.class&#10;FutureT&#9;PSI&#9;JAVA://java.util.concurrent.FutureTask&#10;DiscoveryClient&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.class&#10;EndpointUt&#9;PSI&#9;JAVA://com.netflix.discovery.endpoint.EndpointUtils&#10;diScoveryC&#9;PSI&#9;JAVA://org.springframework.cloud.client.discovery.DiscoveryClient&#10;RetryableEurekaHttpClient&#9;PSI&#9;JAVA://com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient&#10;rul&#9;FILE&#9;jar://C:/tool/libs/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/ZoneAvoidanceRule.class&#10;Se&#9;PSI&#9;JAVA://com.liuyq.springBoot.feign.two.service.BootServiceClient&#10;ribbon&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-netflix-ribbon/2.1.0.RC3/spring-cloud-netflix-ribbon-2.1.0.RC3.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.class&#10;zoneAw&#9;FILE&#9;jar://C:/tool/libs/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/ZoneAwareLoadBalancer.class&#10;Dyna&#9;FILE&#9;jar://C:/tool/libs/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/DynamicServerListLoadBalancer.class&#10;EurekaRi&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.ribbon.eureka.EurekaRibbonClientConfiguration&#10;LoadBal&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.class&#10;ri\&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.class&#10;LOadB&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.class&#10;ServiceReq&#9;PSI&#9;JAVA://org.springframework.cloud.client.loadbalancer.ServiceRequestWrapper&#10;Lo&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.class&#10;LoadBalancerAuto&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerAutoConfiguration.class&#10;LoadBalancerCli&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.class&#10;Ribbo&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-netflix-ribbon/2.1.0.RC3/spring-cloud-netflix-ribbon-2.1.0.RC3.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.class&#10;LoadBalancerClient&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.class&#10;RibbonClientConfiguration&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.ribbon.RibbonClientConfiguration&#10;LoadBalancer&#9;PSI&#9;JAVA://org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration&#10;EndpointUtils&#9;FILE&#9;jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.8/eureka-client-1.9.8.jar!/com/netflix/discovery/endpoint/EndpointUtils.class&#10;EurekaDiscoveryClient&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.eureka.EurekaDiscoveryClient&#10;NativeEnvironmentRepository&#9;PSI&#9;JAVA://org.springframework.cloud.config.server.environment.NativeEnvironmentRepository&#10;helloFeginClient&#9;FILE&#9;file://D:/myworkspace/liuyq-springBoot/liuyq-springBoot-feign/liuyq-springBoot-feign-interface/src/main/java/com/liuyq/boot/feign/HelloFeginClient.java&#10;my&#9;FILE&#9;file://D:/myworkspace/liuyq-springBoot/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/MyRun.java&#10;Ann&#9;FILE&#9;jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/web/servlet/context/AnnotationConfigServletWebServerApplicationContext.class&#10;AnnotationConfigServletWebServerApplicationContext&#9;FILE&#9;jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/web/servlet/context/AnnotationConfigServletWebServerApplicationContext.class&#10;ObjectMapper&#9;PSI&#9;JAVA://com.fasterxml.jackson.databind.ObjectMapper&#10;AnnotationConfigApplicationContext&#9;PSI&#9;JAVA://org.springframework.context.annotation.AnnotationConfigApplicationContext&#10;RedisAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration&#10;AutoConfigurationPackage&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.AutoConfigurationPackages&#10;SpringFactoriesLoader&#9;FILE&#9;jar://C:/tool/libs/org/springframework/spring-core/4.3.12.RELEASE/spring-core-4.3.12.RELEASE.jar!/org/springframework/core/io/support/SpringFactoriesLoader.class&#10;CommandLineRunner&#9;PSI&#9;JAVA://org.springframework.boot.CommandLineRunner&#10;ApplicationRunner&#9;PSI&#9;JAVA://org.springframework.boot.ApplicationRunner&#10;SPringboot&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.security.AuthenticationManagerConfiguration.SpringBootAuthenticationConfigurerAdapter&#10;Xml&#9;FILE&#9;jar://C:/tool/libs/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/xml/XmlBeanFactory.class&#10;FileSystemXm&#9;PSI&#9;JAVA://org.springframework.context.support.FileSystemXmlApplicationContext&#10;An&#9;FILE&#9;jar://C:/tool/libs/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class" />
+    <property name="SearchEverywhereHistoryKey" value="BeanFactory&#9;PSI&#9;JAVA://org.springframework.beans.factory.BeanFactory&#10;ILoadBalancer&#9;PSI&#9;JAVA://com.netflix.loadbalancer.ILoadBalancer&#10;LoadBalancerClient&#9;PSI&#9;JAVA://org.springframework.cloud.client.loadbalancer.LoadBalancerClient&#10;RibbonLoadBalancerClient&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient&#10;JsonXStream&#9;PSI&#9;JAVA://com.netflix.discovery.converters.JsonXStream&#10;DataCenterInfo&#9;PSI&#9;JAVA://com.netflix.appinfo.DataCenterInfo&#10;HystrixCommandAspect&#9;FILE&#9;jar://C:/tool/libs/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar!/com/netflix/hystrix/contrib/javanica/aop/aspectj/HystrixCommandAspect.class&#10;HystrixMetricsStreamServlet&#9;PSI&#9;JAVA://com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsStreamServlet&#10;Hystrix&#9;PSI&#9;JAVA://com.liuyq.springBoot.feign.two.hystrix.BootServiceClientHystrix&#10;EurekaDiscoveryClient&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.eureka.EurekaDiscoveryClient&#10;proxFactoryB&#9;PSI&#9;JAVA://org.springframework.aop.framework.ProxyFactoryBean&#10;MyApplicationContextInitializer&#9;PSI&#9;JAVA://com.liuyq.springboot.autoconfig.initializer.MyApplicationContextInitializer&#10;ServiceA&#9;FILE&#9;file://D:/myworkspace/liuyq-springBoot/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/src/main/java/com/liuyq/boot/serviceA/domain/ServiceADomain.java&#10;ServiceBDomain&#9;FILE&#9;file://D:/myworkspace/liuyq-springBoot/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/domain/ServiceBNativeDomain.java&#10;serviceBDomain&#9;FILE&#9;file://D:/myworkspace/liuyq-springBoot/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/domain/ServiceBNativeDomain.java&#10;FeignClientsConfiguration&#9;PSI&#9;JAVA://org.springframework.cloud.openfeign.FeignClientsConfiguration&#10;TxException&#9;FILE&#9;file://E:/workspace/liuyq-springBoot/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/model/TxException.java&#10;ConfigServicePropertySourceLocator&#9;PSI&#9;JAVA://org.springframework.cloud.config.client.ConfigServicePropertySourceLocator&#10;pClientConfigurableHttpConnectionFactory&#9;PSI&#9;JAVA://org.springframework.cloud.config.server.environment.HttpClientConfigurableHttpConnectionFactory&#10;dis&#9;FILE&#9;jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.8/eureka-client-1.9.8.jar!/com/netflix/discovery/DiscoveryClient.class&#10;FutureT&#9;PSI&#9;JAVA://java.util.concurrent.FutureTask&#10;DiscoveryClient&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.class&#10;EndpointUt&#9;PSI&#9;JAVA://com.netflix.discovery.endpoint.EndpointUtils&#10;diScoveryC&#9;PSI&#9;JAVA://org.springframework.cloud.client.discovery.DiscoveryClient&#10;RetryableEurekaHttpClient&#9;PSI&#9;JAVA://com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient&#10;rul&#9;FILE&#9;jar://C:/tool/libs/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/ZoneAvoidanceRule.class&#10;Se&#9;PSI&#9;JAVA://com.liuyq.springBoot.feign.two.service.BootServiceClient&#10;ribbon&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-netflix-ribbon/2.1.0.RC3/spring-cloud-netflix-ribbon-2.1.0.RC3.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.class&#10;zoneAw&#9;FILE&#9;jar://C:/tool/libs/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/ZoneAwareLoadBalancer.class&#10;Dyna&#9;FILE&#9;jar://C:/tool/libs/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/DynamicServerListLoadBalancer.class&#10;EurekaRi&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.ribbon.eureka.EurekaRibbonClientConfiguration&#10;LoadBal&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.class&#10;ri\&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.class&#10;LOadB&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.class&#10;ServiceReq&#9;PSI&#9;JAVA://org.springframework.cloud.client.loadbalancer.ServiceRequestWrapper&#10;Lo&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.class&#10;LoadBalancerAuto&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerAutoConfiguration.class&#10;LoadBalancerCli&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.class&#10;Ribbo&#9;FILE&#9;jar://C:/tool/libs/org/springframework/cloud/spring-cloud-netflix-ribbon/2.1.0.RC3/spring-cloud-netflix-ribbon-2.1.0.RC3.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.class&#10;RibbonClientConfiguration&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.ribbon.RibbonClientConfiguration&#10;LoadBalancer&#9;PSI&#9;JAVA://org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration&#10;EndpointUtils&#9;FILE&#9;jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.8/eureka-client-1.9.8.jar!/com/netflix/discovery/endpoint/EndpointUtils.class&#10;NativeEnvironmentRepository&#9;PSI&#9;JAVA://org.springframework.cloud.config.server.environment.NativeEnvironmentRepository&#10;helloFeginClient&#9;FILE&#9;file://D:/myworkspace/liuyq-springBoot/liuyq-springBoot-feign/liuyq-springBoot-feign-interface/src/main/java/com/liuyq/boot/feign/HelloFeginClient.java&#10;my&#9;FILE&#9;file://D:/myworkspace/liuyq-springBoot/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/MyRun.java&#10;Ann&#9;FILE&#9;jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/web/servlet/context/AnnotationConfigServletWebServerApplicationContext.class&#10;AnnotationConfigServletWebServerApplicationContext&#9;FILE&#9;jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/web/servlet/context/AnnotationConfigServletWebServerApplicationContext.class&#10;ObjectMapper&#9;PSI&#9;JAVA://com.fasterxml.jackson.databind.ObjectMapper&#10;AnnotationConfigApplicationContext&#9;PSI&#9;JAVA://org.springframework.context.annotation.AnnotationConfigApplicationContext&#10;RedisAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
@@ -475,12 +515,8 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\myworkspace\liuyq-springBoot\liuyq-springBoot-feign-consumer\src\main\resources" />
-      <recent name="E:\workspace\liuyq-springBoot\liuyq-springBoot-serviceB\liuyq-springBoot-serviceB-facade\src\main\java" />
-      <recent name="E:\workspace\liuyq-springBoot\liuyq-springBoot-serviceB\liuyq-springBoot-serviceB-facade\src\main\resources" />
-      <recent name="E:\workspace\liuyq-springBoot\liuyq-springBoot-serviceB\liuyq-springBoot-serviceB-facade" />
-      <recent name="E:\workspace\liuyq-springBoot\liuyq-springBoot-serviceA\liuyq-springBoot-serviceA-facade\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\liuyq-springBoot\liuyq-springBoot-config-service\config-repo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.liuyq.base.utils" />
@@ -489,8 +525,12 @@
       <recent name="com.liuyq.boot.feign.consumer.controller" />
       <recent name="com.liuyq.boot.feign.consumer" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\workspace\liuyq-springBoot\liuyq-springBoot-config-service\config-repo" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myworkspace\liuyq-springBoot" />
+      <recent name="D:\myworkspace\liuyq-springBoot\liuyq-springBoot-feign-consumer\src\main\resources" />
+      <recent name="E:\workspace\liuyq-springBoot\liuyq-springBoot-serviceB\liuyq-springBoot-serviceB-facade\src\main\java" />
+      <recent name="E:\workspace\liuyq-springBoot\liuyq-springBoot-serviceB\liuyq-springBoot-serviceB-facade\src\main\resources" />
+      <recent name="E:\workspace\liuyq-springBoot\liuyq-springBoot-serviceB\liuyq-springBoot-serviceB-facade" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -993,11 +1033,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.ProviderApplication (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.ServiceBApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.MyRun" />
-        <item index="3" class="java.lang.String" itemvalue="Spring Boot.ConfigApplication" />
-        <item index="4" class="java.lang.String" itemvalue="Spring Boot.FeignServiceApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.MyRun" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.FeignServiceApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.ConfigApplication" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.ProviderApplication (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.ServiceBApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -1035,7 +1075,15 @@
       <workItem from="1560043931420" duration="7765000" />
       <workItem from="1560128295291" duration="11579000" />
       <workItem from="1560215152306" duration="4287000" />
-      <workItem from="1560388144248" duration="18354000" />
+      <workItem from="1560388144248" duration="18941000" />
+      <workItem from="1560479063740" duration="3705000" />
+      <workItem from="1560559591798" duration="664000" />
+      <workItem from="1560822064492" duration="724000" />
+      <workItem from="1560826597326" duration="3403000" />
+      <workItem from="1560910726139" duration="155000" />
+      <workItem from="1561106352712" duration="185000" />
+      <workItem from="1561279393255" duration="4082000" />
+      <workItem from="1561339099757" duration="11407000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1519787679687</created>
@@ -1289,11 +1337,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560410180167</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="本地存储demo">
+      <created>1560418181171</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1560418181171</updated>
+    </task>
+    <task id="LOCAL-00038" summary="本地存储demo">
+      <created>1560418529320</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1560418529320</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294662000" />
+    <option name="totallyTimeSpent" value="319574000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1305,7 +1367,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-182" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1320,7 +1382,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.68634063" sideWeight="0.48789713" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3777403" sideWeight="0.48789713" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1328,14 +1390,13 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61551434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61546963" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30170575" sideWeight="0.49449036" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30484116" sideWeight="0.49449036" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24093817" sideWeight="0.5055096" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32707182" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1344,6 +1405,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32707182" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1363,7 +1425,8 @@
     <MESSAGE value="分布式事务实验" />
     <MESSAGE value="fegin服务间调用404问题" />
     <MESSAGE value="分布式事务，是通过本地事务 和  分布式事务两个切面，然后通过BeanNameAutoProxyCreator自动代理来实现的" />
-    <option name="LAST_COMMIT_MESSAGE" value="分布式事务，是通过本地事务 和  分布式事务两个切面，然后通过BeanNameAutoProxyCreator自动代理来实现的" />
+    <MESSAGE value="本地存储demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="本地存储demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1404,11 +1467,17 @@
           <properties />
           <option name="timeStamp" value="138" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/SpringApplication.class</url>
+          <line>166</line>
+          <properties />
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="191" />
+      <option name="time" value="197" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1417,227 +1486,137 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/resources/META-INF/spring.factories">
+    <entry file="jar://C:/tool/libs/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.0.RELEASE/spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaDiscoveryClient.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="36" lean-forward="true" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="330">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/condition/ConditionEvaluationReportAutoConfigurationImportListener.class">
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-feign-two/src/main/java/com/liuyq/springBoot/feign/two/hystrix/BootServiceClientHystrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="264">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/context/ApplicationContextInitializer.class">
+    <entry file="file://$PROJECT_DIR$/hystrix-javanica-1.5.12.jar/com/netflix/hystrix/contrib/javanica/aop/aspectj/WeavingMode.class" />
+    <entry file="jar://C:/tool/libs/com/netflix/hystrix/hystrix-metrics-event-stream/1.5.12/hystrix-metrics-event-stream-1.5.12.jar!/com/netflix/hystrix/contrib/metrics/eventstream/HystrixMetricsStreamServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="330">
+          <caret line="29" column="73" lean-forward="true" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/SharedMetadataReaderFactoryContextInitializer.class">
+    <entry file="jar://C:/tool/libs/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar!/com/netflix/hystrix/contrib/javanica/aop/aspectj/HystrixCommandAspect.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="28" column="74" lean-forward="false" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
-          <folding />
+        <state relative-caret-position="286">
+          <caret line="55" column="85" lean-forward="true" selection-start-line="55" selection-start-column="85" selection-end-line="55" selection-end-column="85" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class">
+    <entry file="jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.2/eureka-client-1.9.2.jar!/com/netflix/appinfo/DataCenterInfo.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="330">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/data/spring-data-redis/2.1.6.RELEASE/spring-data-redis-2.1.6.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+    <entry file="jar://C:/tool/libs/com/netflix/eureka/eureka-client/1.9.2/eureka-client-1.9.2.jar!/com/netflix/discovery/converters/JsonXStream.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="82" column="19" lean-forward="false" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="330">
+          <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.class">
+    <entry file="jar://C:/tool/libs/com/thoughtworks/xstream/xstream/1.4.10/xstream-1.4.10.jar!/com/thoughtworks/xstream/XStream.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="19008">
+          <caret line="1037" column="36" lean-forward="false" selection-start-line="1037" selection-start-column="36" selection-end-line="1037" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/META-INF/spring.factories">
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-eureka/src/main/java/com/liuyq/boot/eureka/EurekaServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="54" column="57" lean-forward="false" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-api/src/main/java/com/liuyq/boot/serviceB/Domain/ServiceBDomain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="101" lean-forward="false" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/domain/ServiceBNativeDomain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="32" column="24" lean-forward="false" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/exception/BussinessException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/controller/ControllerADemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/src/main/java/com/liuyq/boot/serviceA/domain/ServiceADomain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="308">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
+            <element signature="e#700#701#0" expanded="false" />
+            <element signature="e#775#776#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/domain/ServiceANativeDomain.java">
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-consumer/src/main/java/com/liuyq/boot/consumer/controller/ConsumerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="550">
+          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/pom.xml">
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-consumer/src/main/java/com/liuyq/boot/consumer/service/ConsumerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="31" column="49" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/src/main/java/com/liuyq/boot/feign/FeignServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#845#846#0" expanded="false" />
+            <element signature="e#913#914#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-consumer/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567">
-          <caret line="55" column="41" lean-forward="false" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="41" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-consumer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="81" column="40" lean-forward="false" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="202" column="25" lean-forward="false" selection-start-line="202" selection-start-column="25" selection-end-line="202" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="264">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="154">
+          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-tx/5.1.6.RELEASE/spring-tx-5.1.6.RELEASE.jar!/org/springframework/transaction/annotation/TransactionManagementConfigurationSelector.class">
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-tx/5.1.6.RELEASE/spring-tx-5.1.6.RELEASE.jar!/org/springframework/transaction/annotation/EnableTransactionManagement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/BeanFactoryAware.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/BeanClassLoaderAware.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar!/org/springframework/aop/framework/ProxyConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar!/org/springframework/aop/framework/AopInfrastructureBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar!/org/springframework/aop/framework/ProxyProcessorSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="20" column="97" lean-forward="true" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
+        <state relative-caret-position="220">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1648,354 +1627,299 @@
           <ID>JAVA</ID>
           <OriginalElement>org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator</OriginalElement>
           <nodes>
-            <node x="310.0" y="80.0">org.springframework.core.Ordered</node>
-            <node x="737.0" y="160.0">org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor</node>
-            <node x="425.63392857142856" y="0.0">org.springframework.beans.factory.Aware</node>
-            <node x="2.0" y="0.0">java.io.Serializable</node>
-            <node x="754.0" y="80.0">org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor</node>
-            <node x="573.0" y="240.0">org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator</node>
-            <node x="807.5" y="0.0">org.springframework.beans.factory.config.BeanPostProcessor</node>
-            <node x="0.0" y="80.0">org.springframework.aop.framework.ProxyConfig</node>
-            <node x="595.0" y="80.0">org.springframework.beans.factory.BeanFactoryAware</node>
-            <node x="194.0" y="160.0">org.springframework.aop.framework.ProxyProcessorSupport</node>
-            <node x="412.0" y="80.0">org.springframework.aop.framework.AopInfrastructureBean</node>
-            <node x="122.0" y="80.0">org.springframework.beans.factory.BeanClassLoaderAware</node>
-            <node x="565.0" y="320.0">org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator</node>
+            <node x="" y="">org.springframework.core.Ordered</node>
+            <node x="" y="">org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor</node>
+            <node x="" y="">org.springframework.beans.factory.Aware</node>
+            <node x="" y="">org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator</node>
+            <node x="" y="">java.io.Serializable</node>
+            <node x="" y="">org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor</node>
+            <node x="" y="">org.springframework.beans.factory.config.BeanPostProcessor</node>
+            <node x="" y="">org.springframework.aop.framework.ProxyConfig</node>
+            <node x="" y="">org.springframework.beans.factory.BeanFactoryAware</node>
+            <node x="" y="">org.springframework.aop.framework.ProxyProcessorSupport</node>
+            <node x="" y="">org.springframework.aop.framework.AopInfrastructureBean</node>
+            <node x="" y="">org.springframework.beans.factory.BeanClassLoaderAware</node>
+            <node x="" y="">org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="org.springframework.aop.framework.ProxyProcessorSupport" target="org.springframework.core.Ordered">
-              <point x="21.125" y="-15.0" />
-              <point x="299.625" y="130.0" />
-              <point x="351.0" y="130.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator" target="org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor">
-              <point x="61.0" y="-15.0" />
-              <point x="725.5" y="215.0" />
-              <point x="879.5" y="215.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator" target="org.springframework.aop.framework.ProxyProcessorSupport">
-              <point x="-61.0" y="-15.0" />
-              <point x="603.5" y="215.0" />
-              <point x="278.5" y="215.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.aop.framework.ProxyProcessorSupport" target="org.springframework.beans.factory.BeanClassLoaderAware">
-              <point x="-21.125" y="-15.0" />
-              <point x="257.375" y="130.0" />
-              <point x="206.0" y="130.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.aop.framework.ProxyProcessorSupport" target="org.springframework.aop.framework.AopInfrastructureBean">
-              <point x="63.375" y="-15.0" />
-              <point x="341.875" y="140.0" />
-              <point x="493.5" y="140.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.aop.framework.ProxyConfig" target="java.io.Serializable">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.aop.framework.ProxyProcessorSupport" target="org.springframework.aop.framework.ProxyConfig">
-              <point x="-63.375" y="-15.0" />
-              <point x="215.125" y="140.0" />
-              <point x="51.0" y="140.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.beans.factory.BeanClassLoaderAware" target="org.springframework.beans.factory.Aware">
-              <point x="0.0" y="-15.0" />
-              <point x="206.0" y="55.0" />
-              <point x="442.63392857142856" y="55.0" />
-              <point x="-17.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator" target="org.springframework.beans.factory.BeanFactoryAware">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor" target="org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor" target="org.springframework.beans.factory.config.BeanPostProcessor">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator" target="org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.beans.factory.BeanFactoryAware" target="org.springframework.beans.factory.Aware">
-              <point x="0.0" y="-15.0" />
-              <point x="664.5" y="55.0" />
-              <point x="476.63392857142856" y="55.0" />
-              <point x="17.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.8320537428023033" x="5.023068050749657" y="123.921568627451" />
-          <SelectedNodes>
-            <node>org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator</node>
-          </SelectedNodes>
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9606525911708254" x="511.0" y="160.0" />
+          <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/tool/libs/com/alibaba/druid/1.1.13/druid-1.1.13.jar!/com/alibaba/druid/support/ibatis/SpringIbatisBeanNameAutoProxyCreator.class">
+    <entry file="jar://C:/tool/libs/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar!/org/springframework/aop/framework/ProxyProcessorSupport.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar!/org/aopalliance/aop/Advice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar!/org/aopalliance/intercept/Interceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.codingapi.txlcn.tc.aspect.interceptor.TxLcnInterceptor">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.codingapi.txlcn.tc.aspect.interceptor.TxLcnInterceptor</OriginalElement>
-          <nodes>
-            <node x="0.0" y="80.0">java.lang.FunctionalInterface</node>
-            <node x="68.5" y="160.0">org.aopalliance.intercept.MethodInterceptor</node>
-            <node x="161.0" y="80.0">org.aopalliance.intercept.Interceptor</node>
-            <node x="75.5" y="240.0">com.codingapi.txlcn.tc.aspect.interceptor.TxLcnInterceptor</node>
-            <node x="174.5" y="0.0">org.aopalliance.aop.Advice</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.codingapi.txlcn.tc.aspect.interceptor.TxLcnInterceptor" target="org.aopalliance.intercept.MethodInterceptor">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.aopalliance.intercept.Interceptor" target="org.aopalliance.aop.Advice">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.aopalliance.intercept.MethodInterceptor" target="org.aopalliance.intercept.Interceptor">
-              <point x="35.75" y="-15.0" />
-              <point x="175.75" y="135.0" />
-              <point x="209.5" y="135.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.aopalliance.intercept.MethodInterceptor" target="java.lang.FunctionalInterface">
-              <point x="-35.75" y="-15.0" />
-              <point x="104.25" y="135.0" />
-              <point x="70.5" y="135.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-246.5" y="-49.5" />
-          <SelectedNodes>
-            <node>org.aopalliance.intercept.MethodInterceptor</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar!/org/springframework/aop/framework/ProxyFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="112" column="26" lean-forward="false" selection-start-line="112" selection-start-column="26" selection-end-line="112" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-tx/5.1.6.RELEASE/spring-tx-5.1.6.RELEASE.jar!/org/springframework/transaction/PlatformTransactionManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar!/org/springframework/aop/framework/ProxyCreatorSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="50" column="42" lean-forward="false" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/config/BeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/util/PatternMatchUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/config/SmartInstantiationAwareBeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="88" lean-forward="false" selection-start-line="12" selection-start-column="88" selection-end-line="12" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar!/org/springframework/aop/framework/ProxyFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="e#1214#1215#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/tool/libs/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        <state relative-caret-position="858">
+          <caret line="77" column="35" lean-forward="false" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/tool/libs/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar!/org/springframework/aop/framework/autoproxy/BeanNameAutoProxyCreator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar!/org/aopalliance/intercept/MethodInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/com/codingapi/txlcn/txlcn-tc/5.0.2.RELEASE/txlcn-tc-5.0.2.RELEASE.jar!/com/codingapi/txlcn/tc/aspect/interceptor/TxLcnInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-tx/5.1.6.RELEASE/spring-tx-5.1.6.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="38" column="69" lean-forward="true" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/tool/libs/org/springframework/spring-tx/5.1.6.RELEASE/spring-tx-5.1.6.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="164" column="31" lean-forward="false" selection-start-line="164" selection-start-column="31" selection-end-line="164" selection-end-column="31" />
-          <folding>
-            <element signature="e#5711#5712#0" expanded="true" />
-            <element signature="e#5749#5750#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="309">
+          <caret line="90" column="1" lean-forward="true" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/utils/AopTypeDTXConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="704">
+          <caret line="44" column="23" lean-forward="false" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/http/HttpConst.java">
+    <entry file="jar://C:/tool/libs/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="411">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/tool/libs/org/springframework/boot/spring-boot-dependencies/2.1.4.RELEASE/spring-boot-dependencies-2.1.4.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="497" column="32" lean-forward="false" selection-start-line="497" selection-start-column="32" selection-end-line="497" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/cache/CasheUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="34" column="10" lean-forward="false" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/cache/Cashe.java">
+    <entry file="jar://C:/tool/libs/org/springframework/cloud/spring-cloud-netflix-ribbon/2.0.0.RELEASE/spring-cloud-netflix-ribbon-2.0.0.RELEASE.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <caret line="27" column="57" lean-forward="false" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/src/main/java/com/liuyq/base/cache/LoaclCashe.java">
+    <entry file="jar://C:/tool/libs/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5.jar!/com/netflix/loadbalancer/AbstractLoadBalancer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.0.0.RELEASE/spring-cloud-commons-2.0.0.RELEASE.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/tool/libs/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5.jar!/com/netflix/loadbalancer/ILoadBalancer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/tool/libs/com/netflix/ribbon/ribbon-httpclient/2.2.5/ribbon-httpclient-2.2.5.jar!/com/netflix/client/http/CaseInsensitiveMultiMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/tool/libs/com/netflix/ribbon/ribbon-eureka/2.2.5/ribbon-eureka-2.2.5.jar!/com/netflix/niws/loadbalancer/DefaultNIWSServerListFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/tool/libs/org/springframework/cloud/spring-cloud-commons/2.0.0.RELEASE/spring-cloud-commons-2.0.0.RELEASE.jar!/org/springframework/cloud/client/loadbalancer/LoadBalanced.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/tool/libs/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="81" column="27" lean-forward="false" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-consumer/src/main/java/com/liuyq/boot/consumer/ConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/java/com/liuyq/boot/config/service/ConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-interface/src/main/java/com/liuyq/boot/feign/HelloFeginClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/src/main/java/com/liuyq/boot/feign/configuration/SpringBeanUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="class#ExpireCache#0;class#LoaclCashe#0" expanded="false" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1128#1129#0" expanded="true" />
-            <element signature="e#1170#1171#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#1281#1282#0" expanded="true" />
-            <element signature="e#1337#1338#0" expanded="true" />
-            <element signature="e#1391#1392#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/tool/libs/org/springframework/cloud/spring-cloud-dependencies/Finchley.RELEASE/spring-cloud-dependencies-Finchley.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-service/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="45" column="26" lean-forward="false" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/tool/libs/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="110" column="24" lean-forward="false" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/context/properties/ConfigurationProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/HelloProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/initializer/MyApplicationContextInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="50" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/resources/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/DefaultApplicationArguments.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#881#882#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/tool/libs/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="313" column="0" lean-forward="true" selection-start-line="313" selection-start-column="0" selection-end-line="313" selection-end-column="0" />
+          <folding>
+            <element signature="e#5894#5895#0" expanded="true" />
+            <element signature="e#5952#5953#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/MyRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/HelloAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,11 +1,9 @@
 package com.liuyq.springboot.autoconfig;
 
-import org.springframework.stereotype.Component;
-
 /**
  * Created by liuyq on 2019/5/10.
  */
-@Component
+//@Component
 public class HelloService {
     private String msg = "serviceA";//如果自动配置没有读入成功，那么为默认值
 
