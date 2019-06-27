@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * Created by liuyq on 2019/5/10.
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.liuyq.springboot.autoconfig")
 @RestController
 public class MyRun {
     @Autowired

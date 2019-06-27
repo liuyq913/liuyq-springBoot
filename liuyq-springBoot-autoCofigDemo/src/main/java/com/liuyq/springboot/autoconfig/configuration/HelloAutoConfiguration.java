@@ -1,5 +1,7 @@
-package com.liuyq.springboot.autoconfig;
+package com.liuyq.springboot.autoconfig.configuration;
 
+import com.liuyq.springboot.autoconfig.HelloProperties;
+import com.liuyq.springboot.autoconfig.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
