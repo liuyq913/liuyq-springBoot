@@ -1,10 +1,10 @@
 package com.liuyq.boot.serviceB.domain;
 
-import com.liuyq.base.exception.BussinessException;
-import com.liuyq.base.utils.BeanUtil;
 import com.liuyq.boot.serviceB.bo.DemoBo;
 import com.liuyq.boot.serviceB.mapper.DemoMapper;
 import com.liuyq.boot.serviceB.model.Demo;
+import com.liuyq.utils.exception.BussinessException;
+import com.liuyq.utils.utils.BeanUtil;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,7 +22,7 @@ public class ServiceBNativeDomain{
 
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
-    public Integer save(@RequestBody DemoBo demoBo) throws BussinessException{
+    public Integer save(@RequestBody DemoBo demoBo) throws BussinessException {
 
         demoMapper.insertSelective(BeanUtil.convert(demoBo, Demo.class));
         throw new BussinessException("给你一个异常");

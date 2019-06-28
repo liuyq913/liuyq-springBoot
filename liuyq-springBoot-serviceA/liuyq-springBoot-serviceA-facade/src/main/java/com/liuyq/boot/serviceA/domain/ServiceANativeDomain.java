@@ -1,12 +1,13 @@
 package com.liuyq.boot.serviceA.domain;
 
-import com.liuyq.base.exception.BussinessException;
-import com.liuyq.base.utils.BeanUtil;
+
 import com.liuyq.boot.serviceA.bo.TxExceptionBo;
 import com.liuyq.boot.serviceA.mapper.TxExceptionMapper;
 import com.liuyq.boot.serviceA.model.TxException;
 import com.liuyq.boot.serviceB.Domain.ServiceBDomain;
 import com.liuyq.boot.serviceB.bo.DemoBo;
+import com.liuyq.utils.exception.BussinessException;
+import com.liuyq.utils.utils.BeanUtil;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -21,14 +22,13 @@ import java.util.Date;
  */
 @Transactional(rollbackFor = Exception.class)
 @Component
-public class ServiceANativeDomain implements ServiceADomain{
+public class ServiceANativeDomain{
     @Resource
     private TxExceptionMapper demoMapper;
     @Resource
     private ServiceBDomain serviceBDomain;
 
     //@RequestMapping(value = "/save")
-    @Override
     @ResponseBody
     public Integer save(@RequestBody TxExceptionBo exceptionBo) throws BussinessException {
         Integer num = demoMapper.insertSelective(BeanUtil.convert(exceptionBo, TxException.class));

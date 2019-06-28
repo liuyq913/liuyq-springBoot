@@ -31,8 +31,8 @@
         </dependency>
         <dependency>
             <groupId>com.liuyq</groupId>
-            <artifactId>liuyq-springBoot-base</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <artifactId>liuyq-springBoot-utils</artifactId>
+            <version>${com.springBoot.utils.verison}</version>
         </dependency>
     </dependencies>
 

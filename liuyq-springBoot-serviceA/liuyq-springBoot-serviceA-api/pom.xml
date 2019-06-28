@@ -27,11 +27,12 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.liuyq</groupId>
-            <artifactId>liuyq-springBoot-base</artifactId>
-            <version>${com.springBoot.base.verison}</version>
+            <artifactId>liuyq-springBoot-utils</artifactId>
+            <version>${com.springBoot.utils.verison}</version>
         </dependency>
     </dependencies>
 

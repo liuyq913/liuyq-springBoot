@@ -1,6 +1,6 @@
 package com.liuyq.boot.serviceA.controller;
 
-import com.liuyq.base.exception.BussinessException;
+import com.liuyq.lcn.exception.BussinessException;
 import com.liuyq.boot.serviceA.bo.TxExceptionBo;
 import com.liuyq.boot.serviceA.domain.ServiceANativeDomain;
 import com.liuyq.boot.serviceB.Domain.ServiceBDomain;

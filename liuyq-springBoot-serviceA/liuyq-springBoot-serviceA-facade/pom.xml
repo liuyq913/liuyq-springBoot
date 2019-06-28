@@ -27,8 +27,14 @@
 
         <dependency>
             <groupId>com.liuyq</groupId>
-            <artifactId>liuyq-springBoot-base</artifactId>
-            <version>${com.springBoot.base.verison}</version>
+            <artifactId>liuyq-springBoot-utils</artifactId>
+            <version>${com.springBoot.utils.verison}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.liuyq</groupId>
+            <artifactId>liuyq-springBoot-lcn</artifactId>
+            <version>${com.springBoot.lcn.verison}</version>
         </dependency>
 
         <!--Spring Boot Actuator，感应服务端变化-->

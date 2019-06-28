@@ -25,10 +25,10 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.liuyq</groupId>
-            <artifactId>liuyq-springBoot-base</artifactId>
-            <version>${com.springBoot.base.verison}</version>
+       <dependency>
+           <groupId>com.liuyq</groupId>
+           <artifactId>liuyq-springBoot-utils</artifactId>
+           <version>${com.springBoot.utils.verison}</version>
         </dependency>
 
 

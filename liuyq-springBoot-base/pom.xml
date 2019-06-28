@@ -11,57 +11,9 @@
 
     <groupId>com.liuyq</groupId>
     <artifactId>liuyq-springBoot-base</artifactId>
-    <packaging>jar</packaging>
-
-    <properties>
-        <tx-lcn-tc.version>5.0.2.RELEASE</tx-lcn-tc.version>
-    </properties>
-
-    <dependencies>
-        <!-- springboot分页插件 -->
-        <dependency>
-            <groupId>com.github.pagehelper</groupId>
-            <artifactId>pagehelper-spring-boot-starter</artifactId>
-            <version>1.2.4</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>3.4</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-        </dependency>
-
-       <!-- <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-annotations</artifactId>
-        </dependency>-->
-
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpclient</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.codingapi.txlcn</groupId>
-            <artifactId>txlcn-tm</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.codingapi.txlcn</groupId>
-            <artifactId>txlcn-tc</artifactId>
-        </dependency>
-    </dependencies>
-
-
-
-
-
+    <packaging>pom</packaging>
+    <modules>
+        <module>liuyq-springBoot-lcn</module>
+        <module>liuyq-springBoot-utils</module>
+    </modules>
 </project>

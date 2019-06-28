@@ -1,7 +1,8 @@
 package com.liuyq.boot.serviceB.Domain;
 
-import com.liuyq.base.exception.BussinessException;
+
 import com.liuyq.boot.serviceB.bo.DemoBo;
+import com.liuyq.utils.exception.BussinessException;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

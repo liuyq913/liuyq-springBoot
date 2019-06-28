@@ -33,7 +33,8 @@
         <databind.version>2.9.8</databind.version>
         <eureka.version>1.4.6.RELEASE</eureka.version>
         <cloud-dependencies.version>Greenwich.RC2</cloud-dependencies.version>
-        <com.springBoot.base.verison>1.0-SNAPSHOT</com.springBoot.base.verison>
+        <com.springBoot.utils.verison>1.0-SNAPSHOT</com.springBoot.utils.verison>
+        <com.springBoot.lcn.verison>1.0-SNAPSHOT</com.springBoot.lcn.verison>
         <ribbon.version>1.4.6.RELEASE</ribbon.version>
         <fegin.intefaces.version>1.0-SNAPSHOT</fegin.intefaces.version>
         <hystrix.version>1.4.6.RELEASE</hystrix.version>
@@ -41,7 +42,7 @@
         <config.service.version>2.1.2.RELEASE</config.service.version>
         <zuul.version>1.4.6.RELEASE</zuul.version>
         <feign.version>1.4.6.RELEASE</feign.version>
-        <lombok.version>1.18.0</lombok.version>
+        <lombok.version>1.16.18</lombok.version>
         <maven_source_plugin_version>2.1.1</maven_source_plugin_version>
         <maven_jar_plugin_version>2.3.2</maven_jar_plugin_version>
         <maven_war_plugin_version>2.1.1</maven_war_plugin_version>

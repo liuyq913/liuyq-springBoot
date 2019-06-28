@@ -33,7 +33,8 @@ public class ConsumerController {
         return consumerService.addService();
     }
 
-  /*  @RequestMapping(value = "/add", method = RequestMethod.GET)
+/*
+    @RequestMapping(value = "/add", method = RequestMethod.GET)
     public Integer add(@RequestParam("a") Integer a, @RequestParam("b") Integer b) {
         return helloFeginClient.add(a, b);
     }*/
