@@ -12,6 +12,11 @@
     <artifactId>liuyq-springBoot-serviceA-facade</artifactId>
 
 
+    <properties>
+        <com.liuyq.redis.version>1.0-SNAPSHOT</com.liuyq.redis.version>
+        <com.liuyq.lcn.version>1.0-SNAPSHOT</com.liuyq.lcn.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -29,12 +34,6 @@
             <groupId>com.liuyq</groupId>
             <artifactId>liuyq-springBoot-utils</artifactId>
             <version>${com.springBoot.utils.verison}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.liuyq</groupId>
-            <artifactId>liuyq-springBoot-lcn</artifactId>
-            <version>${com.springBoot.lcn.verison}</version>
         </dependency>
 
         <!--Spring Boot Actuator，感应服务端变化-->
@@ -87,6 +86,40 @@
             <groupId>com.liuyq</groupId>
             <artifactId>liuyq-springBoot-serviceB-api</artifactId>
             <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.liuyq</groupId>
+            <artifactId>liuyq-psringBoot-redis</artifactId>
+            <version>${com.liuyq.redis.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>${redis.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+        </dependency>
+
+        <!--引入断路器-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
+            <version>${hystrix.version}</version>
+        </dependency>
+
+        <!--lcn-->
+        <dependency>
+            <groupId>com.codingapi.txlcn</groupId>
+            <artifactId>txlcn-tc</artifactId>
+            <version>5.0.2.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.codingapi.txlcn</groupId>
+            <artifactId>txlcn-txmsg-netty</artifactId>
+            <version>5.0.2.RELEASE</version>
         </dependency>
     </dependencies>
 

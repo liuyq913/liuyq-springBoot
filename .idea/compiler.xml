@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="liuyq-psringBoot-redis" />
         <module name="liuyq-springBoot-autoCofig" />
         <module name="liuyq-springBoot-config-cusumer" />
         <module name="liuyq-springBoot-config-service" />
@@ -25,6 +26,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="liuyq-psringBoot-redis" target="1.8" />
       <module name="liuyq-springBoot" target="1.8" />
       <module name="liuyq-springBoot-autoCofig" target="1.8" />
       <module name="liuyq-springBoot-base" target="1.8" />
@@ -38,6 +40,7 @@
       <module name="liuyq-springBoot-feign-service" target="1.8" />
       <module name="liuyq-springBoot-feign-two" target="1.8" />
       <module name="liuyq-springBoot-lcn" target="1.8" />
+      <module name="liuyq-springBoot-lcnTm" target="1.8" />
       <module name="liuyq-springBoot-service" target="1.8" />
       <module name="liuyq-springBoot-service-interface" target="1.8" />
       <module name="liuyq-springBoot-service-two" target="1.8" />
@@ -45,6 +48,7 @@
       <module name="liuyq-springBoot-serviceB" target="1.8" />
       <module name="liuyq-springBoot-serviceB-api" target="1.8" />
       <module name="liuyq-springBoot-serviceB-facade" target="1.8" />
+      <module name="liuyq-springBoot-txManger" target="1.8" />
       <module name="liuyq-springBoot-utils" target="1.8" />
       <module name="liuyq-springBoot-zuul-service" target="1.8" />
     </bytecodeTargetLevel>

@@ -58,6 +58,7 @@
         <ribbon.version>1.4.6.RELEASE</ribbon.version>
         <feign.version>1.4.6.RELEASE</feign.version>
         <lcn.version>5.0.2.RELEASE</lcn.version>
+        <redis.version>3.0.1</redis.version>
     </properties>
 
     <parent>
@@ -177,11 +178,11 @@
                 <version>${lcn.version}</version>
             </dependency>
 
-            <!--<dependency>   
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-tomcat</artifactId>    
-                <version>1.2.4.RELEASE</version>
-            </dependency>-->
+            <!--redis-->
+            <dependency>
+                <groupId>redis.clients</groupId>
+                <artifactId>jedis</artifactId>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

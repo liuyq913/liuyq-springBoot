@@ -1,5 +1,6 @@
 package com.liuyq.boot.serviceB.domain;
 
+import com.codingapi.txlcn.tc.annotation.LcnTransaction;
 import com.liuyq.boot.serviceB.bo.DemoBo;
 import com.liuyq.boot.serviceB.mapper.DemoMapper;
 import com.liuyq.boot.serviceB.model.Demo;
@@ -22,6 +23,8 @@ public class ServiceBNativeDomain{
 
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
+    @Transactional(rollbackFor = Exception.class) //开启本地事务（优先于类上的配置）
+    @LcnTransaction //分布式事务注解（5.0.2不需要指是 isStart）
     public Integer save(@RequestBody DemoBo demoBo) throws BussinessException {
 
         demoMapper.insertSelective(BeanUtil.convert(demoBo, Demo.class));

@@ -34,6 +34,13 @@
             <artifactId>liuyq-springBoot-utils</artifactId>
             <version>${com.springBoot.utils.verison}</version>
         </dependency>
+
+        <!--引入断路器-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
+            <version>${hystrix.version}</version>
+        </dependency>
     </dependencies>
 
 </project>

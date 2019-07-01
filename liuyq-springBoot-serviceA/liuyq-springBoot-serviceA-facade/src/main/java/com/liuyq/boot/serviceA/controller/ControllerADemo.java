@@ -1,10 +1,10 @@
 package com.liuyq.boot.serviceA.controller;
 
-import com.liuyq.lcn.exception.BussinessException;
 import com.liuyq.boot.serviceA.bo.TxExceptionBo;
 import com.liuyq.boot.serviceA.domain.ServiceANativeDomain;
 import com.liuyq.boot.serviceB.Domain.ServiceBDomain;
 import com.liuyq.boot.serviceB.bo.DemoBo;
+import com.liuyq.utils.exception.BussinessException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -38,22 +38,28 @@ public class ControllerADemo {
         txExceptionBo.setMod_id("123");
         try {
             serviceADomain.save(txExceptionBo);
-        }catch (Exception e){}
+        } catch (Exception e) {
+        }
     }
 
     @RequestMapping(value = "/testServiceB", method = RequestMethod.GET)
-    public void testServiceB(){
+    public void testServiceB() {
         DemoBo demoBo = new DemoBo();
         demoBo.setApp_name("liuyq");
         try {
             serviceBDomain.save(demoBo);
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
     @RequestMapping(value = "/testServiceBAdd", method = RequestMethod.GET)
-    public Integer testServiceAdd(@RequestParam("a")Integer a, @RequestParam("b")Integer b) throws BussinessException {
-        return serviceBDomain.add(a,b);
+    public Integer testServiceAdd(@RequestParam("a") Integer a, @RequestParam("b") Integer b) throws BussinessException {
+        return serviceBDomain.add(a, b);
+    }
+
+    @RequestMapping(value = "/testRedis", method = RequestMethod.GET)
+    public String testRedis(@RequestParam("key") String key, @RequestParam("value") String value) {
+        return serviceADomain.set(key, value);
     }
 }

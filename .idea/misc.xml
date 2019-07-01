@@ -12,7 +12,9 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/liuyq-springBoot-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-lcnTm/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-service/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-txManger/pom.xml" />
       </set>
     </option>
   </component>
