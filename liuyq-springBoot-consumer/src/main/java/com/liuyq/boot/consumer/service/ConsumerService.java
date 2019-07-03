@@ -1,6 +1,8 @@
 package com.liuyq.boot.consumer.service;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.cache.annotation.CacheResult;
+import com.netflix.hystrix.exception.HystrixBadRequestException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -17,15 +19,17 @@ public class ConsumerService {
     @Autowired
     RestTemplate restTemplate;
 
-    //Ribbon中是用hystrix
+    //Ribbon中是用hystrix   服务降级
     @HystrixCommand(fallbackMethod = "helloServiceFallback")
     public String helloService() {
-        return restTemplate.getForEntity("http://BOOT-SERVICE/hello", String.class).getBody();
+        return restTemplate.getForEntity("http://SERVICEA/insert", String.class).getBody();
     }
 
 
-    @HystrixCommand(fallbackMethod = "addServiceFallback")
-    public Integer addService() {
+    ////ignoreExceptions 忽略某种异常，让他不走降级服务
+    @HystrixCommand(fallbackMethod = "addServiceFallback", ignoreExceptions = {HystrixBadRequestException.class})
+    @CacheResult(cacheKeyMethod = "cacheKeyID") //设置结果缓存
+    public Integer addService(Integer o) {
         Map<String, Integer> map = new HashMap<>();
         map.put("a", 1);
         map.put("n", 3);
@@ -37,7 +41,12 @@ public class ConsumerService {
         return "error";
     }
 
-    public Integer addServiceFallback() {
+    public Integer addServiceFallback(Integer o, Throwable e) {
+        System.out.println(e.getMessage());  //异常获取
         return 0;
+    }
+
+    public Integer cacheKeyID(Integer o){
+        return o;
     }
 }

@@ -91,6 +91,13 @@
             <version>5.0.2.RELEASE</version>
         </dependency>
 
+        <!--引入断路器-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
+            <version>${hystrix.version}</version>
+        </dependency>
+
     </dependencies>
 
 

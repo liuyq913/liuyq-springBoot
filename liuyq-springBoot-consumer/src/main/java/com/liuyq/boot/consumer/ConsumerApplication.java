@@ -23,7 +23,7 @@ public class ConsumerApplication {
 
 
     @Bean
-    @LoadBalanced //开启客户端负载均衡
+    @LoadBalanced //开启客户端负载均衡  加了这个注解之后，RestTemplate就会增加一个loadBalancer拦截器
     RestTemplate restTemplate(){
         return new RestTemplate();
     }

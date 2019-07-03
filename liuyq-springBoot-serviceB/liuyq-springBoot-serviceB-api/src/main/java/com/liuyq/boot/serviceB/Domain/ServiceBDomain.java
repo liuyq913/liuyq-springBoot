@@ -2,6 +2,7 @@ package com.liuyq.boot.serviceB.Domain;
 
 
 import com.liuyq.boot.serviceB.bo.DemoBo;
+import com.liuyq.boot.serviceB.hystrixclient.ServiceBHystric;
 import com.liuyq.utils.exception.BussinessException;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -13,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author liuyq
  * @date 2019/6/11 0011 下午 21:51
  */
-@FeignClient(value = "serviceB")
+@FeignClient(value = "serviceB", fallback = ServiceBHystric.class)
 public interface ServiceBDomain {
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)

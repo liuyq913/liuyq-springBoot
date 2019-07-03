@@ -121,6 +121,14 @@
             <artifactId>txlcn-txmsg-netty</artifactId>
             <version>5.0.2.RELEASE</version>
         </dependency>
+
+        <!--reibbon
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-ribbon</artifactId>
+            <version>${ribbon.version}</version>
+        </dependency>
+        -->
     </dependencies>
 
 

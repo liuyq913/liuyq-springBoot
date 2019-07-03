@@ -9,6 +9,7 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
@@ -17,7 +18,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableAutoConfiguration
 @EnableFeignClients(basePackages = "com.liuyq")
 @MapperScan(basePackages = "com.liuyq.**.mapper")
-@EnableDistributedTransaction
+@EnableCircuitBreaker //断路器
+@EnableDistributedTransaction  //分布式事物tc
 public class ProviderApplication {
 
     public static void main(String[] agrs){

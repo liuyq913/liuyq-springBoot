@@ -1,4 +1,4 @@
-package com.liuyq.boot.serviceA.hystricclient;
+package com.liuyq.boot.serviceA.hystrixclient;
 
 import com.liuyq.boot.serviceA.bo.TxExceptionBo;
 import com.liuyq.boot.serviceA.domain.ServiceADomain;

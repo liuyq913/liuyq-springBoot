@@ -17,10 +17,10 @@ zuul:
   routes:
     api-a:
         path: /api-a/**
-        serviceId: boot-service
+        serviceId: serviceA
     api-b:
         path: /api-b/**
-        serviceId: cloud-feign-service
+        serviceId: serviceB
 
 
 eureka:

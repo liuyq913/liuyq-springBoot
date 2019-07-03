@@ -26,10 +26,14 @@ public class ServiceBNativeDomain{
     @Transactional(rollbackFor = Exception.class) //开启本地事务（优先于类上的配置）
     @LcnTransaction //分布式事务注解（5.0.2不需要指是 isStart）
     public Integer save(@RequestBody DemoBo demoBo) throws BussinessException {
-
+       /* try {
+            Thread.sleep(8000L);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }*/
         demoMapper.insertSelective(BeanUtil.convert(demoBo, Demo.class));
         throw new BussinessException("给你一个异常");
-        //return 1;
+       // return 1;
     }
 
     @RequestMapping(value="/add", method = RequestMethod.GET)

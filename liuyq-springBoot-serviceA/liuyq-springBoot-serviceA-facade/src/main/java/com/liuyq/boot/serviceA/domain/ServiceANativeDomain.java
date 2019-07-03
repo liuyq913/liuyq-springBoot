@@ -51,6 +51,7 @@ public class ServiceANativeDomain {
 
     /**
      * 测试redis
+     *
      * @param key
      * @param value
      * @return
