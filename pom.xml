@@ -27,12 +27,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
+        <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
         <guava.version>18.0</guava.version>
         <fastjson.version>1.2.12</fastjson.version>
         <databind.version>2.9.8</databind.version>
         <eureka.version>1.4.6.RELEASE</eureka.version>
-        <cloud-dependencies.version>Greenwich.RC2</cloud-dependencies.version>
         <com.springBoot.utils.verison>1.0-SNAPSHOT</com.springBoot.utils.verison>
         <com.springBoot.lcn.verison>1.0-SNAPSHOT</com.springBoot.lcn.verison>
         <ribbon.version>1.4.6.RELEASE</ribbon.version>
@@ -53,7 +52,6 @@
         <mybatis.spring.boot.version>1.3.1</mybatis.spring.boot.version>
         <druid-spring-boot.version>1.1.13</druid-spring-boot.version>
         <eureka.version>1.4.6.RELEASE</eureka.version>
-        <cloud-dependencies.version>Finchley.RELEASE</cloud-dependencies.version>
         <com.springBoot.base.verison>1.0-SNAPSHOT</com.springBoot.base.verison>
         <ribbon.version>1.4.6.RELEASE</ribbon.version>
         <feign.version>1.4.6.RELEASE</feign.version>

@@ -12,15 +12,22 @@ spring:
    application:
      name: boot-zuul-service
 
-# /api-a/** 路由映射到 boot-serviceA 服务上   /api-b/**的路由映射到cloud-feign-serviceA 服务上
+# /api-a/** 路由映射到 boot-serviceA 服务上   /api-b/**的路由映射到cloud-feign-serviceA 服务上  如果不写下面的配置，默认会将eurka上的所有服务都以serviceId作为 path
+#zuul:
+#  routes:
+#    api-a:
+#        path: /api-a/**
+#        serviceId: serviceA
+#    api-b:
+#        path: /api-b/**
+#        serviceId: serviceB
 zuul:
-  routes:
-    api-a:
-        path: /api-a/**
-        serviceId: serviceA
-    api-b:
-        path: /api-b/**
-        serviceId: serviceB
+  ribbon:
+    ReadTimeout: 10000 #通讯超时时间
+    ConnectTimeout: 10000 # 连接超时（ms）
+  host:
+    connect-timeout-millis: 15000 #HTTP连接超时要比Hystrix的大
+    socket-timeout-millis: 60000   #socket超时
 
 
 eureka:
