@@ -30,7 +30,7 @@ public class ConsumerController {
 
     @RequestMapping(value = "/ribbon-consumer2", method = RequestMethod.GET)
     public Integer addService(){
-        return consumerService.addService();
+        return consumerService.addService(1);
     }
 
 /*

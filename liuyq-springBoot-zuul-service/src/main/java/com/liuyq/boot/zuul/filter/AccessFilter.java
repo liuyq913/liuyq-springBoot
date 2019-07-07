@@ -7,6 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 /**
  * Created by liuyq on 2019/5/15.
@@ -57,7 +58,20 @@ public class AccessFilter extends ZuulFilter{
             ctx.setResponseStatusCode(401);
             return null;
         }
+
+        //filter对异常的处理
+        try {
+            doSomething();
+        }catch (Exception e){
+            ctx.set("error_status_code", HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
+            ctx.set("error.exception", e);
+        }
         log.info("access token ok");
         return null;
     }
+
+    public void doSomething(){
+        throw new RuntimeException("故意的");
+    }
+
 }
