@@ -19,7 +19,10 @@ public class LiuyqRouteLocatorConf {
     @Autowired
     private ServerProperties serverProperties;
 
-
+    /**
+     * 仿照 ZuulServerAutoConfiguration 生成 路由定位器
+     * @return
+     */
     @Bean
     public LiuyqRouteLocator routeLocator(){
         LiuyqRouteLocator liuyqRouteLocator = new LiuyqRouteLocator(serverProperties.getServlet().getContextPath(), zuulProperties);

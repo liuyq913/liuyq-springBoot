@@ -17,7 +17,8 @@ public class RouteLocatiorService {
     private RouteLocator routeLocator;
 
     public void refreshRouteLocator(){
-        applicationEventPublisher.publishEvent(new RoutesRefreshedEvent(routeLocator)); //发布刷新路由的事件  zuulConfigure配置了事件监听器
+        //发布刷新路由的事件  zuulConfigure配置了事件监听器
+        applicationEventPublisher.publishEvent(new RoutesRefreshedEvent(routeLocator));
     }
 
 }

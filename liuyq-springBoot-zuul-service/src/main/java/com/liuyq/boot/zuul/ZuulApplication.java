@@ -2,10 +2,9 @@ package com.liuyq.boot.zuul;
 
 
 import com.liuyq.boot.zuul.filter.AccessFilter;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.context.annotation.Bean;
@@ -19,7 +18,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 //@springCloudApplication 是@SpringBootApplication、@EnableDiscoveryClient、@EnableCircuitBreaker  的整合
 @EnableDiscoveryClient
 @EnableScheduling  //开启定时任务（动态刷新库里面的路由）
-@EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
+@MapperScan(basePackages = "com.liuyq.**.mapper")
 public class ZuulApplication {
 
 
