@@ -48,6 +48,7 @@ public class AccessFilter extends ZuulFilter{
     public Object run() throws ZuulException {
         RequestContext ctx = RequestContext.getCurrentContext();
         HttpServletRequest request = ctx.getRequest();
+        ctx.set("startTime", System.currentTimeMillis());
 
         log.info(String.format("%s request to %s", request.getMethod(), request.getRequestURL().toString()));
 

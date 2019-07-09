@@ -1,17 +1,20 @@
 package com.liuyq.boot.zuul.config;
 
+import com.liuyq.boot.zuul.mapper.ApiConfigMapper;
 import com.liuyq.boot.zuul.routelocator.LiuyqRouteLocator;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.boot.autoconfigure.web.ServerProperties;
 import org.springframework.cloud.netflix.zuul.filters.ZuulProperties;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import java.util.List;
 
 /**
  * Created by liuyq on 2019/7/5.
  * 配置自定义的动态路由
  */
-@Configurable
+@Configuration
 public class LiuyqRouteLocatorConf {
     @Autowired
      private ZuulProperties zuulProperties;

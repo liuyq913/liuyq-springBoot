@@ -32,6 +32,7 @@ public class LiuyqRouteLocator extends SimpleRouteLocator implements Refreshable
 
     public LiuyqRouteLocator(String servletPath, ZuulProperties properties) {
         super(servletPath, properties);
+        this.properties = properties;
     }
 
     @Override
@@ -99,6 +100,7 @@ public class LiuyqRouteLocator extends SimpleRouteLocator implements Refreshable
             }
             dbRoutes.put(zuulRoute.getPath(), zuulRoute);
         }
+        logger.info("成功加载{}条路由映射", dbRoutes.size());
         return dbRoutes;
     }
 }

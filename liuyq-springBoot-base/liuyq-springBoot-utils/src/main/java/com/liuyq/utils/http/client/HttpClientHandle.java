@@ -28,10 +28,13 @@ import org.slf4j.LoggerFactory;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
+import javax.servlet.http.HttpServletRequest;
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
+import java.util.Enumeration;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -332,5 +335,44 @@ public class HttpClientHandle implements HttpHandle {
 		stringEntity.setContentType(HttpConst.ContentType.JSON);//设置Content-type
 		return stringEntity;
 	}
-	
+
+	/**
+	 * 获取客户端请求参数中所有的信息
+	 * @param request
+	 * @return
+	 */
+	public Map<String, String> getAllRequestParam(final HttpServletRequest request) {
+		Map<String, String> res = new HashMap<String, String>();
+		Enumeration<?> temp = request.getParameterNames();
+		if (null != temp) {
+			while (temp.hasMoreElements()) {
+				String en = (String) temp.nextElement();
+				String value = request.getParameter(en);
+				res.put(en, value);
+				//如果字段的值为空，判断若值为空，则删除这个字段>
+				if (null == res.get(en) || "".equals(res.get(en))) {
+					res.remove(en);
+				}
+			}
+		}
+		return res;
+	}
+
+	/**
+	 * 获取当前请求的IP,对使用代理后都有效
+	 * @return
+	 */
+	public String getRequestIP(HttpServletRequest request){
+		String ip = request.getHeader("x-forwarded-for");
+		if(ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)) {
+			ip = request.getHeader("Proxy-Client-IP");
+		}
+		if(ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)) {
+			ip = request.getHeader("WL-Proxy-Client-IP");
+		}
+		if(ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)) {
+			ip = request.getRemoteAddr();
+		}
+		return ip;
+	}
 }

@@ -1,5 +1,6 @@
 package com.liuyq.utils.http;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
 public interface HttpHandle {
@@ -132,4 +133,8 @@ public interface HttpHandle {
 	public HttpResult sendPutRequestWithJSON(String url, Object paramObj);
 	
 	public HttpResult sendPutRequestWithJSON(String url, Map<String, String> requestHeaders, Object paramObj, String decodeCharset, boolean isSSL);
+
+	public Map<String, String> getAllRequestParam(final HttpServletRequest request);
+
+	public String getRequestIP(HttpServletRequest request);
 }
