@@ -2,8 +2,9 @@ package com.liuyq.boot.serviceB.mapper;
 
 import com.liuyq.boot.serviceB.model.Demo;
 import com.liuyq.boot.serviceB.model.DemoExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface DemoMapper {
     /**
@@ -93,4 +94,6 @@ public interface DemoMapper {
      * @mbg.generated
      */
     int updateByPrimaryKey(Demo record);
+
+    int saveList(@Param("recordList") List<Demo> recordList);
 }

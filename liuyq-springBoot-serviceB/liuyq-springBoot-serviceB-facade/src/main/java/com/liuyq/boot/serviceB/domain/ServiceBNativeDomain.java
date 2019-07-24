@@ -2,6 +2,7 @@ package com.liuyq.boot.serviceB.domain;
 
 import com.codingapi.txlcn.tc.annotation.LcnTransaction;
 import com.liuyq.boot.serviceB.bo.DemoBo;
+import com.liuyq.boot.serviceB.excelInsert.ExcelService;
 import com.liuyq.boot.serviceB.mapper.DemoMapper;
 import com.liuyq.boot.serviceB.model.Demo;
 import com.liuyq.utils.exception.BussinessException;
@@ -10,6 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @author liuyq
@@ -20,6 +22,8 @@ import javax.annotation.Resource;
 public class ServiceBNativeDomain{
     @Resource
     private DemoMapper demoMapper;
+    @Resource
+    private ExcelService excelService;
 
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
@@ -41,4 +45,21 @@ public class ServiceBNativeDomain{
     public Integer add(@RequestParam("a") Integer a, @RequestParam("b")Integer b){
         return a+b;
     }
+
+    @RequestMapping(value = "/saveList", method = RequestMethod.POST)
+    public void saveList(List<DemoBo> list){
+        List<Demo> list1 = BeanUtil.convertList(list, Demo.class);
+        demoMapper.saveList(list1);
+    }
+
+
+    @RequestMapping(value = "/testInsert", method = RequestMethod.POST)
+    public void testInsert(){
+        try {
+            excelService.ExcelInsert();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
 }

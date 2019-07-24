@@ -67,7 +67,7 @@
 	<logger name="com.liuyq.boot.*.*" level="DEBUG" additivity="false"></logger>
 
 	<!--控制台和日志文件输出级别-->
-	<root level="DEBUG" additivity = "false">
+	<root level="INFO" additivity = "false">
 		<appender-ref ref="STDOUT" />
 		<appender-ref ref="INFO" />
 		<appender-ref ref="ERROR" />

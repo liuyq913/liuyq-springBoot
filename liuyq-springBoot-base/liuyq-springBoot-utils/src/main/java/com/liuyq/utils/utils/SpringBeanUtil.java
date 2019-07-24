@@ -1,15 +1,18 @@
 package com.liuyq.utils.utils;
 
+import org.springframework.beans.BeansException;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
+import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;
-import org.springframework.web.context.ContextLoader;
-import org.springframework.web.context.WebApplicationContext;
 
 /**
  * Created by liuyq on 2019/4/16.
  *  获取spring配置的bean
  */
-public final class SpringBeanUtil {
-    private static WebApplicationContext ctx = ContextLoader.getCurrentWebApplicationContext();
+@Component
+public final class SpringBeanUtil implements ApplicationContextAware{
+    private static ApplicationContext  ctx ;
 
     private SpringBeanUtil()
     {
@@ -30,5 +33,10 @@ public final class SpringBeanUtil {
     {
         Assert.notNull(type);
         return ctx.getBean(type);
+    }
+
+    @Override
+    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+        ctx = applicationContext;
     }
 }

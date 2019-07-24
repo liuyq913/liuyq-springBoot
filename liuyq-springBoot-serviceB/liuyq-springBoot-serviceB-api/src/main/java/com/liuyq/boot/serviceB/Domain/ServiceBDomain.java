@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.util.List;
+
 /**
  * @author liuyq
  * @date 2019/6/11 0011 下午 21:51
@@ -23,4 +25,11 @@ public interface ServiceBDomain {
 
     @RequestMapping(value = "/add", method = RequestMethod.GET)
     Integer add(@RequestParam("a") Integer a, @RequestParam("b") Integer b) throws BussinessException;
+
+    @RequestMapping(value ="/saveList", method = RequestMethod.POST)
+    Integer saveList(@RequestBody List<DemoBo> demoBo);
+
+    @RequestMapping(value = "/testInsert" , method = RequestMethod.POST)
+    Integer testInsert();
+
 }
