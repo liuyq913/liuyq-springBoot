@@ -19,6 +19,7 @@
         <module>liuyq-springBoot-config-consumer</module>
         <module>liuyq-springBoot-zuul-service</module>
         <module>liuyq-springBoot-serviceB</module>
+        <module>liuyq-springBoot-txmanager</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -29,7 +30,7 @@
         <java.version>1.8</java.version>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
         <guava.version>18.0</guava.version>
-        <fastjson.version>1.2.12</fastjson.version>
+        <fastjson.version>1.2.54</fastjson.version>
         <databind.version>2.9.8</databind.version>
         <eureka.version>1.4.6.RELEASE</eureka.version>
         <com.springBoot.utils.verison>1.0-SNAPSHOT</com.springBoot.utils.verison>

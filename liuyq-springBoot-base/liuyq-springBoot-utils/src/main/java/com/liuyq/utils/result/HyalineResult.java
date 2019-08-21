@@ -1,5 +1,7 @@
 package com.liuyq.utils.result;
 
+import lombok.Data;
+
 import java.io.Serializable;
 
 /**
@@ -11,7 +13,7 @@ import java.io.Serializable;
  * @describe 版本描述:
  * @modifyLog 修改日志:
  */
-
+@Data
 public class HyalineResult<T> implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -25,6 +27,10 @@ public class HyalineResult<T> implements Serializable {
     private ErroResult erroResult;
 
     public HyalineResult() {
+    }
+
+    public HyalineResult(T resultBody){
+        this.object = resultBody;
     }
 
     public Integer getCode() {
@@ -104,7 +110,6 @@ public class HyalineResult<T> implements Serializable {
         public static final Integer PARAMEERROR = 1001; //
 
         public static final Integer ORTHERERROR = 99999; //
-
 
 
     }

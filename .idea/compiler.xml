@@ -21,6 +21,7 @@
         <module name="liuyq-springBoot-serviceA" />
         <module name="liuyq-springBoot-serviceB-api" />
         <module name="liuyq-springBoot-serviceB-facade" />
+        <module name="liuyq-springBoot-txmanager" />
         <module name="liuyq-springBoot-utils" />
         <module name="liuyq-springBoot-zuul-service" />
       </profile>
@@ -48,6 +49,7 @@
       <module name="liuyq-springBoot-serviceB" target="1.8" />
       <module name="liuyq-springBoot-serviceB-api" target="1.8" />
       <module name="liuyq-springBoot-serviceB-facade" target="1.8" />
+      <module name="liuyq-springBoot-txmanager" target="1.8" />
       <module name="liuyq-springBoot-txManger" target="1.8" />
       <module name="liuyq-springBoot-utils" target="1.8" />
       <module name="liuyq-springBoot-zuul-service" target="1.8" />
