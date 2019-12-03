@@ -1,4 +1,4 @@
-package com.liuyq.boot.redis.conf;
+package com.liuyq.boot.redis.config;
 
 import lombok.Data;
 import org.apache.commons.lang3.StringUtils;
@@ -23,7 +23,7 @@ import java.util.Set;
 @ConfigurationProperties(prefix = "liuyq.redis")
 @Configuration
 @Data
-public class RedisClusterConf {
+public class RedisClusterConfig {
 
     /**
      * redis地址和端口 127.0.0.1：6379,127.0.0.1：6381,127.0.0.1：6382
@@ -95,8 +95,18 @@ public class RedisClusterConf {
      * 构造JedisCluster
      */
     @Bean
-    public JedisCluster buildJedisCluster() {Set<HostAndPort> hostAndPorts = getHostAndPost();
+    public JedisCluster buildJedisCluster() {
+        Set<HostAndPort> hostAndPorts = getHostAndPost();
         if (null == hostAndPorts) throw new NullPointerException("hostAndPorts is null");
         return new JedisCluster(hostAndPorts, new Integer(timeout), jedisPoolConfig);
+    }
+
+    public JedisPoolConfig getJedisPoolConfig() {
+        if (jedisPoolConfig == null) {
+            this.getHostAndPort();
+            return jedisPoolConfig;
+        } else {
+            return jedisPoolConfig;
+        }
     }
 }

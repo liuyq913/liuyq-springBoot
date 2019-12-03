@@ -4,8 +4,17 @@
     <facet type="Spring" name="Spring">
       <configuration />
     </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <webroots />
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
+        </sourceRoots>
+      </configuration>
+    </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -111,7 +120,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.1.6.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:5.1.6.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.6.2" level="project" />
-    <orderEntry type="module" module-name="liuyq-springBoot-base" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-config:2.1.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter:2.1.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-context:2.1.0.RELEASE" level="project" />

@@ -4,8 +4,17 @@
     <facet type="Spring" name="Spring">
       <configuration />
     </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <webroots />
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
+        </sourceRoots>
+      </configuration>
+    </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -16,6 +25,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="liuyq-springBoot-utils" />
+    <orderEntry type="module" module-name="liuyq-springBoot-utils" />
+    <orderEntry type="module" module-name="liuyq-springBoot-utils" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-feign:1.4.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-openfeign:2.1.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter:2.1.0.RELEASE" level="project" />

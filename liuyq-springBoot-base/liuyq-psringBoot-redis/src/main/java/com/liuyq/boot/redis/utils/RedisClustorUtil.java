@@ -2,7 +2,7 @@ package com.liuyq.boot.redis.utils;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.liuyq.boot.redis.conf.RedisClusterConf;
+import com.liuyq.boot.redis.config.RedisClusterConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -16,7 +16,7 @@ import java.math.BigDecimal;
  * 定义redis常规操作
  */
 @Component
-@EnableConfigurationProperties(RedisClusterConf.class) //读取配置对象
+@EnableConfigurationProperties(RedisClusterConfig.class) //读取配置对象
 @ConditionalOnBean(JedisCluster.class)
 public class RedisClustorUtil {
     @Autowired

@@ -8,7 +8,6 @@
     <artifactId>liuyq-springBoot</artifactId>  <!--表示项目名称-->
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>liuyq-springBoot-base</module>
         <module>liuyq-springBoot-eureka</module>
         <module>liuyq-springBoot-autoCofigDemo</module>
         <module>liuyq-springBoot-consumer</module>
@@ -20,6 +19,9 @@
         <module>liuyq-springBoot-zuul-service</module>
         <module>liuyq-springBoot-serviceB</module>
         <module>liuyq-springBoot-txmanager</module>
+        <module>liuyq-springBoot-base</module>
+        <module>liuyq-springBoot-redis-cache</module>
+        <module>liuyq-springBoot-serviceA</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -35,6 +37,7 @@
         <eureka.version>1.4.6.RELEASE</eureka.version>
         <com.springBoot.utils.verison>1.0-SNAPSHOT</com.springBoot.utils.verison>
         <com.springBoot.lcn.verison>1.0-SNAPSHOT</com.springBoot.lcn.verison>
+        <com.springBoot.redis.version>1.0-SNAPSHOT</com.springBoot.redis.version>
         <ribbon.version>1.4.6.RELEASE</ribbon.version>
         <fegin.intefaces.version>1.0-SNAPSHOT</fegin.intefaces.version>
         <hystrix.version>1.4.6.RELEASE</hystrix.version>
@@ -58,6 +61,7 @@
         <feign.version>1.4.6.RELEASE</feign.version>
         <lcn.version>5.0.2.RELEASE</lcn.version>
         <redis.version>3.0.1</redis.version>
+        <springboot.data.redis>2.1.10.RELEASE</springboot.data.redis>
     </properties>
 
     <parent>
@@ -74,10 +78,10 @@
                 <exclusion>
                     <groupId>com.fasterxml.jackson.core</groupId>
                 </exclusion>
-             <!--  <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-tomcat</artifactId>
-                </exclusion>-->
+                <!--  <exclusion>
+                       <groupId>org.springframework.boot</groupId>
+                       <artifactId>spring-boot-starter-tomcat</artifactId>
+                   </exclusion>-->
             </exclusions>
         </dependency>
 
@@ -142,11 +146,6 @@
             </dependency>
 
             <dependency>
-                <groupId>com.liuyq</groupId>
-                <artifactId>liuyq-springBoot-base</artifactId>
-            </dependency>
-
-            <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>8.0.15</version>
@@ -193,9 +192,19 @@
                 <artifactId>poi-ooxml</artifactId>
                 <version>3.16</version>
             </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-configuration-processor</artifactId>
+                <version>2.1.10.RELEASE</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-redis -->
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-redis</artifactId>
+                <version>${springboot.data.redis}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
-
 
 
     <repositories>
@@ -247,11 +256,11 @@
                     <artifactId>maven-war-plugin</artifactId>
                     <version>${maven_war_plugin_version}</version>
                 </plugin>
-               <!-- <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-install-plugin</artifactId>
-                    <version>${maven_install_plugin_version}</version>
-                </plugin>-->
+                <!-- <plugin>
+                     <groupId>org.apache.maven.plugins</groupId>
+                     <artifactId>maven-install-plugin</artifactId>
+                     <version>${maven_install_plugin_version}</version>
+                 </plugin>-->
                 <!--<plugin>-->
                 <!--<groupId>org.apache.maven.plugins</groupId>-->
                 <!--<artifactId>maven-deploy-plugin</artifactId>-->

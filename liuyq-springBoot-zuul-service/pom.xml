@@ -25,12 +25,6 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.liuyq</groupId>
-            <artifactId>liuyq-springBoot-base</artifactId>
-            <version>${com.springBoot.base.verison}</version>
-        </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-zuul -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

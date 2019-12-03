@@ -7,11 +7,11 @@
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springBoot-feign/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/liuyq-springBoot-feign/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-lcnTm/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-service/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-springBoot-txManger/pom.xml" />
