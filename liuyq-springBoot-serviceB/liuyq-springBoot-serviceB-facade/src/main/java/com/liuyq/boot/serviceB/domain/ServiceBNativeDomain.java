@@ -6,7 +6,7 @@ import com.liuyq.boot.serviceB.excelInsert.ExcelService;
 import com.liuyq.boot.serviceB.mapper.DemoMapper;
 import com.liuyq.boot.serviceB.model.Demo;
 import com.liuyq.utils.exception.BussinessException;
-import com.liuyq.utils.utils.BeanUtil;
+import com.liuyq.utils.util.BeanUtil;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 

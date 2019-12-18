@@ -1,4 +1,4 @@
-package com.liuyq.utils.utils;
+package com.liuyq.utils.util;
 
 import com.liuyq.utils.exception.BussinessException;
 import org.springframework.web.context.request.RequestContextHolder;

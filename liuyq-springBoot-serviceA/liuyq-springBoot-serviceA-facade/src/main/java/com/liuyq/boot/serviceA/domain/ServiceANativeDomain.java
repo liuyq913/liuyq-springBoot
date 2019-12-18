@@ -9,7 +9,8 @@ import com.liuyq.boot.serviceA.model.TxException;
 import com.liuyq.boot.serviceB.Domain.ServiceBDomain;
 import com.liuyq.boot.serviceB.bo.DemoBo;
 import com.liuyq.utils.exception.BussinessException;
-import com.liuyq.utils.utils.BeanUtil;
+import com.liuyq.utils.util.BeanUtil;
+import io.protostuff.Request;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
@@ -30,13 +31,13 @@ public class ServiceANativeDomain {
     private TxExceptionMapper demoMapper;
     @Resource
     private ServiceBDomain serviceBDomain;
-    @Autowired
+    @Resource
     private RedisClustorUtil redisClustorUtil;
 
     //@RequestMapping(value = "/save")
     @ResponseBody
     @Transactional(rollbackFor = Exception.class) //开启本地事务（优先于类上的配置）
-    @LcnTransaction //分布式事务注解（5.0.2不需要指是 isStart）
+    //@LcnTransaction //分布式事务注解（5.0.2不需要指是 isStart）
     public Integer save(@RequestBody TxExceptionBo exceptionBo) throws BussinessException {
         Integer num = demoMapper.insertSelective(BeanUtil.convert(exceptionBo, TxException.class));
 

@@ -10,17 +10,17 @@
         <module name="liuyq-springBoot-feign-consumer" />
         <module name="liuyq-sringBoot-redis" />
         <module name="liuyq-springBoot-config-cusumer" />
-        <module name="liuyq-springBoot-config-service" />
+        <module name="liuyq-springBoot-autoCofig" />
         <module name="liuyq-springBoot-consumer" />
         <module name="liuyq-springBoot-serviceB-facade" />
         <module name="liuyq-springBoot-serviceB-api" />
-        <module name="liuyq-springBoot-redis-cache" />
-        <module name="liuyq-springBoot-feign-controller" />
         <module name="liuyq-springBoot-eureka" />
-        <module name="liuyq-springBoot-feign-service" />
-        <module name="liuyq-springBoot-autoCofig" />
-        <module name="liuyq-springBoot-lcn" />
+        <module name="liuyq-springBoot-feign-controller" />
         <module name="liuyq-springBoot-serviceA" />
+        <module name="liuyq-springBoot-feign-service" />
+        <module name="liuyq-springBoot-config-service" />
+        <module name="liuyq-springBoot-lcn" />
+        <module name="liuyq-springBoot-redis-cache" />
         <module name="liuyq-springBoot-utils" />
         <module name="liuyq-springBoot-zuul-service" />
         <module name="liuyq-springBoot-feign-two" />
@@ -29,6 +29,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="liuyq-log" target="1.8" />
       <module name="liuyq-psringBoot-redis" target="1.8" />
       <module name="liuyq-springBoot" target="1.8" />
       <module name="liuyq-springBoot-autoCofig" target="1.8" />
@@ -55,12 +56,15 @@
       <module name="liuyq-springBoot-txmanager" target="1.8" />
       <module name="liuyq-springBoot-txManger" target="1.8" />
       <module name="liuyq-springBoot-utils" target="1.8" />
+      <module name="liuyq-springBoot-web" target="1.8" />
       <module name="liuyq-springBoot-zuul-service" target="1.8" />
+      <module name="liuyq-springBoot-zuul-service (1)" target="1.8" />
       <module name="liuyq-sringBoot-redis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="liuyq-log" options="-parameters" />
       <module name="liuyq-psringBoot-redis" options="-parameters" />
       <module name="liuyq-springBoot-autoCofig" options="-parameters" />
       <module name="liuyq-springBoot-base" options="" />
@@ -80,7 +84,9 @@
       <module name="liuyq-springBoot-serviceB-facade" options="-parameters" />
       <module name="liuyq-springBoot-txmanager" options="-parameters" />
       <module name="liuyq-springBoot-utils" options="-parameters" />
+      <module name="liuyq-springBoot-web" options="-parameters" />
       <module name="liuyq-springBoot-zuul-service" options="-parameters" />
+      <module name="liuyq-springBoot-zuul-service (1)" options="-parameters" />
       <module name="liuyq-sringBoot-redis" options="-parameters" />
     </option>
   </component>

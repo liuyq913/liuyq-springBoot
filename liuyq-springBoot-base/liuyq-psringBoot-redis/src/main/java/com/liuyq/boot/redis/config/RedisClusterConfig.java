@@ -61,7 +61,7 @@ public class RedisClusterConfig {
                     if (!StringUtils.isEmpty(hosts)) {
                         hostAndPortMap = new HashMap<>();
                         if (hosts.contains(",")) {
-                            com.liuyq.utils.utils.StringUtils.toList(hosts, ",").stream()
+                            com.liuyq.utils.util.StringUtils.toList(hosts, ",").stream()
                                     .map(t -> t.split(":")).forEach(e -> hostAndPortMap.put(e[0], new Integer(e[1])));
                         } else {
                             String[] split = hosts.split(":");

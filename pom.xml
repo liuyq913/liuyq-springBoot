@@ -2,6 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.6.RELEASE</version>
+    </parent>
+
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.liuyq</groupId>
@@ -60,15 +67,11 @@
         <ribbon.version>1.4.6.RELEASE</ribbon.version>
         <feign.version>1.4.6.RELEASE</feign.version>
         <lcn.version>5.0.2.RELEASE</lcn.version>
-        <redis.version>3.0.1</redis.version>
+        <redis.version>3.1.0</redis.version>
         <springboot.data.redis>2.1.10.RELEASE</springboot.data.redis>
     </properties>
 
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.4.RELEASE</version>
-    </parent>
+
 
     <dependencies>
         <dependency>

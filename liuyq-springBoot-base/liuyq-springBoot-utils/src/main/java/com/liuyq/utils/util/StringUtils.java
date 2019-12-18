@@ -1,4 +1,4 @@
-package com.liuyq.utils.utils;
+package com.liuyq.utils.util;
 
 import java.util.*;
 

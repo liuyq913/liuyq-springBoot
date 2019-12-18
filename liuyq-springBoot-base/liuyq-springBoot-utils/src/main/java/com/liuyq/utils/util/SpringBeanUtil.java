@@ -1,4 +1,4 @@
-package com.liuyq.utils.utils;
+package com.liuyq.utils.util;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

@@ -3,7 +3,7 @@ package com.liuyq.boot.serviceB.excelInsert;
 import com.google.common.collect.Lists;
 import com.liuyq.boot.serviceB.bo.DemoBo;
 import com.liuyq.boot.serviceB.domain.ServiceBNativeDomain;
-import com.liuyq.utils.utils.SpringBeanUtil;
+import com.liuyq.utils.util.SpringBeanUtil;
 import org.apache.commons.lang.math.NumberUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
