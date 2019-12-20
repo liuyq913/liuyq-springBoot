@@ -17,5 +17,6 @@
         <module>liuyq-springBoot-lcn</module>
         <module>liuyq-springBoot-utils</module>
         <module>liuyq-psringBoot-redis</module>
+        <module>liuyq-springBoot-zk</module>
     </modules>
 </project>

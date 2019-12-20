@@ -14,6 +14,9 @@ import java.math.BigDecimal;
 /**
  * Created by liuyq on 2019/6/28.
  * 定义redis常规操作
+ * <p>
+ * jedisCluster 方法里面已经封装了jedis 资源的开启和关闭，
+ * 无需在外面手动关闭
  */
 @Component
 @EnableConfigurationProperties(RedisClusterConfig.class) //读取配置对象
@@ -56,6 +59,30 @@ public class RedisClustorUtil {
     public boolean existes(String key) {
         return execute(() -> {
             return jedisCluster.exists(key);
+        });
+    }
+
+    /**
+     * 删除设值
+     * @param key
+     * @return 0l 表示删除失败  1l表示删除成功
+     */
+    public Long decr(String key) {
+        return execute(() -> {
+            return jedisCluster.decr(key);
+        });
+    }
+
+    /**
+     * 设置值
+     *
+     * @param key
+     * @param value
+     * @return 0 表示设置失败  1 表示设置成功
+     */
+    public Long setnx(String key, String value) {
+        return execute(() -> {
+            return jedisCluster.setnx(key, value);
         });
     }
 
