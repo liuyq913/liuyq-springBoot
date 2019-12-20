@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 
-	<property name="server_name" value="operation" />
-	<property name="log_dir" value="/var/log/liuyq" />
+	<property name="server_name" value="liuyq" />
+	<property name="log_dir" value="/data/log/liuyq-service" />
 	<property name="maxFileSize" value="50MB" />
 	<property name="maxHistory" value="180" />
 

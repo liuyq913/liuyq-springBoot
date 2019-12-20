@@ -1,0 +1,892 @@
+Index: liuyq-springBoot-redis-cache/src/main/java/com/liuyq/springboot/redis/cache/config/RedisCashConfig.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- liuyq-springBoot-redis-cache/src/main/java/com/liuyq/springboot/redis/cache/config/RedisCashConfig.java	(revision 7024fc721d910f7dbdef55461e44fcd1081a2d2e)
++++ liuyq-springBoot-redis-cache/src/main/java/com/liuyq/springboot/redis/cache/config/RedisCashConfig.java	(date 1576805458000)
+@@ -1,26 +1,15 @@
+ package com.liuyq.springboot.redis.cache.config;
+ 
+ 
+-import com.liuyq.boot.redis.config.RedisClusterConfig;
+-import org.springframework.beans.factory.annotation.Qualifier;
+-import org.springframework.cache.annotation.EnableCaching;
+-import org.springframework.context.annotation.Bean;
+-import org.springframework.context.annotation.Configuration;
+-import org.springframework.data.redis.cache.RedisCacheConfiguration;
+-import org.springframework.data.redis.cache.RedisCacheManager;
+-import org.springframework.data.redis.connection.RedisConnectionFactory;
+-import org.springframework.data.redis.connection.RedisNode;
+-import org.springframework.data.redis.connection.RedisSentinelConfiguration;
+-import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
+-
+ import javax.annotation.Resource;
+ import java.time.Duration;
+ import java.util.Map;
+ 
+-@EnableCaching  //启动spring cashe
+-@Configuration
++//@EnableCaching  //启动spring cashe
++//@Configuration
+ public class RedisCashConfig {
+ 
++/*
+ 
+     @Resource
+     private RedisClusterConfig redisClusterConfig;
+@@ -53,6 +42,7 @@
+                 .transactionAware()
+                 .build();
+     }
++*/
+ 
+ 
+ }
+Index: liuyq-springBoot-redis-cache/src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- liuyq-springBoot-redis-cache/src/main/resources/application.properties	(revision 7024fc721d910f7dbdef55461e44fcd1081a2d2e)
++++ liuyq-springBoot-redis-cache/src/main/resources/application.properties	(date 1576764420000)
+@@ -7,15 +7,5 @@
+ #server.port=8083
+ #spring.application.name=serviceA
+ #eureka.client.serviceUrl.defaultZone=http://localhost:8080/eureka/
+-spring.application.name=springboot.redis.cashe
+-server.port=8082
+-
+-
+-
+-
+-
+-#######################################################  redis  #######################################################
+-liuyq.redis.maxIdle=8
+-liuyq.redis.maxTotal=100
+-liuyq.redis.hosts=192.168.109.201:6379,192.168.109.201:6380,192.168.109.202:6379,192.168.109.202:6380,192.168.109.203:6379,192.168.109.203:6380
+-liuyq.redis.timeout=5000
++spring.application.name=redis-cache
++server.port=8082
+\ No newline at end of file
+Index: liuyq-springBoot-redis-cache/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- liuyq-springBoot-redis-cache/pom.xml	(revision 7024fc721d910f7dbdef55461e44fcd1081a2d2e)
++++ liuyq-springBoot-redis-cache/pom.xml	(date 1576826547000)
+@@ -3,9 +3,10 @@
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+     <parent>
+-        <artifactId>liuyq-springBoot</artifactId>
+-        <groupId>com.liuyq</groupId>
+-        <version>1.0-SNAPSHOT</version>
++        <groupId>org.springframework.boot</groupId>
++        <artifactId>spring-boot-starter-parent</artifactId>
++        <version>2.1.7.RELEASE</version>
++        <relativePath/>
+     </parent>
+     <modelVersion>4.0.0</modelVersion>
+ 
+@@ -14,33 +15,65 @@
+ 
+     <dependencies>
+ 
++        <dependency>
++            <groupId>org.springframework.cloud</groupId>
++            <artifactId>spring-cloud-starter-eureka</artifactId>
++            <version>1.4.6.RELEASE</version>
++        </dependency>
++
+         <dependency>
+             <groupId>org.springframework.boot</groupId>
+             <artifactId>spring-boot-starter-test</artifactId>
+             <scope>test</scope>
+         </dependency>
++
++
++        <!--Spring Boot Actuator，感应服务端变化-->
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-starter-actuator</artifactId>
++        </dependency>
++
++        <!--Spring Cloud Config 客户端依赖-->
++        <dependency>
++            <groupId>org.springframework.cloud</groupId>
++            <artifactId>spring-cloud-starter-config</artifactId>
++            <version>2.1.2.RELEASE</version>
++        </dependency>
+ 
+ 
+         <dependency>
+             <groupId>com.liuyq</groupId>
+             <artifactId>liuyq-sringBoot-redis</artifactId>
+-            <version>${com.springBoot.redis.version}</version>
++            <version>1.0-SNAPSHOT</version>
+             <scope>compile</scope>
+         </dependency>
+         <dependency>
+             <groupId>com.liuyq</groupId>
+             <artifactId>liuyq-springBoot-utils</artifactId>
+-            <version>${com.springBoot.utils.verison}</version>
++            <version>1.0-SNAPSHOT</version>
+         </dependency>
+         <dependency>
+             <groupId> org.springframework.boot </groupId>
+             <artifactId>spring-boot-configuration-processor</artifactId>
+         </dependency>
+ 
+-        <dependency>
++       <!-- <dependency>
+             <groupId>org.springframework.data</groupId>
+             <artifactId>spring-data-redis</artifactId>
+-        </dependency>
+-    </dependencies>
++        </dependency>-->
++    </dependencies>
++
++    <dependencyManagement>
++        <dependencies>
++            <dependency>
++                <groupId>org.springframework.cloud</groupId>
++                <artifactId>spring-cloud-dependencies</artifactId>
++                <version>Greenwich.RELEASE</version>
++                <type>pom</type>
++                <scope>import</scope>
++            </dependency>
++        </dependencies>
++    </dependencyManagement>
+ 
+ </project>
+\ No newline at end of file
+Index: liuyq-springBoot-redis-cache/src/main/resources/logback-spring.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- liuyq-springBoot-redis-cache/src/main/resources/logback-spring.xml	(revision 7024fc721d910f7dbdef55461e44fcd1081a2d2e)
++++ liuyq-springBoot-redis-cache/src/main/resources/logback-spring.xml	(date 1576578485000)
+@@ -1,8 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <configuration>
+ 
+-	<property name="server_name" value="operation" />
+-	<property name="log_dir" value="/var/log/liuyq" />
++	<property name="server_name" value="liuyq" />
++	<property name="log_dir" value="/data/log/liuyq-service" />
+ 	<property name="maxFileSize" value="50MB" />
+ 	<property name="maxHistory" value="180" />
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 7024fc721d910f7dbdef55461e44fcd1081a2d2e)
++++ .idea/workspace.xml	(date 1576804988000)
+@@ -2,119 +2,13 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="9a4a1376-84d6-4e31-8852-333c5de6dfff" name="Default" comment="配置文件">
+-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_8.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_8.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_8.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_6_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_4.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_34_Final.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_34_Final.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_34_Final.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_34_Final.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_34_Final.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_34_Final.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_34_Final.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_8_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_core_2_0_19_Final.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_servlet_2_0_19_Final.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_websockets_jsr_2_0_19_Final.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_1.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_1.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_8.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_8.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_17.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_17.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_17.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_17.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_17.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_15_0.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_9_Final.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_1_GA.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_websocket_jboss_websocket_api_1_1_spec_1_1_3_Final.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jolokia_jolokia_core_1_6_0.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_undertow_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_4_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_6_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_6_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_6_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_6_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_6_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_6_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_6_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_6_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_6_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_6_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_6_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_6_RELEASE.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_0_1.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/liuyq-springBoot-redis-cache/src/main/java/com/liuyq/springboot/redis/cache/controller/redisController.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/liuyq-springBoot-autoCofig.iml" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/liuyq-springBoot-autoCofig.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/MyRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/src/main/java/com/liuyq/springboot/autoconfig/MyRun.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-psringBoot-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-psringBoot-redis/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-psringBoot-redis/src/main/java/com/liuyq/boot/redis/config/RedisClusterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-psringBoot-redis/src/main/java/com/liuyq/boot/redis/config/RedisClusterConfig.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-utils/src/main/java/com/liuyq/utils/utils/BeanUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-utils/src/main/java/com/liuyq/utils/util/BeanUtil.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-utils/src/main/java/com/liuyq/utils/utils/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-utils/src/main/java/com/liuyq/utils/util/DateUtil.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-utils/src/main/java/com/liuyq/utils/utils/MD5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-utils/src/main/java/com/liuyq/utils/util/MD5Utils.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-utils/src/main/java/com/liuyq/utils/utils/ReflectUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-utils/src/main/java/com/liuyq/utils/util/ReflectUtil.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-utils/src/main/java/com/liuyq/utils/utils/ServletUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-utils/src/main/java/com/liuyq/utils/util/ServletUtils.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-utils/src/main/java/com/liuyq/utils/utils/SpringBeanUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-utils/src/main/java/com/liuyq/utils/util/SpringBeanUtil.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-utils/src/main/java/com/liuyq/utils/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-utils/src/main/java/com/liuyq/utils/util/StringUtils.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-utils/src/main/java/com/liuyq/utils/utils/ValidateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-utils/src/main/java/com/liuyq/utils/util/ValidateUtils.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-config-consumer/liuyq-springBoot-config-cusumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-config-consumer/liuyq-springBoot-config-cusumer.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-config-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-config-service/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/resources/application.properties" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-interface/liuyq-springBoot-feign-controller.iml" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-feign/liuyq-springBoot-feign-interface/liuyq-springBoot-feign-controller.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-service-two.iml" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-service-two.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/liuyq-springBoot-service-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/liuyq-springBoot-service-interface.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-redis-cache/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-redis-cache/pom.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-redis-cache/src/main/java/com/liuyq/springboot/redis/cache/config/RedisCashConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-redis-cache/src/main/java/com/liuyq/springboot/redis/cache/config/RedisCashConfig.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-redis-cache/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-redis-cache/src/main/resources/application.properties" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-redis-cache/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-redis-cache/src/main/resources/logback-spring.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/liuyq-springBoot-serviceA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/liuyq-springBoot-serviceA.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/ProviderApplication.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/domain/ServiceANativeDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/domain/ServiceANativeDomain.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/resources/bootstrap.properties" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/resources/logback-spring.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/domain/ServiceBNativeDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/domain/ServiceBNativeDomain.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/excelInsert/InsertTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/excelInsert/InsertTask.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/resources/bootstrap.properties" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/liuyq-springBoot-txmanager/liuyq-springBoot-txmanager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/liuyq-springBoot-txmanager/liuyq-springBoot-txmanager.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+     </list>
+     <ignored path="$PROJECT_DIR$/target/" />
+     <ignored path="$PROJECT_DIR$/liuyq-springBoot-eureka/target/" />
+@@ -187,12 +81,12 @@
+     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+       <file pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/pom.xml">
++          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="432">
++            <state relative-caret-position="1260">
+               <caret line="84" column="27" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
+             </state>
+           </provider>
+-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+         </entry>
+       </file>
+       <file pinned="false" current-in-tab="false">
+@@ -207,13 +101,35 @@
+       <file pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/ServiceBApplication.java">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="270">
+-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
++            <state relative-caret-position="195">
++              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+             </state>
+           </provider>
+         </entry>
+       </file>
+       <file pinned="false" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/resources/application.properties">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="345">
++              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/java/com/liuyq/boot/config/service/ConfigApplication.java">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="255">
++              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
++              <folding>
++                <element signature="e#726#727#0" expanded="true" />
++                <element signature="e#788#789#0" expanded="true" />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/resources/bootstrap.properties">
+           <provider selected="true" editor-type-id="text-editor">
+             <state relative-caret-position="45">
+@@ -359,7 +275,12 @@
+   </component>
+   <component name="MavenProjectNavigator">
+     <treeState>
+-      <expand />
++      <expand>
++        <path>
++          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
++          <item name="liuyq-springBoot-redis-cache" type="9519ce18:MavenProjectsStructure$ProjectNode" />
++        </path>
++      </expand>
+       <select />
+     </treeState>
+   </component>
+@@ -367,6 +288,7 @@
+     <option name="skipTests" value="true" />
+   </component>
+   <component name="ProjectFrameBounds">
++    <option name="x" value="-1" />
+     <option name="y" value="23" />
+     <option name="width" value="1440" />
+     <option name="height" value="828" />
+@@ -382,8 +304,6 @@
+       <foldersAlwaysOnTop value="true" />
+     </navigator>
+     <panes>
+-      <pane id="Scope" />
+-      <pane id="PackagesPane" />
+       <pane id="ProjectPane">
+         <subPane>
+           <expand>
+@@ -391,126 +311,12 @@
+               <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+               <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+             </path>
+-            <path>
+-              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB-api" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB-api" type="462c0819:PsiDirectoryNode" />
+-              <item name="src" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB-api" type="462c0819:PsiDirectoryNode" />
+-              <item name="src" type="462c0819:PsiDirectoryNode" />
+-              <item name="main" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB-api" type="462c0819:PsiDirectoryNode" />
+-              <item name="src" type="462c0819:PsiDirectoryNode" />
+-              <item name="main" type="462c0819:PsiDirectoryNode" />
+-              <item name="java" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB-api" type="462c0819:PsiDirectoryNode" />
+-              <item name="src" type="462c0819:PsiDirectoryNode" />
+-              <item name="main" type="462c0819:PsiDirectoryNode" />
+-              <item name="java" type="462c0819:PsiDirectoryNode" />
+-              <item name="serviceB" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB-api" type="462c0819:PsiDirectoryNode" />
+-              <item name="src" type="462c0819:PsiDirectoryNode" />
+-              <item name="main" type="462c0819:PsiDirectoryNode" />
+-              <item name="java" type="462c0819:PsiDirectoryNode" />
+-              <item name="serviceB" type="462c0819:PsiDirectoryNode" />
+-              <item name="bo" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB-api" type="462c0819:PsiDirectoryNode" />
+-              <item name="src" type="462c0819:PsiDirectoryNode" />
+-              <item name="main" type="462c0819:PsiDirectoryNode" />
+-              <item name="java" type="462c0819:PsiDirectoryNode" />
+-              <item name="serviceB" type="462c0819:PsiDirectoryNode" />
+-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB-facade" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB-facade" type="462c0819:PsiDirectoryNode" />
+-              <item name="src" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB-facade" type="462c0819:PsiDirectoryNode" />
+-              <item name="src" type="462c0819:PsiDirectoryNode" />
+-              <item name="main" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB-facade" type="462c0819:PsiDirectoryNode" />
+-              <item name="src" type="462c0819:PsiDirectoryNode" />
+-              <item name="main" type="462c0819:PsiDirectoryNode" />
+-              <item name="java" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB-facade" type="462c0819:PsiDirectoryNode" />
+-              <item name="src" type="462c0819:PsiDirectoryNode" />
+-              <item name="main" type="462c0819:PsiDirectoryNode" />
+-              <item name="java" type="462c0819:PsiDirectoryNode" />
+-              <item name="serviceB" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="liuyq-springBoot" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="liuyq-springBoot" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB" type="462c0819:PsiDirectoryNode" />
+-              <item name="liuyq-springBoot-serviceB-facade" type="462c0819:PsiDirectoryNode" />
+-              <item name="src" type="462c0819:PsiDirectoryNode" />
+-              <item name="main" type="462c0819:PsiDirectoryNode" />
+-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+-            </path>
+           </expand>
+           <select />
+         </subPane>
+       </pane>
++      <pane id="PackagesPane" />
++      <pane id="Scope" />
+     </panes>
+   </component>
+   <component name="PropertiesComponent">
+@@ -567,7 +373,7 @@
+       </list>
+     </option>
+   </component>
+-  <component name="RunManager" selected="Spring Boot.ServiceBApplication">
++  <component name="RunManager" selected="Spring Boot.ConfigApplication">
+     <configuration default="true" type="Applet">
+       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+       <method v="2">
+@@ -830,8 +636,8 @@
+     </list>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Spring Boot.ConfigApplication" />
+         <item itemvalue="Spring Boot.ServiceBApplication" />
+-        <item itemvalue="Spring Boot.ConfigApplication" />
+         <item itemvalue="Spring Boot.ProviderApplication (1)" />
+         <item itemvalue="Spring Boot.MyRun" />
+         <item itemvalue="Spring Boot.CacheApplication" />
+@@ -938,14 +744,10 @@
+       <workItem from="1576587821878" duration="3836000" />
+       <workItem from="1576631193182" duration="1136000" />
+       <workItem from="1576679224739" duration="1560000" />
+-      <workItem from="1576681977371" duration="84000" />
+-    </task>
+-    <task id="LOCAL-00003" summary="测试">
+-      <created>1557305669342</created>
+-      <option name="number" value="00003" />
+-      <option name="presentableId" value="LOCAL-00003" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1557305669342</updated>
++      <workItem from="1576681977371" duration="191000" />
++      <workItem from="1576717641346" duration="579000" />
++      <workItem from="1576767927908" duration="437000" />
++      <workItem from="1576804383340" duration="604000" />
+     </task>
+     <task id="LOCAL-00004" summary="测试">
+       <created>1557307693924</created>
+@@ -1283,11 +1085,18 @@
+       <option name="project" value="LOCAL" />
+       <updated>1575345581263</updated>
+     </task>
+-    <option name="localTasksCounter" value="52" />
++    <task id="LOCAL-00052" summary="配置文件">
++      <created>1576682123367</created>
++      <option name="number" value="00052" />
++      <option name="presentableId" value="LOCAL-00052" />
++      <option name="project" value="LOCAL" />
++      <updated>1576682123368</updated>
++    </task>
++    <option name="localTasksCounter" value="53" />
+     <servers />
+   </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="672927000" />
++    <option name="totallyTimeSpent" value="674654000" />
+   </component>
+   <component name="TodoView">
+     <todo-panel id="selected-file">
+@@ -1299,10 +1108,10 @@
+     </todo-panel>
+   </component>
+   <component name="ToolWindowManager">
+-    <frame x="0" y="23" width="1440" height="828" extended-state="0" />
++    <frame x="-1" y="23" width="1440" height="828" extended-state="0" />
+     <editor active="true" />
+     <layout>
+-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49449036" visible="true" weight="0.29899856" />
++      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49449036" visible="true" weight="0.3118741" />
+       <window_info id="Structure" order="1" weight="0.25" />
+       <window_info id="Nl-Palette" order="2" />
+       <window_info id="Designer" order="3" />
+@@ -1315,7 +1124,7 @@
+       <window_info anchor="bottom" id="Message" order="1" />
+       <window_info anchor="bottom" id="Find" order="2" weight="0.6198895" />
+       <window_info anchor="bottom" id="Run" order="3" weight="0.17255434" />
+-      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.48789713" visible="true" weight="0.48369566" />
++      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.48789713" weight="0.48369566" />
+       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+       <window_info anchor="bottom" id="TODO" order="7" weight="0.32608697" />
+@@ -1340,7 +1149,7 @@
+       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
+       <window_info anchor="right" id="Theme Preview" order="10" />
+       <window_info anchor="right" id="Maven Projects" order="11" weight="0.32753405" />
+-      <window_info anchor="right" id="Maven" order="12" visible="true" weight="0.3297568" />
++      <window_info anchor="right" id="Maven" order="12" weight="0.3297568" />
+     </layout>
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -1550,16 +1359,16 @@
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-autoCofigDemo/pom.xml">
++      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="195">
+           <caret line="13" selection-start-line="13" selection-end-line="13" />
+         </state>
+       </provider>
+-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+     </entry>
+     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/pom.xml">
+-      <provider selected="true" editor-type-id="text-editor" />
+       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
++      <provider selected="true" editor-type-id="text-editor" />
+     </entry>
+     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration.class">
+       <provider selected="true" editor-type-id="text-editor">
+@@ -1569,12 +1378,12 @@
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/liuyq-psringBoot-redis/pom.xml">
++      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="364">
+           <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+         </state>
+       </provider>
+-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+     </entry>
+     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-utils/src/main/java/com/liuyq/utils/exception/BussinessException.java">
+       <provider selected="true" editor-type-id="text-editor">
+@@ -1584,12 +1393,12 @@
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/pom.xml">
++      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="162">
+           <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+         </state>
+       </provider>
+-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+     </entry>
+     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/src/main/java/com/liuyq/boot/serviceA/hystrixclient/ServiceAHystric.java">
+       <provider selected="true" editor-type-id="text-editor">
+@@ -1602,19 +1411,19 @@
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/pom.xml">
++      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="225">
+           <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+         </state>
+       </provider>
+-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+     </entry>
+     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-utils/target/classes/com/liuyq/utils/exception/BussinessException.class">
+       <provider selected="true" editor-type-id="text-editor" />
+     </entry>
+     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-base/liuyq-springBoot-utils/pom.xml">
+-      <provider selected="true" editor-type-id="text-editor" />
+       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
++      <provider selected="true" editor-type-id="text-editor" />
+     </entry>
+     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/resources/application.properties">
+       <provider selected="true" editor-type-id="text-editor">
+@@ -1631,12 +1440,12 @@
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-api/pom.xml">
++      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="315">
+           <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+         </state>
+       </provider>
+-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+     </entry>
+     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/src/main/java/com/liuyq/boot/serviceA/ProviderApplication.java">
+       <provider selected="true" editor-type-id="text-editor">
+@@ -1708,34 +1517,16 @@
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-eureka/pom.xml">
++      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+       <provider selected="true" editor-type-id="text-editor" />
+-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+     </entry>
+     <entry file="file://$PROJECT_DIR$/pom.xml">
++      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="645">
+           <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+         </state>
+       </provider>
+-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/java/com/liuyq/boot/config/service/ConfigApplication.java">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="225">
+-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+-          <folding>
+-            <element signature="e#726#727#0" expanded="true" />
+-            <element signature="e#788#789#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/resources/application.properties">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="270">
+-          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+-        </state>
+-      </provider>
+     </entry>
+     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.1.6.RELEASE/spring-boot-starter-parent-2.1.6.RELEASE.pom">
+       <provider selected="true" editor-type-id="text-editor">
+@@ -1745,12 +1536,12 @@
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/pom.xml">
++      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="432">
++        <state relative-caret-position="1260">
+           <caret line="84" column="27" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
+         </state>
+       </provider>
+-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+     </entry>
+     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-api/src/main/java/com/liuyq/boot/serviceB/Domain/ServiceBDomain.java">
+       <provider selected="true" editor-type-id="text-editor">
+@@ -1761,8 +1552,15 @@
+     </entry>
+     <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/java/com/liuyq/boot/serviceB/ServiceBApplication.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="270">
+-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
++        <state relative-caret-position="195">
++          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/resources/bootstrap.properties">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="45">
++          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+         </state>
+       </provider>
+     </entry>
+@@ -1773,10 +1571,21 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-serviceB/liuyq-springBoot-serviceB-facade/src/main/resources/bootstrap.properties">
++    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/java/com/liuyq/boot/config/service/ConfigApplication.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="45">
+-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
++        <state relative-caret-position="255">
++          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
++          <folding>
++            <element signature="e#726#727#0" expanded="true" />
++            <element signature="e#788#789#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/liuyq-springBoot-config-service/src/main/resources/application.properties">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="345">
++          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+         </state>
+       </provider>
+     </entry>
+Index: liuyq-springBoot-redis-cache/src/main/java/com/liuyq/springboot/redis/cache/config/RedisLockConfig.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- liuyq-springBoot-redis-cache/src/main/java/com/liuyq/springboot/redis/cache/config/RedisLockConfig.java	(date 1576823621000)
++++ liuyq-springBoot-redis-cache/src/main/java/com/liuyq/springboot/redis/cache/config/RedisLockConfig.java	(date 1576823621000)
+@@ -0,0 +1,23 @@
++package com.liuyq.springboot.redis.cache.config;
++
++import com.liuyq.boot.redis.utils.RedisClustorUtil;
++import com.liuyq.boot.redis.utils.RedisLock;
++import com.liuyq.utils.lock.DistributedLock;
++import org.springframework.context.annotation.Bean;
++import org.springframework.context.annotation.Configuration;
++
++/**
++ * @Auther: liuyuqing
++ * @Date: 2019-12-20 14:29
++ * @Description:
++ */
++@Configuration
++public class RedisLockConfig {
++
++    @Bean(value = "redisLock")
++    public DistributedLock buildRedisLock(RedisClustorUtil redisClustorUtil) {
++        RedisLock redisLock = new RedisLock();
++        redisLock.setRedisClustorUtil(redisClustorUtil);
++        return redisLock;
++    }
++}
+Index: liuyq-springBoot-redis-cache/src/main/java/com/liuyq/springboot/redis/cache/controller/RedisController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- liuyq-springBoot-redis-cache/src/main/java/com/liuyq/springboot/redis/cache/controller/RedisController.java	(date 1576826680000)
++++ liuyq-springBoot-redis-cache/src/main/java/com/liuyq/springboot/redis/cache/controller/RedisController.java	(date 1576826680000)
+@@ -0,0 +1,43 @@
++package com.liuyq.springboot.redis.cache.controller;
++
++import com.liuyq.boot.redis.utils.RedisClustorUtil;
++import com.liuyq.boot.redis.utils.RedisLock;
++import org.springframework.web.bind.annotation.RequestMapping;
++import org.springframework.web.bind.annotation.RequestMethod;
++import org.springframework.web.bind.annotation.RestController;
++
++import javax.annotation.Resource;
++
++/**
++ * @Auther: liuyuqing
++ * @Date: 2019-12-19 22:22
++ * @Description:
++ */
++@RestController
++public class RedisController {
++
++    @Resource
++    private RedisClustorUtil redisClustorUtil;
++
++    @Resource
++    private RedisLock redisLock;
++
++
++    @RequestMapping(value = "testRedis", method = RequestMethod.GET)
++    public String testRedis(String key, String value) {
++        redisClustorUtil.set(key, value);
++        try {
++            Thread.sleep(1000);
++        } catch (InterruptedException e) {
++            e.printStackTrace();
++        }
++        return redisClustorUtil.getObject(key, String.class);
++    }
++
++
++    @RequestMapping(value = "trylock", method = RequestMethod.POST)
++    public Boolean tryLock(String key, Integer time) {
++        return redisLock.tryLockInTime(key, time);
++    }
++}
++
+Index: liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/liuyq-springBoot-serviceA.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/liuyq-springBoot-serviceA.iml	(revision 7024fc721d910f7dbdef55461e44fcd1081a2d2e)
++++ liuyq-springBoot-serviceA/liuyq-springBoot-serviceA-facade/liuyq-springBoot-serviceA.iml	(date 1576804554000)
+@@ -28,6 +28,7 @@
+     <orderEntry type="module" module-name="liuyq-psringBoot-redis" />
+     <orderEntry type="module" module-name="liuyq-springBoot-serviceB-api" />
+     <orderEntry type="module" module-name="liuyq-springBoot-serviceB-api" />
++    <orderEntry type="module" module-name="liuyq-springBoot-serviceB-api" />
+     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-eureka:1.4.6.RELEASE" level="project" />
+     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:2.1.0.RELEASE" level="project" />
+     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix:2.1.0.RELEASE" level="project" />
