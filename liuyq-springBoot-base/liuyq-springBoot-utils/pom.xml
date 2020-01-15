@@ -11,6 +11,7 @@
 
     <groupId>com.liuyq</groupId>
     <artifactId>liuyq-springBoot-utils</artifactId>
+    <packaging>jar</packaging>
 
     <dependencies>
         <!-- springboot分页插件 -->
@@ -27,40 +28,48 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
+            <version>1.7.26</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
+            <version>4.5.9</version>
         </dependency>
 
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
+            <version>1.2.54</version>
         </dependency>
 
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <version>1.16.18</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
+            <version>3.16</version>
         </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
+            <version>3.16</version>
         </dependency>
 
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjrt</artifactId>
+            <version>1.9.4</version>
         </dependency>
 
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
+            <version>1.9.4</version>
         </dependency>
     </dependencies>
 

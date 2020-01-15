@@ -81,10 +81,6 @@
                 <exclusion>
                     <groupId>com.fasterxml.jackson.core</groupId>
                 </exclusion>
-                <!--  <exclusion>
-                       <groupId>org.springframework.boot</groupId>
-                       <artifactId>spring-boot-starter-tomcat</artifactId>
-                   </exclusion>-->
             </exclusions>
         </dependency>
 
@@ -223,7 +219,6 @@
 
     <build>
         <plugins>
-
             <!--保证java的jdk环境为1.8-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -259,16 +254,6 @@
                     <artifactId>maven-war-plugin</artifactId>
                     <version>${maven_war_plugin_version}</version>
                 </plugin>
-                <!-- <plugin>
-                     <groupId>org.apache.maven.plugins</groupId>
-                     <artifactId>maven-install-plugin</artifactId>
-                     <version>${maven_install_plugin_version}</version>
-                 </plugin>-->
-                <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-deploy-plugin</artifactId>-->
-                <!--<version>${maven_deploy_plugin_version}</version>-->
-                <!--</plugin>-->
             </plugins>
         </pluginManagement>
         <resources>
