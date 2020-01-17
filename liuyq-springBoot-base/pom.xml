@@ -18,5 +18,6 @@
         <module>liuyq-springBoot-utils</module>
         <module>liuyq-psringBoot-redis</module>
         <module>liuyq-springBoot-zk</module>
+        <module>liuyq-springBoot-Retry</module>
     </modules>
 </project>
