@@ -1,5 +1,6 @@
 package com.liuyq.boot.zk;
 
+import com.liuyq.boot.zk.config.ZKProperty;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.framework.state.ConnectionState;
@@ -17,12 +18,12 @@ public class CuratorZookeeperClient extends AbstractZKClient {
 
     private final CuratorFramework client;
 
-    public CuratorZookeeperClient() {
+    public CuratorZookeeperClient(ZKProperty zkProperty) {
         try {
             CuratorFrameworkFactory.Builder builder = CuratorFrameworkFactory.builder()
-                    .connectString("122.51.31.231:2181")
-                    .retryPolicy(new RetryNTimes(1, 1000))
-                    .connectionTimeoutMs(5000);
+                    .connectString(zkProperty.getHosts())
+                    .retryPolicy(new RetryNTimes(zkProperty.getN(), zkProperty.getSleepMsBetweenRetries()))
+                    .connectionTimeoutMs(zkProperty.getConnectionTimeoutMs());
             client = builder.build();
             client.getConnectionStateListenable().addListener(new ConnectionStateListener() {
                 @Override
@@ -43,7 +44,7 @@ public class CuratorZookeeperClient extends AbstractZKClient {
     }
 
 
-
+//-- 相关节点操作
     @Override
     protected void createPersistent(String path) {
 

@@ -8,14 +8,13 @@ import org.springframework.util.Assert;
 
 /**
  * Created by liuyq on 2019/4/16.
- *  获取spring配置的bean
+ * 获取spring配置的bean
  */
 @Component
-public final class SpringBeanUtil implements ApplicationContextAware{
-    private static ApplicationContext  ctx ;
+public final class SpringBeanUtil implements ApplicationContextAware {
+    private static ApplicationContext ctx;
 
-    private SpringBeanUtil()
-    {
+    private SpringBeanUtil() {
     }
 
     /**
@@ -24,13 +23,16 @@ public final class SpringBeanUtil implements ApplicationContextAware{
      * @param name
      * @return
      */
-    public static Object getBean(String name)
-    {
+    public static Object getBean(String name) {
         return ctx.getBean(name);
     }
 
-    public static <T> T getBean(Class<T> type)
-    {
+
+    public static <T> T getBeanByT(String name) {
+        return (T) ctx.getBean(name);
+    }
+
+    public static <T> T getBean(Class<T> type) {
         Assert.notNull(type);
         return ctx.getBean(type);
     }
