@@ -10,6 +10,7 @@ import org.springframework.stereotype.Component;
 import redis.clients.jedis.JedisCluster;
 
 import java.math.BigDecimal;
+import java.util.function.Consumer;
 
 /**
  * Created by liuyq on 2019/6/28.
@@ -64,6 +65,7 @@ public class RedisClustorUtil {
 
     /**
      * 删除设值
+     *
      * @param key
      * @return 0l 表示删除失败  1l表示删除成功
      */
@@ -118,6 +120,30 @@ public class RedisClustorUtil {
 
     public Long lpop(String key, String... value) {
         return execute(() -> jedisCluster.lpush(key, value));
+    }
+
+
+    ////////////////////////////////////publish && subscribe/////////////////////////////////////////////////
+
+    /**
+     * 发送消息
+     *
+     * @param channel 渠道
+     * @param message 消息
+     * @return
+     */
+    public Long publish(String channel, String message) {
+        return execute(() -> {
+            return jedisCluster.publish(channel, message);
+        });
+    }
+
+    /**
+     * jedisCluster 执行不需要返回的 Consumer 比如：jedisCluster.subscribe
+     * @param jedisConsumer
+     */
+    public void withJedis(Consumer<JedisCluster> jedisConsumer) {
+        jedisConsumer.accept(jedisCluster);
     }
 
 
