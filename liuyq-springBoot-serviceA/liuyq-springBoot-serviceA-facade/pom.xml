@@ -89,7 +89,7 @@
         </dependency>
         <dependency>
             <groupId>com.liuyq</groupId>
-            <artifactId>liuyq-psringBoot-redis</artifactId>
+            <artifactId>liuyq-sringBoot-redis</artifactId>
             <version>${com.liuyq.redis.version}</version>
         </dependency>
         <dependency>

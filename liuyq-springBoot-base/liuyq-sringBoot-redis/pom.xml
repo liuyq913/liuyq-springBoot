@@ -12,7 +12,7 @@
     <groupId>com.liuyq</groupId>
     <artifactId>liuyq-sringBoot-redis</artifactId>
     <packaging>jar</packaging>
-    <version>${parent.version}</version>
+    <!--<version>${project.parent.version}</version>-->
 
 
     <dependencies>

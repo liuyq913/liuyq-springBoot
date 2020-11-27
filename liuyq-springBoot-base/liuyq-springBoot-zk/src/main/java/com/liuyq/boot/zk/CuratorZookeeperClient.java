@@ -1,3 +1,4 @@
+/*
 package com.liuyq.boot.zk;
 
 import com.liuyq.boot.zk.config.ZKProperty;
@@ -9,11 +10,13 @@ import org.apache.curator.retry.RetryNTimes;
 
 import java.util.List;
 
+*/
 /**
  * @Auther: liuyuqing
  * @Date: 2020/1/17 17:05
  * @Description:
- */
+ *//*
+
 public class CuratorZookeeperClient extends AbstractZKClient {
 
     private final CuratorFramework client;
@@ -95,3 +98,4 @@ public class CuratorZookeeperClient extends AbstractZKClient {
         return false;
     }
 }
+*/

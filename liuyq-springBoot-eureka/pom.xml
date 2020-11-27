@@ -13,6 +13,10 @@
     <artifactId>liuyq-springBoot-eureka</artifactId>
     <packaging>jar</packaging>
 
+    <properties>
+    <docker.host>unix:///var/run/docker.sock</docker.host>
+    <docker.image.prefix>liuyuqing1212</docker.image.prefix>
+    </properties>
 
     <dependencies>
         <dependency>
