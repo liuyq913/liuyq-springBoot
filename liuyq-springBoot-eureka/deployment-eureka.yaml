@@ -1,0 +1,22 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eureka
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+        - name: eureka
+          image: liuyuqing1212/liuyq-springboot-eureka:dev
+          ports:
+            - containerPort: 8092
+      imagePullSecrets:
+        - name: regcred
