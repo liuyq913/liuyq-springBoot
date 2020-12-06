@@ -29,6 +29,7 @@
         <module>liuyq-springBoot-base</module>
         <module>liuyq-springBoot-redis-cache</module>
         <module>liuyq-springBoot-serviceA</module>
+        <module>liuyq-springBoot-test</module>
     </modules>
     <packaging>pom</packaging>
 

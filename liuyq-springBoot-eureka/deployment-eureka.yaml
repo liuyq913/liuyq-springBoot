@@ -18,5 +18,17 @@ spec:
           image: liuyuqing1212/liuyq-springboot-eureka:dev
           ports:
             - containerPort: 8092
+      #使用regcred 认证文件来认证
       imagePullSecrets:
         - name: regcred
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: liuyq-eureka-service
+spec:
+  selector:
+    app: liuyq
+  ports:
+    - port: 8092 # Default port for image

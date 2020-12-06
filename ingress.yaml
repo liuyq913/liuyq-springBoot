@@ -1,0 +1,23 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: example-ingress
+  annotations:
+    ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+    - host: springboot
+      http:
+        paths:
+          - path: /banana
+            backend:
+              serviceName: banana-service
+              servicePort: 5678
+          - path: /test
+            backend:
+              serviceName: liuyq-test-service
+              servicePort: 8080
+          - path: /eureka
+            backend:
+              serviceName: liuyq-eureka-service
+              servicePort: 8092

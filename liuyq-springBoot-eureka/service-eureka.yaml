@@ -1,0 +1,23 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: liuyq-eureka
+  labels:
+    app: liuyq
+spec:
+  containers:
+    - name: liuyq-eureka
+      image: liuyuqing1212/liuyq-springboot-eureka:dev
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: liuyq-eureka-service
+spec:
+  selector:
+    app: liuyq
+  ports:
+    - port: 8092 # Default port for image

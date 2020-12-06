@@ -1,0 +1,29 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: liuyq-test
+spec:
+  selector:
+    matchLabels:
+      app: liuyq
+  template:
+    metadata:
+      labels:
+        app: liuyq
+    spec:
+       containers:
+         - name: liuyq-test
+           image: liuyuqing1212/liuyq-springboot-test:dev
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: liuyq-test-service
+spec:
+  selector:
+    app: liuyq
+  ports:
+    - port: 8080 # Default port for image
