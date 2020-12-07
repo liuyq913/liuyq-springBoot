@@ -1,0 +1,63 @@
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: sentry-deployment
+  labels:
+    layer: f-paas
+    env: all
+    app: sentry
+    name: sentry-server
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        layer: f-paas
+        env: all
+        app: sentry
+        name: sentry-server
+    spec:
+      containers:
+        - name: sentry
+          image: sentry:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 9000
+          env:
+            - name: SENTRY_SECRET_KEY
+              value: "${SENTRY_SECRET_KEY}"
+            - name: SENTRY_POSTGRES_HOST
+              value: "postgres"
+            - name: SENTRY_DB_PASSWORD
+              value: "secret"
+            - name: SENTRY_DB_USER
+              value: "sentry"
+          volumeMounts:
+            - mountPath: /var/lib/sentry/files
+              name: data
+      volumes:
+        - name: data
+          hostPath:
+            path: /mnt/vdc/containers/sentry/files
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: sentry-svc
+  labels:
+    layer: f-paas
+    env: all
+    app: sentry
+    name: sentry-server
+spec:
+  type: NodePort
+  ports:
+    - port: 9000
+      targetPort: 9000
+      nodePort: 9000
+  selector:
+    layer: f-paas
+    env: all
+    app: sentry
+    name: sentry-server

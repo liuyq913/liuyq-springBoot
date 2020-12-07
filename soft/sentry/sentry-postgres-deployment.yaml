@@ -1,0 +1,66 @@
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: sentry-postgres-deployment
+  labels:
+    layer: f-paas
+    env: all
+    app: sentry-postgres
+    name: sentry-postgres-server
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        layer: f-paas
+        env: all
+        app: sentry-postgres
+        name: sentry-postgres-server
+    spec:
+      containers:
+        - name: sentry-postgres
+          image: postgres:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 5432
+          env:
+            - name: POSTGRES_PASSWORD
+              value: "secret"
+            - name: POSTGRES_USER
+              value: "sentry"
+            - name: POSTGRES_DBNAME
+              value: "sentry"
+            - name: POSTGRES_DBUSER
+              value: "sentry"
+            - name: POSTGRES_DBPASS
+              value: "secret"
+          volumeMounts:
+            - mountPath: /var/lib/postgresql/data
+              name: data
+      volumes:
+        - name: data
+          hostPath:
+            path: /mnt/vdc/containers/sentry-postgres/data
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: postgres
+  labels:
+    layer: f-paas
+    env: all
+    app: sentry-postgres
+    name: sentry-postgres-server
+spec:
+  #  type: NodePort
+  ports:
+    - port: 5432
+      targetPort: 5432
+  #    nodePort: 6379
+  selector:
+    layer: f-paas
+    env: all
+    app: sentry-postgres
+    name: sentry-postgres-server
