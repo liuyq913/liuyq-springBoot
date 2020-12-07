@@ -1,8 +1,9 @@
 ---
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: sentry-worker-deployment
+  namespace: f-paas
   labels:
     layer: f-paas
     env: all
@@ -10,6 +11,9 @@ metadata:
     name: sentry-worker-server
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: sentry-worker
   template:
     metadata:
       labels:
@@ -22,7 +26,7 @@ spec:
         - name: sentry-worker
           image: sentry:latest
           imagePullPolicy: IfNotPresent
-          command: ["run","worker"]
+          args: ["run","worker"]
           env:
             - name: SENTRY_SECRET_KEY
               value: "${SENTRY_SECRET_KEY}"

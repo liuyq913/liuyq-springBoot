@@ -1,14 +1,18 @@
 ---
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: sentry-postgres-deployment
+  namespace: f-paas
   labels:
     layer: f-paas
     env: all
     app: sentry-postgres
     name: sentry-postgres-server
 spec:
+  selector:
+    matchLabels:
+      app: sentry-postgres
   replicas: 1
   template:
     metadata:
@@ -48,6 +52,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: postgres
+  namespace: f-paas
   labels:
     layer: f-paas
     env: all

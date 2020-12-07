@@ -1,8 +1,9 @@
 ---
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: sentry-deployment
+  namespace: f-paas
   labels:
     layer: f-paas
     env: all
@@ -10,6 +11,9 @@ metadata:
     name: sentry-server
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: sentry
   template:
     metadata:
       labels:
@@ -45,6 +49,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: sentry-svc
+  namespace: f-paas
   labels:
     layer: f-paas
     env: all
@@ -55,7 +60,7 @@ spec:
   ports:
     - port: 9000
       targetPort: 9000
-      nodePort: 9000
+      nodePort: 30000
   selector:
     layer: f-paas
     env: all
