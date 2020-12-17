@@ -1,32 +1,31 @@
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sentry-cron-deployment
+  name: sentry-worker-deployment
   namespace: f-paas
   labels:
     layer: f-paas
     env: all
-    app: sentry-cron
-    name: sentry-cron-server
+    app: sentry-worker
+    name: sentry-worker-server
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: sentry-cron
+      app: sentry-worker
   template:
     metadata:
       labels:
         layer: f-paas
         env: all
-        app: sentry-cron
-        name: sentry-cron-server
+        app: sentry-worker
+        name: sentry-worker-server
     spec:
       containers:
-        - name: sentry-cron
+        - name: sentry-worker
           image: dockerhub.ergengtech.com/genghuo/sentry:dev
           imagePullPolicy: IfNotPresent
-          args: ["run", "cron"]
+          args: ["run","worker"]
           env:
             - name: SENTRY_SECRET_KEY
               value: "${SENTRY_SECRET_KEY}"

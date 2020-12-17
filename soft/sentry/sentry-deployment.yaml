@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: sentry
-          image: sentry:latest
+          image: dockerhub.ergengtech.com/genghuo/sentry:dev
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 9000
@@ -40,6 +40,8 @@ spec:
           volumeMounts:
             - mountPath: /var/lib/sentry/files
               name: data
+      imagePullSecrets:
+        - name: registry-sercret
       volumes:
         - name: data
           hostPath:
