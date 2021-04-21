@@ -1,39 +1,12 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: extensions/v1beta1
+kind: Ingress
 metadata:
-  name: sentry-worker-deployment
-  namespace: f-paas
-  labels:
-    layer: f-paas
-    env: all
-    app: sentry-worker
-    name: sentry-worker-server
+   name: test-ingress
 spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      app: sentry-worker
-  template:
-    metadata:
-      labels:
-        layer: f-paas
-        env: all
-        app: sentry-worker
-        name: sentry-worker-server
-    spec:
-      containers:
-        - name: sentry-worker
-          image: dockerhub.ergengtech.com/genghuo/sentry:dev
-          imagePullPolicy: IfNotPresent
-          args: ["run","worker"]
-          env:
-            - name: SENTRY_SECRET_KEY
-              value: "${SENTRY_SECRET_KEY}"
-            - name: SENTRY_POSTGRES_HOST
-              value: "postgres"
-            - name: SENTRY_DB_PASSWORD
-              value: "secret"
-            - name: SENTRY_DB_USER
-              value: "sentry"
-      imagePullSecrets:
-        - name: registry-sercret
+   rules:
+   - http:
+       paths:
+       - path: /testpath
+         backend:
+           serviceName: genghuo-pay
+           servicePort: 9004

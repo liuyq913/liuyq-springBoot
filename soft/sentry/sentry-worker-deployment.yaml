@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: sentry-worker
-          image: sentry-9.1.2-ldap-dingtalk.v1
+          image: dockerhub.ergengtech.com/genghuo/sentry:dev
           imagePullPolicy: IfNotPresent
           args: ["run","worker"]
           env:
