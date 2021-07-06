@@ -30,6 +30,7 @@
         <module>liuyq-springBoot-redis-cache</module>
         <module>liuyq-springBoot-serviceA</module>
         <module>liuyq-springBoot-test</module>
+        <module>liuyq-ttl</module>
     </modules>
     <packaging>pom</packaging>
 
