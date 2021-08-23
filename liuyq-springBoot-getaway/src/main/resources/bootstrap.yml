@@ -1,0 +1,17 @@
+# 本地 IDE 开发环境
+---
+spring:
+    profiles: localhost
+    cloud:
+        nacos:
+            discovery:
+                server-addr: 192.168.100.131:8848
+#                namespace: b5a6e7a3-3b88-4c8f-b9e0-aa5a5f8a562f
+#                username: nacos
+#                password: nacos
+            config:
+                server-addr: 192.168.100.131:8848
+#                namespace: b5a6e7a3-3b88-4c8f-b9e0-aa5a5f8a562f
+#                username: nacos
+#                password: nacos
+#                file-extension: yaml

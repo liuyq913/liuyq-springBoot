@@ -1,6 +1,5 @@
 package com.liuyq.ttl;
 
-import com.alibaba.ttl.TransmittableThreadLocal;
 import com.alibaba.ttl.threadpool.TtlExecutors;
 
 import java.util.concurrent.ExecutorService;
@@ -12,29 +11,38 @@ import java.util.concurrent.Executors;
  * @description
  * @date 2021/7/5 4:49 下午
  */
-public class TtlTest implements Runnable {
-    private static ThreadLocal<Integer> k1 = new TransmittableThreadLocal<>();
-    private static ThreadLocal<Integer> k2 = new TransmittableThreadLocal<>();
-    private static ThreadLocal<Integer> k3 = new TransmittableThreadLocal<>();
+public class TtlTest {
     // 这里需要通过TtlExecutors.getTtlExecutorService 包裹
     private static ExecutorService executorService = TtlExecutors.getTtlExecutorService(Executors.newFixedThreadPool(1));
 
     public static void main(String[] args) throws Exception {
         System.out.println("----主线程启动");
-        k1.set(1);
-        k2.set(2);
-        System.out.println("----主线程设置后获取值：" + k1.get());
-        executorService.submit(new TtlTest());
+        TtlHolder.setK1(1);
+        TtlHolder.setK2(2);
 
 
-        System.out.println("----子线程");
-        executorService.submit(new TtlTest());
-    }
+        executorService.submit(() -> {
+            Integer k1 = TtlHolder.getK1();
+            Integer k2 = TtlHolder.getK2();
 
-    @Override
-    public void run() {
-        k1.set(11);
-        k3.set(33);
-        System.out.println("----子线程获取值：" + k1.get());
+            System.out.println("子线程：" + Thread.currentThread().getName() + "读取到k1：" + k1);
+            System.out.println("子线程：" + Thread.currentThread().getName() + "读取到k2：" + k2);
+
+            TtlHolder.setK3(33);
+            System.out.println("子线程：" + Thread.currentThread().getName() + "设置k3：33");
+
+        });
+
+
+        Thread.sleep(1000);
+
+        executorService.submit(() -> {
+            Integer k3 = TtlHolder.getK3();
+            System.out.println("子线程：" + Thread.currentThread().getName() + "读取到k3：" + k3);
+
+        });
+
+        System.out.println("主线程读：k3" + TtlHolder.getK3());
+
     }
 }
