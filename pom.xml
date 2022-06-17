@@ -42,7 +42,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <guava.version>18.0</guava.version>
-        <fastjson.version>1.2.54</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <databind.version>2.9.8</databind.version>
         <eureka.version>1.4.6.RELEASE</eureka.version>
         <com.springBoot.utils.verison>1.0-SNAPSHOT</com.springBoot.utils.verison>
